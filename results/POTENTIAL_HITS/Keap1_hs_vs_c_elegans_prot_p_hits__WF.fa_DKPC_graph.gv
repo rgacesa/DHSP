@@ -1,0 +1,21 @@
+digraph TaxG
+    {
+    root="N/D";
+    layout=twopi;
+    edge [style=dashed dir=back];
+    node [shape=plaintext];
+    ranksep=6;
+    label = "TAXONOMY OF RESULTS";
+    center = 1;
+# --- NODES FOLLOW --- 
+    "N/D"[shape=circle,label="",width=0.1,height=0.1]
+    "D:Eukaryota"[shape=box width=0.01 height=0.01 style="rounded,filled,bold" color="#00ee00"  fillcolor="#00ee00" tooltip="HITS: 4 , best eV:8.7e-213, avg eV:1.7e-02, worst eV:6.7e-02" shape=circle fontsize=16  label="D:Eukaryota\n [H:4, eV:8.7e-213]"]
+    "P:Nematoda"[shape=box width=0.01 height=0.01 style="rounded,filled,bold" color="#00ee00"  fillcolor="#00ee00" tooltip="HITS: 4 , best eV:8.7e-213, avg eV:1.7e-02, worst eV:6.7e-02" fontsize=12  label="P:Nematoda [H:4]"]
+    "K:Metazoa"[shape=box width=0.01 height=0.01 style="rounded,filled,bold" color="#00ee00"  fillcolor="#00ee00" tooltip="HITS: 4 , best eV:8.7e-213, avg eV:1.7e-02, worst eV:6.7e-02" shape=ellipse fontsize=16  label="K:Metazoa\n [H:4, eV:8.7e-213]"]
+    "C:Chromadorea"[shape=box width=0.01 height=0.01 style="rounded,filled,bold" color="#00ee00"  fillcolor="#00ee00" tooltip="HITS: 4 , best eV:8.7e-213, avg eV:1.7e-02, worst eV:6.7e-02" fontsize=11  label="C:Chromadorea [H:4]"]
+# --- EDGES FOLLOW --- 
+    "D:Eukaryota" -> "N/D"[];
+    "P:Nematoda" -> "K:Metazoa"[color = "#ff0000" ];
+    "K:Metazoa" -> "D:Eukaryota"[color = "#ff0000" ];
+    "C:Chromadorea" -> "P:Nematoda"[color = "#ff0000" ];
+}

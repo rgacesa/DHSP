@@ -1,0 +1,58 @@
+########################################
+# Program: water
+# Rundate: Tue 27 Jan 2015 17:42:29
+# Commandline: water
+#    -asequence tmpWaterQry.fa
+#    -bsequence ../input/ORIG_SEQ/Keap1_hs.fa
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile waterTMP.txt
+# Align_format: srspair
+# Report_file: waterTMP.txt
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: __eV{9.7e-02}Ve__
+# 2: NP_036421
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 289
+# Identity:      56/289 (19.4%)
+# Similarity:   102/289 (35.3%)
+# Gaps:          88/289 (30.4%)
+# Score: 64.0
+# 
+#
+#=======================================
+
+__eV{9.7e-02}     42 YTVQELTETIKRYDI-QRIRGDFSQCNITLKF----SSGAEIKVHSLILQ     86
+                     ||:::.|:  :.:.| ..:|.....|::||:.    :..|:...|.::|.
+NP_036421         54 YTLEDHTK--QAFGIMNELRLSQQLCDVTLQVKYQDAPAAQFMAHKVVLA    101
+
+__eV{9.7e-02}     87 TFSKKF-----HDLRD-GIIITRTVNMEPFDEGVVRDVIYWMYTGKLFLM    130
+                     :.|..|     :.||: |:   ..|::|.....|:..:|.:.||..:.:.
+NP_036421        102 SSSPVFKAMFTNGLREQGM---EVVSIEGIHPKVMERLIEFAYTASISMG    148
+
+__eV{9.7e-02}    131 D--VPH-YNLAEFWDMPELLVQITDELKNDVD------------------    159
+                     :  |.| .|.|..:.:..::...:|.|...:|                  
+NP_036421        149 EKCVLHVMNGAVMYQIDSVVRACSDFLVQQLDPSNAIGIANFAEQIGCVE    198
+
+__eV{9.7e-02}    160 ----------LTF-------RFINTSSTNIKDRPQAALRPHC----TIEH    188
+                               :.|       .|.|.|              ||    .|..
+NP_036421        199 LHQRAREYIYMHFGEVAKQEEFFNLS--------------HCQLVTLISR    234
+
+__eV{9.7e-02}    189 DVTNVTI------LCVNLIADYESSPKLTMVQ-LMRLSTCSIYACMAVRM    231
+                     |..||..      .|:|.: .|:...:...|| |:|...|.......::|
+NP_036421        235 DDLNVRCESEVFHACINWV-KYDCEQRRFYVQALLRAVRCHSLTPNFLQM    283
+
+__eV{9.7e-02}    232 PLKKKIPLIFMVCDWLIEKKPRLDTVIGIIQSLVFDRYT    270
+                     .|:|        |:.|.......|.::.|.:.|...:.|
+NP_036421        284 QLQK--------CEILQSDSRCKDYLVKIFEELTLHKPT    314
+
+
+#---------------------------------------
+#---------------------------------------

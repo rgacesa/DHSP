@@ -1,0 +1,1602 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.1b1 (May 2013); http://hmmer.org/
+# Copyright (C) 2013 Howard Hughes Medical Institute.
+# Freely distributed under the GNU General Public License (GPLv3).
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  ../results/HMM_PROFILES/Keap1_cow_vs_nr_bpsi_gi_e10_c_0.6.hmm
+# target sequence database:        /home/ranko/Development/DBs/c_elegans/c_elegans_prot.fa
+# output directed to file:         ../results/HMM_RESULTS/Keap1_cow_vs_nr_bpsi_gi_e10_c_0.6_vs_c_elegans_prot.hmr
+# max ASCII text line length:      unlimited
+# number of worker threads:        2
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       Keap1_cow_vs_nr_bpsi_gi_e10_c_0.6  [M=559]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence                         Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------                         -----------
+   1.2e-228  760.5   0.0   1.4e-228  760.3   0.0    1.0  1  gi|392885312|ref|NP_491322.2|     Protein R12E2.1 [Caenorhabditis elegans]
+   4.9e-176  586.9   0.0   6.1e-176  586.6   0.0    1.0  1  gi|25150432|ref|NP_499785.2|      Protein KEL-3, isoform a [Caenorhabditis elegans]
+   3.2e-174  580.9   0.0     4e-174  580.5   0.0    1.0  1  gi|25150435|ref|NP_499784.2|      Protein KEL-3, isoform b [Caenorhabditis elegans]
+   1.2e-166  555.8  19.2   6.6e-165  550.1  19.2    2.0  1  gi|115534570|ref|NP_503729.4|     Protein KEL-8 [Caenorhabditis elegans]
+   1.4e-164  549.0   0.0   1.7e-164  548.8   0.0    1.0  1  gi|392891875|ref|NP_001254310.1|  Protein KEL-1, isoform a [Caenorhabditis elegans]
+     1e-102  344.8   5.5    4.4e-33  114.9   0.1    4.1  4  gi|17569343|ref|NP_510109.1|      Protein TAG-147 [Caenorhabditis elegans]
+    5.1e-67  227.0   6.5    1.8e-56  192.2   1.5    2.1  2  gi|392896370|ref|NP_499241.3|     Protein KEL-10 [Caenorhabditis elegans]
+    7.5e-66  223.1   9.3    8.3e-53  180.1   2.4    2.1  2  gi|17553490|ref|NP_498380.1|      Protein F47D12.7 [Caenorhabditis elegans]
+    3.2e-53  181.4   0.0      4e-53  181.1   0.0    1.1  1  gi|392921896|ref|NP_506605.2|     Protein C53A5.9 [Caenorhabditis elegans]
+    2.2e-51  175.4   0.1    3.1e-51  174.8   0.1    1.1  1  gi|392921888|ref|NP_001256596.1|  Protein C53A5.6, isoform a [Caenorhabditis elegans]
+    2.2e-51  175.3   0.1    3.2e-51  174.8   0.1    1.1  1  gi|392921890|ref|NP_001256597.1|  Protein C53A5.6, isoform b [Caenorhabditis elegans]
+    2.1e-49  168.8   9.9    3.4e-38  131.8   0.3    2.0  2  gi|17542058|ref|NP_501919.1|      Protein SPE-26 [Caenorhabditis elegans]
+    1.1e-42  146.6   0.0    1.5e-42  146.2   0.0    1.1  1  gi|17558898|ref|NP_506607.1|      Protein C53A5.11 [Caenorhabditis elegans]
+    1.2e-35  123.4   1.1      2e-35  122.7   1.1    1.2  1  gi|17541912|ref|NP_500645.1|      Protein EOR-1 [Caenorhabditis elegans]
+    6.1e-33  114.5   0.0    8.6e-33  114.0   0.0    1.1  1  gi|17540304|ref|NP_502244.1|      Protein TAG-30 [Caenorhabditis elegans]
+    1.7e-30  106.4   2.6    2.2e-30  106.0   2.6    1.1  1  gi|17557648|ref|NP_504839.1|      Protein HPO-9 [Caenorhabditis elegans]
+    1.4e-25   90.1   1.3      2e-25   89.6   1.3    1.1  1  gi|71990953|ref|NP_001022765.1|   Protein BATH-43, isoform b [Caenorhabditis elegans]
+    1.8e-25   89.8   1.3    2.5e-25   89.3   1.3    1.1  1  gi|71990948|ref|NP_001022764.1|   Protein BATH-43, isoform a [Caenorhabditis elegans]
+    1.7e-23   83.2   0.1    2.4e-23   82.8   0.1    1.1  1  gi|17531579|ref|NP_495550.1|      Protein BATH-44, isoform a [Caenorhabditis elegans]
+    1.8e-23   83.2   0.1    2.5e-23   82.7   0.1    1.1  1  gi|17531581|ref|NP_495549.1|      Protein BATH-44, isoform b [Caenorhabditis elegans]
+    3.5e-23   82.3   1.1    4.8e-23   81.8   1.1    1.1  1  gi|17552682|ref|NP_498784.1|      Protein BATH-42 [Caenorhabditis elegans]
+    2.1e-22   79.7   0.3    2.9e-22   79.2   0.3    1.1  1  gi|71997007|ref|NP_495951.2|      Protein W07A12.4 [Caenorhabditis elegans]
+    3.1e-22   79.1   0.1    4.5e-22   78.6   0.1    1.1  1  gi|25150010|ref|NP_492449.2|      Protein MEL-26, isoform a [Caenorhabditis elegans]
+    2.3e-21   76.3   0.0    2.5e-21   76.1   0.0    1.0  1  gi|392891879|ref|NP_001254311.1|  Protein KEL-1, isoform b [Caenorhabditis elegans]
+    9.4e-21   74.2   4.7      2e-12   46.7   0.9    2.3  2  gi|193210023|ref|NP_510443.4|     Protein TAG-53, isoform b [Caenorhabditis elegans]
+      1e-20   74.1   4.7    2.1e-12   46.7   0.9    2.3  2  gi|193210021|ref|NP_001024625.2|  Protein TAG-53, isoform a [Caenorhabditis elegans]
+    2.9e-20   72.6   1.4    4.2e-20   72.1   1.4    1.1  1  gi|453227843|ref|NP_001263463.1|  Protein MEL-26, isoform b [Caenorhabditis elegans]
+    3.2e-20   72.5   0.3    3.8e-09   35.9   0.0    2.1  2  gi|17533573|ref|NP_496788.1|      Protein BATH-45 [Caenorhabditis elegans]
+    1.5e-18   66.9   0.2    6.3e-18   64.9   0.2    1.8  1  gi|86562681|ref|NP_498694.2|      Protein BATH-15 [Caenorhabditis elegans]
+    3.9e-17   62.3   0.0    5.8e-17   61.7   0.0    1.1  1  gi|392887530|ref|NP_001252085.1|  Protein F22G12.4, isoform a [Caenorhabditis elegans]
+    5.2e-17   61.9   8.9    5.4e-09   35.4   0.7    2.9  3  gi|193208117|ref|NP_001122948.1|  Protein F53E4.1, isoform b [Caenorhabditis elegans]
+    1.1e-16   60.8   6.8    3.6e-10   39.3   1.0    3.0  3  gi|17561284|ref|NP_506895.1|      Protein F53E4.1, isoform a [Caenorhabditis elegans]
+    1.4e-16   60.5   2.4    3.8e-11   42.5   0.1    2.1  2  gi|32565861|ref|NP_872066.1|      Protein BTB-18 [Caenorhabditis elegans]
+    1.4e-16   60.4   1.5    1.9e-16   60.0   1.5    1.1  1  gi|17566270|ref|NP_506750.1|      Protein BATH-36 [Caenorhabditis elegans]
+    1.8e-16   60.1   0.0    2.6e-16   59.6   0.0    1.1  1  gi|17531627|ref|NP_494007.1|      Protein BATH-33 [Caenorhabditis elegans]
+    2.3e-16   59.8   2.8    3.3e-16   59.2   2.8    1.1  1  gi|17534257|ref|NP_496172.1|      Protein BATH-38 [Caenorhabditis elegans]
+    3.2e-16   59.3   0.1    4.2e-16   58.9   0.1    1.1  1  gi|17537309|ref|NP_494524.1|      Protein BATH-9 [Caenorhabditis elegans]
+    1.5e-15   57.0   0.1      2e-15   56.6   0.1    1.1  1  gi|17537313|ref|NP_494522.1|      Protein BATH-23 [Caenorhabditis elegans]
+    2.1e-15   56.6   0.0    4.9e-15   55.4   0.0    1.5  2  gi|86562128|ref|NP_494157.2|      Protein BATH-3 [Caenorhabditis elegans]
+    2.3e-15   56.5   0.2    3.1e-15   56.0   0.2    1.1  1  gi|17543884|ref|NP_502585.1|      Protein GCL-1 [Caenorhabditis elegans]
+    3.1e-15   56.0   0.9    7.4e-15   54.8   0.9    1.5  1  gi|17531219|ref|NP_494163.1|      Protein BATH-24 [Caenorhabditis elegans]
+    3.2e-15   56.0   0.1    7.8e-15   54.7   0.0    1.6  1  gi|17533825|ref|NP_494287.1|      Protein BATH-13 [Caenorhabditis elegans]
+    3.4e-15   55.9   0.2    4.8e-15   55.4   0.2    1.2  1  gi|17534241|ref|NP_494122.1|      Protein BATH-4 [Caenorhabditis elegans]
+    4.6e-15   55.5   1.2      6e-15   55.1   1.2    1.1  1  gi|17510815|ref|NP_493543.1|      Protein BATH-40 [Caenorhabditis elegans]
+    7.8e-15   54.7   0.0    1.1e-14   54.2   0.0    1.2  1  gi|71989953|ref|NP_494125.2|      Protein BATH-2 [Caenorhabditis elegans]
+      1e-14   54.3   0.0    1.6e-14   53.7   0.0    1.2  1  gi|17533141|ref|NP_494635.1|      Protein BATH-31 [Caenorhabditis elegans]
+    2.8e-14   52.9   0.1    4.5e-14   52.2   0.1    1.4  1  gi|17534245|ref|NP_494124.1|      Protein BATH-7 [Caenorhabditis elegans]
+    6.8e-14   51.6   0.0      1e-13   51.0   0.0    1.1  1  gi|17534067|ref|NP_494049.1|      Protein SDZ-18 [Caenorhabditis elegans]
+    1.4e-13   50.6   0.0    1.8e-13   50.2   0.0    1.1  1  gi|17534629|ref|NP_494155.1|      Protein BATH-21 [Caenorhabditis elegans]
+    1.7e-13   50.3   0.6    2.6e-08   33.1   0.3    2.2  2  gi|392889155|ref|NP_494006.2|     Protein BATH-47 [Caenorhabditis elegans]
+    1.9e-13   50.1   0.3    3.2e-13   49.4   0.3    1.3  1  gi|17509289|ref|NP_492837.1|      Protein BATH-25 [Caenorhabditis elegans]
+    6.1e-13   48.4   0.0    8.9e-13   47.9   0.0    1.1  1  gi|17537311|ref|NP_494523.1|      Protein BATH-10 [Caenorhabditis elegans]
+    3.2e-12   46.1   0.1    4.4e-12   45.6   0.1    1.1  1  gi|71983455|ref|NP_509027.2|      Protein C15H9.2 [Caenorhabditis elegans]
+    4.2e-12   45.7   0.2    6.1e-12   45.1   0.2    1.3  1  gi|17534631|ref|NP_494156.1|      Protein BATH-1 [Caenorhabditis elegans]
+    6.3e-12   45.1   0.1    8.5e-12   44.7   0.1    1.1  1  gi|32564720|ref|NP_871995.1|      Protein BTB-2 [Caenorhabditis elegans]
+    2.1e-11   43.4   0.6    2.8e-11   43.0   0.6    1.1  1  gi|133901840|ref|NP_001076695.1|  Protein K08E4.7 [Caenorhabditis elegans]
+    4.1e-11   42.4   0.7    5.8e-11   41.9   0.7    1.1  1  gi|17558552|ref|NP_503398.1|      Protein C39F7.5 [Caenorhabditis elegans]
+      5e-11   42.1   0.0    7.9e-11   41.5   0.0    1.2  1  gi|32564764|ref|NP_494512.2|      Protein BATH-30 [Caenorhabditis elegans]
+    1.4e-10   40.7   0.1    2.2e-10   40.0   0.1    1.3  1  gi|32564768|ref|NP_494499.2|      Protein BTB-16 [Caenorhabditis elegans]
+    1.6e-10   40.5   0.0    1.9e-10   40.2   0.0    1.2  1  gi|17561098|ref|NP_504062.1|      Protein BTB-21 [Caenorhabditis elegans]
+    2.5e-10   39.8   0.1      3e-10   39.5   0.1    1.1  1  gi|115532530|ref|NP_001040780.1|  Protein MATH-29, isoform a [Caenorhabditis elegans]
+    4.8e-10   38.9   0.1    7.2e-10   38.3   0.1    1.2  1  gi|17563018|ref|NP_503363.1|      Protein R09A1.2 [Caenorhabditis elegans]
+    7.9e-10   38.2   0.0    1.2e-09   37.6   0.0    1.2  1  gi|71986470|ref|NP_001022085.1|   Protein BATH-29, isoform a [Caenorhabditis elegans]
+    9.3e-10   37.9   0.1    1.3e-09   37.5   0.1    1.2  1  gi|32564770|ref|NP_872000.1|      Protein BTB-17 [Caenorhabditis elegans]
+    1.1e-09   37.7   0.3    1.5e-09   37.3   0.3    1.1  1  gi|17540026|ref|NP_501703.1|      Protein F27C8.5 [Caenorhabditis elegans]
+    1.2e-09   37.5   0.1    1.6e-09   37.2   0.1    1.1  1  gi|17534069|ref|NP_494053.1|      Protein BTB-7 [Caenorhabditis elegans]
+    1.3e-09   37.4   0.0    1.8e-09   37.0   0.0    1.1  1  gi|17534461|ref|NP_497016.1|      Protein BTB-20 [Caenorhabditis elegans]
+    3.7e-09   35.9   1.5    5.2e-09   35.5   1.5    1.2  1  gi|71999362|ref|NP_001023539.1|   Protein Y59E9AL.8 [Caenorhabditis elegans]
+    7.3e-09   35.0   0.0    1.1e-08   34.4   0.0    1.2  1  gi|17535623|ref|NP_494192.1|      Protein SDZ-28 [Caenorhabditis elegans]
+      1e-08   34.5   0.1    1.4e-08   34.1   0.1    1.1  1  gi|17534053|ref|NP_494059.1|      Protein BTB-9 [Caenorhabditis elegans]
+    1.1e-08   34.4   0.0    1.3e-08   34.1   0.0    1.1  1  gi|17534463|ref|NP_497015.1|      Protein BTB-19 [Caenorhabditis elegans]
+    1.1e-08   34.3   0.1    1.3e-08   34.1   0.1    1.1  1  gi|17556180|ref|NP_497580.1|      Protein Y54F10AM.11 [Caenorhabditis elegans]
+    1.4e-08   34.1   0.2    1.8e-08   33.7   0.2    1.1  1  gi|86561685|ref|NP_001033321.1|   Protein BATH-20, isoform a [Caenorhabditis elegans]
+    1.7e-08   33.8   0.1    4.2e-08   32.5   0.0    1.5  2  gi|17534635|ref|NP_494158.1|      Protein BATH-5 [Caenorhabditis elegans]
+    1.9e-08   33.6   0.6    2.6e-08   33.2   0.6    1.2  1  gi|86561687|ref|NP_001033322.1|   Protein BATH-20, isoform b [Caenorhabditis elegans]
+    2.2e-08   33.4   0.0    1.8e-07   30.4   0.0    2.1  2  gi|32565311|ref|NP_493418.2|      Protein W09G3.1, isoform a [Caenorhabditis elegans]
+    3.8e-08   32.6   3.2      0.016   14.1   0.3    3.0  3  gi|193204679|ref|NP_494160.4|     Protein BATH-19 [Caenorhabditis elegans]
+      4e-08   32.5   0.5    5.9e-08   32.0   0.5    1.1  1  gi|17553298|ref|NP_498473.1|      Protein BATH-41 [Caenorhabditis elegans]
+    7.4e-08   31.7   0.0      1e-07   31.2   0.0    1.1  1  gi|17531625|ref|NP_494011.1|      Protein BTB-15 [Caenorhabditis elegans]
+    8.6e-07   28.1   0.5    1.1e-06   27.8   0.5    1.1  1  gi|17553342|ref|NP_497172.1|      Protein BTB-1 [Caenorhabditis elegans]
+    1.2e-06   27.7   0.1    1.9e-06   27.0   0.1    1.2  1  gi|17554532|ref|NP_497854.1|      Protein R10E4.1 [Caenorhabditis elegans]
+    1.5e-06   27.3   0.3    1.9e-06   27.0   0.3    1.1  1  gi|392889152|ref|NP_494004.2|     Protein BATH-46 [Caenorhabditis elegans]
+    2.9e-06   26.4   0.1     0.0002   20.3   0.0    2.2  2  gi|17539228|ref|NP_501279.1|      Protein HCF-1 [Caenorhabditis elegans]
+    1.5e-05   24.1   0.0    1.5e-05   24.1   0.0    1.1  1  gi|71980545|ref|NP_494162.2|      Protein BTB-3 [Caenorhabditis elegans]
+    1.8e-05   23.8   0.0    2.4e-05   23.4   0.0    1.1  1  gi|17535141|ref|NP_493890.1|      Protein BTB-11 [Caenorhabditis elegans]
+    3.1e-05   23.0   0.1    3.6e-05   22.8   0.1    1.1  1  gi|392922220|ref|NP_001256679.1|  Protein F53E4.1, isoform c [Caenorhabditis elegans]
+    3.8e-05   22.7   0.0     0.0001   21.3   0.0    1.6  2  gi|32566588|ref|NP_872264.1|      Protein Y108F1.5 [Caenorhabditis elegans]
+    5.3e-05   22.2   0.0    7.4e-05   21.8   0.0    1.1  1  gi|17534863|ref|NP_493902.1|      Protein BTB-10 [Caenorhabditis elegans]
+    5.6e-05   22.2   0.1    6.9e-05   21.9   0.1    1.1  1  gi|17534057|ref|NP_494057.1|      Protein BTB-8 [Caenorhabditis elegans]
+    6.6e-05   21.9   0.0    9.4e-05   21.4   0.0    1.1  1  gi|17555490|ref|NP_497133.1|      Protein BTB-5 [Caenorhabditis elegans]
+    0.00012   21.1   0.1    0.00017   20.6   0.1    1.1  1  gi|71986461|ref|NP_001022084.1|   Protein F14D2.15 [Caenorhabditis elegans]
+    0.00012   21.1   0.1    0.00017   20.6   0.1    1.1  1  gi|17533183|ref|NP_494518.1|      Protein BATH-27 [Caenorhabditis elegans]
+    0.00019   20.4   0.1    0.00026   20.0   0.1    1.1  1  gi|71986475|ref|NP_001022086.1|   Protein BATH-29, isoform b [Caenorhabditis elegans]
+    0.00031   19.7   0.0    0.00041   19.3   0.0    1.2  1  gi|17534059|ref|NP_494054.1|      Protein BTB-6 [Caenorhabditis elegans]
+    0.00085   18.3   0.0     0.0013   17.7   0.0    1.2  1  gi|115534793|ref|NP_507803.2|     Protein Y43F8C.3 [Caenorhabditis elegans]
+    0.00093   18.1   3.7    0.00093   18.1   3.7    1.7  2  gi|17538816|ref|NP_502427.1|      Protein C27D8.2 [Caenorhabditis elegans]
+     0.0021   17.0   0.2     0.0026   16.7   0.2    1.1  1  gi|71989474|ref|NP_493882.2|      Protein F45D11.5 [Caenorhabditis elegans]
+     0.0033   16.3   0.1     0.0039   16.1   0.1    1.1  1  gi|71998546|ref|NP_494028.2|      Protein BTB-12 [Caenorhabditis elegans]
+  ------ inclusion threshold ------
+       0.03   13.1   0.0      0.044   12.6   0.0    1.1  1  gi|392896482|ref|NP_499312.2|     Protein D2045.8 [Caenorhabditis elegans]
+      0.043   12.6   0.2       0.05   12.4   0.2    1.1  1  gi|17568237|ref|NP_508258.1|      Protein F56C3.9 [Caenorhabditis elegans]
+      0.044   12.6   0.0      0.063   12.1   0.0    1.1  1  gi|17558482|ref|NP_505023.1|      Protein C37C3.9 [Caenorhabditis elegans]
+      0.046   12.5   0.2      0.069   11.9   0.2    1.2  1  gi|17563068|ref|NP_506463.1|      Protein R10D12.8 [Caenorhabditis elegans]
+      0.067   12.0   0.0      0.075   11.8   0.0    1.1  1  gi|17567845|ref|NP_509824.1|      Protein F47B10.9 [Caenorhabditis elegans]
+      0.076   11.8   0.0        0.1   11.4   0.0    1.2  1  gi|212642159|ref|NP_491298.3|     Protein H31G24.3 [Caenorhabditis elegans]
+        0.1   11.4   0.0       0.13   11.0   0.0    1.2  1  gi|392900659|ref|NP_001255525.1|  Protein Y43E12A.3, isoform a [Caenorhabditis elegans]
+       0.12   11.2   0.0       0.17   10.7   0.0    1.2  1  gi|17537635|ref|NP_496626.1|      Protein BTB-14 [Caenorhabditis elegans]
+       0.13   11.1   0.0       0.19   10.5   0.0    1.1  1  gi|17538694|ref|NP_501042.1|      Protein C17H12.12 [Caenorhabditis elegans]
+       0.18   10.6   0.1        0.3    9.9   0.1    1.2  1  gi|17533041|ref|NP_495709.1|      Protein F10B5.3 [Caenorhabditis elegans]
+
+
+Domain annotation for each sequence (and alignments):
+>> gi|392885312|ref|NP_491322.2|  Protein R12E2.1 [Caenorhabditis elegans]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  760.3   0.0  5.8e-231  1.4e-228       3     557 ..      32     590 ..      30     592 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 760.3 bits;  conditional E-value: 5.8e-231
+  Keap1_cow_vs_nr_bpsi_gi_e10_c_0.6   3 sytsekhakealkvmnelrkskeLcDvvLkveakkikaHrvvLaacspyFkAmFtnelkEsrqeevklkdidpkalerLiefaYtaeieveeknvqelLpaavllqlkevkeaCceFLekqLdpsNclGirafAethsCteLlkaaekyieqhFsevvkeeEfllLsaeqllelissdelnvrseeevfeavlkWvkydveeRrekleklleavrlpllspkfLkeqvekeellkkdeeckdllaealkelllpkervllqsprtrprraekvkevlyavgGya.kkslssveaydpkt..newkklaslskrrsgvgvavlkgllYavGGrdgssdlntvevydpvtnqWss.vapmsvrRsrvgvavldgllYavGGsdgvsslnsverYdpeedkWtlvasmstrRlgvgvavlngllYavGGfdgssrlnsverydpeeneWtavapmstrrsgaGvavlnnllYavGGydgtsqlssvErYdpetdtWeavasmkirRsavgvavlkgklyavggydgssflksvEvydpetdkWeevtsmttgrsgagvavlk 557
+                                        +y+++++a+++l+++  l++++ LcDv+L  + k+i+aHrvvL+acspyF +mFt++++E+ ++e+++++i+p +le+Lief+Yt+ i+++++nvq +Lpaa+llq++ev+ aCc++L+kqLdpsNclGirafA+thsC+eLl++a++++ ++Fs v+ +eEf +L++e l+++i+sd+ln  see vf+av++Wv++d+++R+++l+ ll++vrlpl++pkfL++ v++e l+k+d++++dl++ea+++lllp er+ +q+prt+pr++ + +evlyavgG++ +++++s+e+ dp +   +wk +a + krr+gvgvavl++llYavGG+dg+s+ln++e+ydp+tnqWss vap+ ++R++vgva+ +g lYavGG+dg s+l+ ve+Ydp++++W +vasm trRlgv+v+v+ng++YavGG++g   ln+verydp+  +W++v pm t+r+++G av+++++YavGG+d t++l+++ErY++e+d+W++v++m+ rRs vgvav+ +klyavgg+dg+++lksvE++d +t++W++ ++m+++r g gv+v++
+      gi|392885312|ref|NP_491322.2|  32 KYKNSHFANSVLQQLGGLKNRDVLCDVTLICGWKRINAHRVVLSACSPYFLSMFTSQMAECYMREINMEEIEPPTLEALIEFCYTGAIAIDDSNVQDILPAACLLQIHEVQTACCDYLKKQLDPSNCLGIRAFADTHSCKELLSSADEFALKNFSRVIGKEEFQMLTVESLTTIIKSDKLNAASEELVFSAVIQWVRHDISKRKTHLSMLLSHVRLPLCTPKFLVSVVSEEILVKSDPASRDLVDEAKNYLLLPVERPNMQGPRTKPRKPLQGSEVLYAVGGWCsGDAIASIERLDPMKggTTWKCVAPMGKRRCGVGVAVLENLLYAVGGHDGQSYLNSIERYDPMTNQWSSdVAPTATCRTSVGVAAFNGSLYAVGGQDGESCLDVVEKYDPRKNEWAKVASMGTRRLGVSVSVVNGCIYAVGGSNGPAPLNTVERYDPRVGKWEEVRPMLTKRKHLGTAVYDGYIYAVGGRDTTTELNTAERYSVERDEWQPVVAMSNRRSGVGVAVVGEKLYAVGGFDGQTYLKSVEIFDKDTNRWKTHSQMFYRRLGGGVGVVR 590
+                                        79999****************************************************************************************************************************************************************************************************************************************************************************************************983359*************************************************99**********************************************************************************************************************************************************************************************************975 PP
+
+>> gi|25150432|ref|NP_499785.2|  Protein KEL-3, isoform a [Caenorhabditis elegans]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  586.6   0.0  2.5e-178  6.1e-176       7     557 ..      31     583 ..      27     585 .. 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 586.6 bits;  conditional E-value: 2.5e-178
+  Keap1_cow_vs_nr_bpsi_gi_e10_c_0.6   7 ekhakealkvmnelrkskeLcDvvLkveakkikaHrvvLaacspyFkAmFtnelkEsrqeevklkdidpkalerLiefaYtaeieveeknvqelLpaavllqlkevkeaCceFLekqLdpsNclGirafAethsCte.LlkaaekyieqhFsevvkeeEfllLsaeqllelissdelnvrseeevfeavlkWvkydveeRrekleklleavrlpllspkfLkeqvekeellkkdeeckdllaealkelllpkervllqsprtrprraekvkevlyavgGya..kkslssveaydpktnewkklaslskrrsgvgvavlkgllYavGGrdgssdlntvevydpvtnqWssvapmsvrRsrvgvavldgllYavGGsdgvsslnsverYdpeedkWtlvasmstrRlgvgvavlngllYavGGfdgssrlnsverydpeeneWtavapmstrrsgaGvavlnnllYavGGydgtsqlssvErYdpetdtWeavasmkirRsavgvavlkgklyavggydgssflksvEvydpetdkWeevtsmttgrsgagvavlk 557
+                                        ++ +k++++++nelr++ +LcDv L ve++k++aH+v+Laa+ pyF+ mFt +l E++++e++++d++ +++++L++faYt+e++++ +nvq+++ +a+++q+ ev++ C +FL ++L+psN+l ir+f + +  +e ++++++ yi++hF+ v+k+e+f  Ls e+ +el+++d+l v+see+v+ a ++W++ dv  R+e+ +k+l +vrlpllsp++L++ v +++++kkd  c+dl++ea++++llp++r+l++s +  pr ++ v+ ++ a+gG++  ++s ssve ydp++++w+ ++ + + r++vgvav + ++Ya+GG++g+ +l+ ve +d+ t +W++ +p++ +Rs++++a + + lY++GG+dg +sl+s+e Yd +++ W+   +m++ R+++gv+v+++ +Y+ GG+dg ++++sver d+e+++W+ + +m ++r++ G a++++ +Y++GGydgts l+svE+Ydp +++W++v++m++rRs+v+++ +++ l+av+g+dg+++l s+E yd  td+W+ +t +t+++ g+gv+v+ 
+       gi|25150432|ref|NP_499785.2|  31 DEMYKKSYSIFNELRSKCQLCDVALLVENRKLSAHKVILAATIPYFRGMFTLDLMEANMKEINIEDMNYETVDALLSFAYTGELRITTSNVQSIMLGANFFQMLEVVQHCGNFLLTRLHPSNALSIREFCKMMCVEEkITEMTDDYIQKHFMAVSKDEDFKRLSLEDAIELLRNDHLYVDSEEQVYVAAMEWLNCDV-IRHEQAAKILPCVRLPLLSPTYLSSIVASNPIIKKDIPCRDLIDEAKDYHLLPDRRSLIKSFKCTPRLCQIVPGLIVAIGGLMhqSQSKSSVEIYDPTSKKWSPIDGMVTLRTRVGVAVNQRQVYAIGGFNGQDRLDLVEKFDYDTLKWTTLSPLTRKRSALAAAFVTNRLYVCGGYDGLHSLSSIEIYDINRNVWEAGPPMENMRSAAGVTVIDKHIYICGGHDGMQIFASVERLDTENQQWERIPSMIQQRCRFGAATFKGKIYVAGGYDGTSFLKSVEVYDPVEKKWSPVSPMNMRRSRVSLVSTNEGLFAVAGFDGENNLCSMEQYDDVTDSWTIATALTCHEGGVGVGVIP 583
+                                        6778999***************************************************************************************************************************987665448899******************************************************8.599999****************************************************************************98888999***********************************************************************************************************************************************************************************************************************************************************************986 PP
+
+>> gi|25150435|ref|NP_499784.2|  Protein KEL-3, isoform b [Caenorhabditis elegans]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  580.5   0.0  1.7e-176    4e-174       7     557 ..      31     585 ..      27     587 .. 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 580.5 bits;  conditional E-value: 1.7e-176
+  Keap1_cow_vs_nr_bpsi_gi_e10_c_0.6   7 ekhakealkvmnelrkskeLcDvvLkveakkikaHrvvLaacspyFkAmFtnelkEsrqeevklkd..idpkalerLiefaYtaeieveeknvqelLpaavllqlkevkeaCceFLekqLdpsNclGirafAethsCte.LlkaaekyieqhFsevvkeeEfllLsaeqllelissdelnvrseeevfeavlkWvkydveeRrekleklleavrlpllspkfLkeqvekeellkkdeeckdllaealkelllpkervllqsprtrprraekvkevlyavgGya..kkslssveaydpktnewkklaslskrrsgvgvavlkgllYavGGrdgssdlntvevydpvtnqWssvapmsvrRsrvgvavldgllYavGGsdgvsslnsverYdpeedkWtlvasmstrRlgvgvavlngllYavGGfdgssrlnsverydpeeneWtavapmstrrsgaGvavlnnllYavGGydgtsqlssvErYdpetdtWeavasmkirRsavgvavlkgklyavggydgssflksvEvydpetdkWeevtsmttgrsgagvavlk 557
+                                        ++ +k++++++nelr++ +LcDv L ve++k++aH+v+Laa+ pyF+ mFt +l E++++e++++d  ++ +++++L++faYt+e++++ +nvq+++ +a+++q+ ev++ C +FL ++L+psN+l ir+f + +  +e ++++++ yi++hF+ v+k+e+f  Ls e+ +el+++d+l v+see+v+ a ++W++ dv  R+e+ +k+l +vrlpllsp++L++ v +++++kkd  c+dl++ea++++llp++r+l++s +  pr ++ v+ ++ a+gG++  ++s ssve ydp++++w+ ++ + + r++vgvav + ++Ya+GG++g+ +l+ ve +d+ t +W++ +p++ +Rs++++a + + lY++GG+dg +sl+s+e Yd +++ W+   +m++ R+++gv+v+++ +Y+ GG+dg ++++sver d+e+++W+ + +m ++r++ G a++++ +Y++GGydgts l+svE+Ydp +++W++v++m++rRs+v+++ +++ l+av+g+dg+++l s+E yd  td+W+ +t +t+++ g+gv+v+ 
+       gi|25150435|ref|NP_499784.2|  31 DEMYKKSYSIFNELRSKCQLCDVALLVENRKLSAHKVILAATIPYFRGMFTLDLMEANMKEINIEDsdMNYETVDALLSFAYTGELRITTSNVQSIMLGANFFQMLEVVQHCGNFLLTRLHPSNALSIREFCKMMCVEEkITEMTDDYIQKHFMAVSKDEDFKRLSLEDAIELLRNDHLYVDSEEQVYVAAMEWLNCDV-IRHEQAAKILPCVRLPLLSPTYLSSIVASNPIIKKDIPCRDLIDEAKDYHLLPDRRSLIKSFKCTPRLCQIVPGLIVAIGGLMhqSQSKSSVEIYDPTSKKWSPIDGMVTLRTRVGVAVNQRQVYAIGGFNGQDRLDLVEKFDYDTLKWTTLSPLTRKRSALAAAFVTNRLYVCGGYDGLHSLSSIEIYDINRNVWEAGPPMENMRSAAGVTVIDKHIYICGGHDGMQIFASVERLDTENQQWERIPSMIQQRCRFGAATFKGKIYVAGGYDGTSFLKSVEVYDPVEKKWSPVSPMNMRRSRVSLVSTNEGLFAVAGFDGENNLCSMEQYDDVTDSWTIATALTCHEGGVGVGVIP 585
+                                        6778999*********************************************************96447889************************************************************987665448899******************************************************8.599999****************************************************************************98888999***********************************************************************************************************************************************************************************************************************************************************************986 PP
+
+>> gi|115534570|ref|NP_503729.4|  Protein KEL-8 [Caenorhabditis elegans]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  550.1  19.2  2.7e-167  6.6e-165       2     555 ..      86     662 ..      85     666 .. 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 550.1 bits;  conditional E-value: 2.7e-167
+  Keap1_cow_vs_nr_bpsi_gi_e10_c_0.6   2 lsytsekhakealkvmnelrkskeLcDvvLkveakkikaHrvvLaacspyFkAmFtnelkEsrqeevklkdidpkalerLiefaYtaeieveeknvqelLpaavllqlkevkeaCceFLekqLdpsNclGirafAethsCteLlkaaekyieqhFsevvkeeEfllLsaeqllelissdelnvrseeevfeavlkWvkydveeRrekleklleavrlpllspkfLkeqvekeellkkdeeckdllaealkelllpkervl..lqsprtr...................prraekvkevlyavgGya..kkslssveaydpktnewkklaslskrrsgvgvavlkgllYavGGrdgssdlntvevydpvtnqWssvapmsvrRsrvgvavldgllYavGGsdgvsslnsverYdpeedkWtlvasmstrRlgvgvavlngllYavGGfdgssrlnsverydpeeneWtavapmstrrsgaGvavlnnllYavGGydgtsqlssvErYdpetdtWeavasmkirRsavgvavlkgklyavggydgssflksvEvydpetdkWeevtsmttgrsgagvav 555
+                                        ++y++++  ++++++m+ lr+++eLcDv L v+ + i+aHr +Laa+spyFkAmFtn++ E ++ +++l+di +++++ +++++Yt +i+++ +nv +l+ +a++lq++ ++ aC +FL + + ++Nc+ + +f++  +Ct+L+++ e +++++F  + k+ Ef ++s ++l +l+++ +lnv++e++vfe++++Wv  + ++R++++ +l++++rl+l+  +fL e v++++ +k+++ec++ ++ ++ + + p++r++   +++ t                    ++  ++v+  ++++gG    +  +ssveayd ++n+w +++++ ++r +vgv++ +g lYa+GG+dg+ +l+t e+++p   qW+ +a+m++ R+ ++va +++++YavGG d ++++++verYd eed+W++va+m ++R gvgvav++++l+a+GG dg+s l+++er+dp  ++W+ +a+m++rr g Gv+vl+++lYa+GG+d+++ l++ ErYdp++d+W ++ +m++ R  vgva+l gk+ya+gg+dgs++l++vE+ydp +++W+ +++++  r+gagva 
+      gi|115534570|ref|NP_503729.4|  86 MEYENQEQSSKIMEQMRILRQTEELCDVELLVAGSVIRAHRYILAAASPYFKAMFTNGMVEMKKLTIELQDIPEESVRIIVDYIYTDKIAITMNNVHQLIFTATVLQMDVIVVACQQFLATMITSHNCMSLYHFSDIYNCTNLISSIEDFASSQFRCIRKSPEFNSISFHHLKSLLNRSDLNVSEEQDVFETIVQWVSSNPRDRQHHFVQLFKTLRLHLVGWNFLCEAVNSNSYVKNSQECREIISAMVLDAMTPSKRKHpeSNHENTSeysasmacpsltassssstSTFRKSVAGAIFCAGGRGkaGGPFSSVEAYDWRRNQWIEVPDMMSQRRHVGVVSANGNLYAIGGHDGTAHLATAEAFQPSIRQWKRIASMKTARRGIAVASIENVIYAVGGLDDTTCYKTVERYDIEEDEWSTVADMDVQRGGVGVAVIGRYLFAIGGNDGTSSLETCERFDPMIDKWKRIASMKNRRAGSGVCVLDGYLYAIGGFDDNAPLETCERYDPDADKWITLDKMSSPRGGVGVAALGGKVYAIGGHDGSDYLNTVECYDPIANRWQPAAEIKECRAGAGVAW 662
+                                        689999***********************************************************************************************************************************************************************************************************************************************99887777766654311222222111111111111001000002223456789******9977789************************************************************************************************************************************************************************************************************************************************************************85 PP
+
+>> gi|392891875|ref|NP_001254310.1|  Protein KEL-1, isoform a [Caenorhabditis elegans]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  548.8   0.0    7e-167  1.7e-164       8     556 ..      37     614 ..      30     617 .. 0.94
+
+  Alignments for each domain:
+  == domain 1  score: 548.8 bits;  conditional E-value: 7e-167
+  Keap1_cow_vs_nr_bpsi_gi_e10_c_0.6   8 khakealkvmnelrkskeLcDvvLkvea...............kkikaHrvvLaacspyFkAmFtnelkEsrqeevklkdidpkalerLiefaYtaeieveeknvqelLpaavllqlkevkeaCceFLekqLdpsNclGirafAethsCteLlkaaekyieqhFsevvkeeEfllLsaeqllelissdelnvrseeevfeavlkWvkydveeRrekleklleavrlpllspkfLkeqvekeellkkdeeckdllaealkelllpkervllqspr......tr....prraekvkevlyavgGyakkslssveaydpktnewkklaslskrrsgvgvavlkgllYavGGrdgssdlntvevydpvtnqWssvapmsvrRsrvgvavldgllYavGGsdgvsslnsverYdpeedkWtlvasmstrRlgvgvavlngllYavGGfdgssr..lnsverydpeeneWtavapmstrrsgaGvavlnnllYavGGydgtsqlssvErYdpetdtWeavasmkirRsavgvavlkgklyavggydgssflksvEvy...dpetdkWeevt.smttgrsgagvavl 556
+                                        +   e ++ +n +r ++eLcDvvL++                 ++i+aHrv+L+a+s+yF+AmFt++l+Es+q+ + +k++d ++l++Li+++Yt++++++e+nvq++L +a+llql+ v++aC++F+ + Ld +Nc+G+++fA +h+C++L +aa+ y++qhF+e++++eE+l+L+++  +eli+ d+++v+se+ v +avl+Wv +++ +Rr+ l++l++ vrlpll +++L e+ +++e++k+d +c + ++e +++l + k+    ++p+       r    +r+++  ++ +++vgG+a k++++v+ +dp+++ w+ +asl +rr++ gv++ +g +Y+ GG++g +++++v+ ydp t++W+s ++ms+rRs+ g+++ +++lYavGG+dg++ l s+e +dp++ +W  + smstrR++vgva ++  +Ya+GGfdg s+  ln+ve +d +  +W+    m + rsgaGv+v+++ + avGG++g +  +s+E      ++W  +a+m i R++++ ++l+g lyavgg dgss+l+++E+    d +  +W+ v  +m+ grs+ag+a++
+   gi|392891875|ref|NP_001254310.1|  37 TMLGEFYQNLNLMRCQQELCDVVLEAYPiqgtssedgmsddvhQHIHAHRVILSASSSYFRAMFTGGLRESTQRIIPIKEVDVEVLSQLIDYMYTGRMRIDEQNVQTILATASLLQLTCVRDACARFMLELLDMTNCVGMAEFARAHACHQLAHAAQLYTRQHFVEIIDNEELLSLDKDAFCELIQDDRITVPSEKPVMQAVLNWVAHEEPSRRPFLAELMSNVRLPLLGDDYLFEKWRNDEMIKSDAACLNVIIEGMHQLKITKQDISSTEPHypiqelNRkwfvAREPMPESQHIMIVGGQAPKAITNVDLFDPDSQLWSSCASLPQRRCRSGVSMCNGYVYTTGGFNGAQRVRSVDFYDPRTDTWRSANQMSARRSTHGITTCQQVLYAVGGFDGTTGLASAEYFDPHTGNWFPLPSMSTRRSSVGVAAFEEDIYAIGGFDGVSKqcLNTVEIFDRRAHKWRPGPAMLNVRSGAGVTVYDKKIIAVGGHKGAEIHRSAEILI--GEEWIELANMAIPRRNTAATALNGLLYAVGGDDGSSNLSTIECIqlsDRSDAQWKIVDaPMSQGRSYAGIALI 614
+                                        556678899****************98888999*********99*********************************************************************************************************************************************************************************************************************999999888754433321111111112225677778999****************************************************************************************************************************************************976555****************************************************975..678***************************************98333556789**99769**********986 PP
+
+>> gi|17569343|ref|NP_510109.1|  Protein TAG-147 [Caenorhabditis elegans]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   38.3   0.0   2.9e-12     7e-10      11      65 ..      78     131 ..      70     136 .. 0.88
+   2 !   77.0   0.7   5.9e-24   1.4e-21      72     187 ..     181     297 ..     170     381 .. 0.88
+   3 !  113.9   0.0   3.9e-35   9.3e-33     349     487 ..     494     632 ..     485     635 .. 0.96
+   4 !  114.9   0.1   1.8e-35   4.4e-33     393     542 ..     637     787 ..     632     795 .. 0.85
+
+  Alignments for each domain:
+  == domain 1  score: 38.3 bits;  conditional E-value: 2.9e-12
+  Keap1_cow_vs_nr_bpsi_gi_e10_c_0.6  11 kealkvmnelrkskeLcDvvLkveakkikaHrvvLaacspyFkAmFtnelkEsrq 65 
+                                        ++ l+ +n++r+++eLcD vL v++++i +H+vvLaa+sp    mF +e + s+q
+       gi|17569343|ref|NP_510109.1|  78 NDLLDRLNTFRRNRELCDAVLFVKEREIFVHKVVLAAVSPALLDMFNEENE-SSQ 131
+                                        678999****************************************98754.443 PP
+
+  == domain 2  score: 77.0 bits;  conditional E-value: 5.9e-24
+  Keap1_cow_vs_nr_bpsi_gi_e10_c_0.6  72 didpkalerLiefaYtaeieveeknvqelLpaavllqlkevkeaCceFLekqLdpsNclGirafAethsCteLlkaaekyieqhFsevvk.eeEfllLsaeqllelissdelnvrse 187
+                                        + d + +e+L++faYta++e++ + v el ++a  lq+  v +aC+ +L ++L+ sNc+Gir+ A+ h+ t L+ + +++i  +F  +v+ + Ef +L++ q+  ++  ++ +v+++
+       gi|17569343|ref|NP_510109.1| 181 QTDFECFEALVNFAYTANLEISSRKVAELYKTAYALQMIPVIRACAAYLAENLQLSNCIGIRRQANFHNDTFLMGKVDQFIVDNFDSIVNdSKEFTQLPVIQVRIIVPAEDGKVTNN 297
+                                        55677899*****************************************************************************99765279**********99999888777665 PP
+
+  == domain 3  score: 113.9 bits;  conditional E-value: 3.9e-35
+  Keap1_cow_vs_nr_bpsi_gi_e10_c_0.6 349 qWssvapmsvrRsrvgvavldgllYavGGsdgvsslnsverYdpeedkWtlvasmstrRlgvgvavlngllYavGGfdgssrlnsverydpeeneWtavapmstrrsgaGvavlnnllYavGGydgtsqlssvErYdpe 487
+                                        q ++ + ms++R ++g++ l+g ++++GG+d  ++l+sve+Yd  + kW+ va+m+ +R    +++ +g+++av G++g++ l+s+e ydp+ + W  + +++t r++ G+a+++n++Y +GG  +++ l+  Er d++
+       gi|17569343|ref|NP_510109.1| 494 QQKPLECMSAPRCSIGASFLNGKIFVCGGYDRGECLRSVEEYDVVNGKWRNVAKMKAERGRFDCTIHGGKVFAVAGSNGNNDLKSCEIYDPKADVWAPLPNLATARCHNGCATIDNYVYCIGGSFDQKVLKDCERLDTT 632
+                                        5567889********************************************************************************************************************************9875 PP
+
+  == domain 4  score: 114.9 bits;  conditional E-value: 1.8e-35
+  Keap1_cow_vs_nr_bpsi_gi_e10_c_0.6 393 eedkWtlvasmstrRlgvgvavlngllYavGGfdgssrlnsverydpeeneWtavapmstrrsgaGvavlnnllYavGGydgtsqlssvErYdpetdtWeavasmkirRsavgvav.lkgklyavggydgssflksvEvydpetdkWeevt 542
+                                        ee +W+ +asm++ R ++gv + +gl+ a GG d  ++++sve +dp++n+W+++ ++++ r g  vav+ ++lY++GG+dgt+ l++vE  d  + +W++  ++++ R ++  +v   + ++ +gg++g +fl+++E+ + e+  W++ +
+       gi|17569343|ref|NP_510109.1| 637 EEAEWEPMASMEHPRYQAGVCTWKGLVVAAGGCDRWTCMDSVEAFDPKTNAWRQLPKLRQARRGGAVAVVRDTLYVIGGHDGTQSLDTVEILDSPSSQWRVGPTLTTPRANTHAVVtAGNVIFCIGGFNGVKFLDTIELLENEQIGWRNWQ 787
+                                        6789999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999876555505556899999999999999999999998888765 PP
+
+>> gi|392896370|ref|NP_499241.3|  Protein KEL-10 [Caenorhabditis elegans]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   37.9   0.3   3.9e-12   9.5e-10      29     211 ..      53     238 ..      36     242 .. 0.87
+   2 !  192.2   1.5   7.4e-59   1.8e-56     265     551 ..     253     552 ..     233     560 .. 0.89
+
+  Alignments for each domain:
+  == domain 1  score: 37.9 bits;  conditional E-value: 3.9e-12
+  Keap1_cow_vs_nr_bpsi_gi_e10_c_0.6  29 vvLkvea.kkikaHrvvLaacspyFkAmFtnelkEsrqeevklkdidpkalerLief..aYtaei..eveeknvqelLpaavllqlkevkeaCceFLekqLdpsNclGirafAethsCteLlkaaekyieqhFsevvkeeEfllLsaeqllelissdelnvrseeevfeavlkWvkydveeRreklek 211
+                                        v+L+ ++ ++++  r +L+  s+yF+ +F++++++s+ ++ +++ i++  l+ L++   a+ + i  +++ +   elL+ + +lq++   +  ++ +  +L  +N++ i ++A   +   L  +  + + ++F+ +  ++ +l+L+ ++l+ l++  +ln++s +e  + v++W+k++    ++ +++
+      gi|392896370|ref|NP_499241.3|  53 VTLVLRNnEEVTFDRCLLSFYSNYFRVLFSSKFRDSKSTTHRIRLISAPDLHLLLTIpkAFEQGIkpNISLQKAVELLEPSAFLQMSIPLDYITDVICANLTHENIIKIFRLALLYHT-TLAVRVWRAMVRKFQTLFATNVYLTLKENELIGLLTDKHLNLKSADEK-TVVVNWIKHNSPLQSDRMAQ 238
+                                        77777664889999**************************************99864336777663358899999**************************************98875.5666667777899*****************************998774.679*******8877776665 PP
+
+  == domain 2  score: 192.2 bits;  conditional E-value: 7.4e-59
+  Keap1_cow_vs_nr_bpsi_gi_e10_c_0.6 265 prtrprraekvkevlyavgGya.kkslssveaydpktnewkkla...sl.skrrsgvgvavlkgllYavGGrdgssdlntvevydpvtnqWssvapmsvrRsrvgvavldg.....llYavGGsdgvsslnsverYdpeedkWtlvasmstrRlgvgvavlngllYavGGfdgssrlnsverydpeeneWtava.pmstrrsga.GvavlnnllYavGGydgtsqlssvErYdpetdtWeavasmkirRsavgvavlkg.klyavggydgssflksvEvydpetdkWeevtsmttgrsga 551
+                                        ++ +  r+ + ++ + + gG+a +  ++++e +++++++w++++   ++ + rr++ g+ v++++l + GG++g+++ +t   +d  t++W+s a+m+ +R  v  a +++     l++a+GG++gvs+l+++e+Yd ++d+W+ va+m + R+  +v++++ ++ ++GGfdg ++ +  e ydp  + W+ ++ +m+trr+g   v ++n++  ++GG++g++ l+s+E Yd+++  W++v s++++Rs+ + + ++   +y+ gg+dg++  k  E  d ++  W+++  m+  +s  
+      gi|392896370|ref|NP_499241.3| 253 TKYEVIRTRQPMDAIVCFGGWAsRGVAQNIEVFNTRSDRWQTCNfnyDIpNIRRAYHGIEVVEDKLIVYGGFNGTQQFQTTVLFDLSTKEWRSGANMNDKRCYVTSARINDshgrpLIFACGGMNGVSRLKTAEMYDYRADQWSEVANMAQMRSDGAVVTIDNKIVVIGGFDGRNIHQGGEVYDPVLDLWHPLSsNMRTRRTGCtAVSIMNQVCMIIGGFNGNRRLDSAEIYDMREGLWHPVPSLHTARSNFSACQMDTcSIYVAGGFDGQATTKESERLDLRSKMWQALPDMSEAKSAL 552
+                                        3344445555688999******888999************9986433552568999*****************************************************98555667**************************************************************************98637*****9962688899999*****************************************998538********************************9999865 PP
+
+>> gi|17553490|ref|NP_498380.1|  Protein F47D12.7 [Caenorhabditis elegans]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   47.4   0.7   5.1e-15   1.2e-12      29     210 ..      53     237 ..      45     242 .. 0.87
+   2 !  180.1   2.4   3.4e-55   8.3e-53     265     551 ..     253     552 ..     233     560 .. 0.89
+
+  Alignments for each domain:
+  == domain 1  score: 47.4 bits;  conditional E-value: 5.1e-15
+  Keap1_cow_vs_nr_bpsi_gi_e10_c_0.6  29 vvLkvea.kkikaHrvvLaacspyFkAmFtnelkEsrqeevklkdidpkalerLief..aYtaei..eveeknvqelLpaavllqlkevkeaCceFLekqLdpsNclGirafAethsCteLlkaaekyieqhFsevvkeeEfllLsaeqllelissdelnvrseeevfeavlkWvkydveeRrekle 210
+                                        v+L+ ++ +++   r +L+  s+yF+ +F++++++s+ ++ +++ i+++ l+ L++   a+ + i  +++ +   elL+ a +lq++   +  ++ + k+L  +N++ i ++A   + t L  +  + + ++F+ +  ++ +l+L+ ++l+ l++  +ln++se+e  + v++W+k++    ++ l+
+       gi|17553490|ref|NP_498380.1|  53 VTLVLRNnEEVIFDRYLLSFYSNYFRVLFSSKFRDSNSTTHRIRLISASDLHFLLTIpkAFEQGIkpNITLQKAIELLEPAAFLQMSIALDYISDIICKNLTHENIIKIFRLALLYHTT-LAVRVWRSMVRKFQTLFATNVYLSLKENELIGLLTDKHLNLKSEDET-TVVVNWIKHNSPLQSDRLT 237
+                                        667666547888999*************************************998643367776633699999****************************************988765.666666777889*********************************97.789******9877666665 PP
+
+  == domain 2  score: 180.1 bits;  conditional E-value: 3.4e-55
+  Keap1_cow_vs_nr_bpsi_gi_e10_c_0.6 265 prtrprraekvkevlyavgGya.kkslssveaydpktnewkkla...sl.skrrsgvgvavlkgllYavGGrdgssdlntvevydpvtnqWssvapmsvrRsrvgvavldg.....llYavGGsdgvsslnsverYdpeedkWtlvasmstrRlgvgvavlngllYavGGfdgssrlnsverydpeeneWtava.pmstrrsga.GvavlnnllYavGGydgtsqlssvErYdpetdtWeavasmkirRsavgvavlkg.klyavggydgssflksvEvydpetdkWeevtsmttgrsga 551
+                                        ++ +  r+ + ++ + + gG+a +  ++++e  ++++++w++++   ++ + +r++ g+ v++++l + GG+dg ++ +t   +d  t++W+  a+m+ +R  v  a +++     l++a+GG++gvs+l+++e+Yd ++d+Wt va+m++ R+  +v++++ ++ a+GGfdg ++ +  e ydp  + W+ ++ +m+trr+g   v ++n++  ++GG++g++ l+s+E Yd+++  W++  +++++Rs+ + + ++   +y+ gg+dg++  k  E  d ++  W+++  m+  +s  
+       gi|17553490|ref|NP_498380.1| 253 TKYEVIRTRQPMDAIVCFGGWAsRGVAQKIEVCNTRSDRWQTCNfnyDIpNIHRAYHGIEVVEDKLIVYGGFDGIKQFQTTVLFDLSTKEWRRGANMNDKRCYVTSARVNDsygrpLVFACGGMNGVSRLKTAEMYDYRADQWTEVANMTQMRSDGAVVTIDNKIVAIGGFDGRNIHQGGEVYDPVLDLWHPLSsNMRTRRTGCtAVSIMNQVCMIIGGFNGNRRLDSAEIYDMREGLWHPEPTLQTARSNFSACQMDTcYVYVAGGFDGQTTTKESERLDLRSKMWQALPDMAEAKSAL 552
+                                        334444555568899*******888999************99864334525689*****************************************************99985555569*************************************************************************98637*****9962688899999*****************************************9986369*******************************9998865 PP
+
+>> gi|392921896|ref|NP_506605.2|  Protein C53A5.9 [Caenorhabditis elegans]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  181.1   0.0   1.7e-55     4e-53     274     541 ..     151     419 ..      78     424 .. 0.90
+
+  Alignments for each domain:
+  == domain 1  score: 181.1 bits;  conditional E-value: 1.7e-55
+  Keap1_cow_vs_nr_bpsi_gi_e10_c_0.6 274 kvkevlyavgGyakkslssveaydpktnewkklaslskrrsgvgvavlkgllYavGGrdgssdlntvevydpvtnqWssvapmsvrRsrvgvavldgllYavGGsdgvsslnsverYdpeedkWtlvasmstrRlgvgvavlngllYavGGfdgssrlnsverydpeeneWtavapmstrrsgaGvavlnnllYavGGydgts.qlssvErYdpetdtWeavasmkirRsavgvavlkgklyavggydgss.flksvEvydpetdkWeev 541
+                                        ++  vl a   +  +    +  +dpkt+++k + +l  +r++++va+ k  lY++GG  + + ln+ e y++++n   + a+++ +R++ +++  +g lY+vGG+d+  +l+sve Yd ee +W+   s+++ R +++v+ + g ++++GGf+g+s+ +s+e+ + + ne++   +m+  rsg G +v+++ +Y++GG  +t+ +l+sv  Ydp t+tW+   smk +R+a ++ ++++ +ya+ gyd +s +l+++E +dp++ kW+ v
+      gi|392921896|ref|NP_506605.2| 151 NMDPVLIADQAQSAHKPLLIGSFDPKTQKYKPIGRLPDPRANFAVASSKTNLYVIGGTHNGQFLNKFEYYNQKKNARCMGANLNHKRTKPAAGFHNGALYVVGGYDS-IYLSSVELYDLEEGTWKNGPSLNNCRANAAVVACYGEIFVLGGFNGKSNEESIEKISASGNEFEIFGEMEGGRSGFGACVFQGRIYIAGGWSNTRnTLKSVRSYDPYTKTWRDEPSMKNARKAFTLHATNEAIYAIRGYDEESaLLDQIERFDPKKLKWSIV 419
+                                        5555665555555566667889***********************************************************************************97.59****************************************************************************************98775389******************************************8762689************987 PP
+
+>> gi|392921888|ref|NP_001256596.1|  Protein C53A5.6, isoform a [Caenorhabditis elegans]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  174.8   0.1   1.3e-53   3.1e-51     289     543 ..     297     552 ..     235     565 .. 0.88
+
+  Alignments for each domain:
+  == domain 1  score: 174.8 bits;  conditional E-value: 1.3e-53
+  Keap1_cow_vs_nr_bpsi_gi_e10_c_0.6 289 slssveaydpktnewkklaslskrrsgvgvavlkgllYavGGrdgssdlntvevydpvtnqWssvapmsvrRsrvgvavldgllYavGGsdgvsslnsverYdpeedkWtlvasmstrRlgvgvavlngllYavGGfdgssrlnsverydpeeneWtavapmstrrsgaGvavlnnllYavGGydg.tsqlssvErYdpetdtWeavasmkirRsavgvavlkgklyavgg.ydgssflksvEvydpetdkWeevts 543
+                                            +  ydpk++ w+ + ++ +++s+ +va+ k ++Y+vGG ++ s ln ve+yd  +n  + +++m+  R+r ++++ ++ +Y++GG+d+ +++nsve+Yd+++ +W+   s++  R  ++v+ +ng +Y++GGf+g++  + +e+ +   ++++ v +m+ +r g G +++ + +Y++GG  + +++l+sv  Ydp t++W+   s++  R++ ++  +++ +ya+ g  d  s+++ vE +dpe+  We +++
+   gi|392921888|ref|NP_001256596.1| 297 EPLLIGVYDPKNRGWTPVGRMPNPKSNYAVACSKSQIYIVGGMNNGSWLNNVEMYDREKNLRRDCNKMKRGRTRTSAGIHNNKMYVAGGYDS-TYMNSVEVYDTDQGEWKDGPSLQRPRADAAVVPCNGEVYVLGGFNGKEYEEKIEKLSEPGQKFEIVGDMQGSRAGFGSCAFRGRIYIAGGWSNsSNTLRSVRSYDPLTKSWRDEPSLSKDRKYFTLHSTNEAIYAIRGcADNWSLINEVERFDPEKRAWEIISC 552
+                                        4446789***********************************************************************************97.699***************************************************************************************87615689**************************************6527889999*************98875 PP
+
+>> gi|392921890|ref|NP_001256597.1|  Protein C53A5.6, isoform b [Caenorhabditis elegans]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  174.8   0.1   1.3e-53   3.2e-51     289     543 ..     300     555 ..     238     568 .. 0.88
+
+  Alignments for each domain:
+  == domain 1  score: 174.8 bits;  conditional E-value: 1.3e-53
+  Keap1_cow_vs_nr_bpsi_gi_e10_c_0.6 289 slssveaydpktnewkklaslskrrsgvgvavlkgllYavGGrdgssdlntvevydpvtnqWssvapmsvrRsrvgvavldgllYavGGsdgvsslnsverYdpeedkWtlvasmstrRlgvgvavlngllYavGGfdgssrlnsverydpeeneWtavapmstrrsgaGvavlnnllYavGGydg.tsqlssvErYdpetdtWeavasmkirRsavgvavlkgklyavgg.ydgssflksvEvydpetdkWeevts 543
+                                            +  ydpk++ w+ + ++ +++s+ +va+ k ++Y+vGG ++ s ln ve+yd  +n  + +++m+  R+r ++++ ++ +Y++GG+d+ +++nsve+Yd+++ +W+   s++  R  ++v+ +ng +Y++GGf+g++  + +e+ +   ++++ v +m+ +r g G +++ + +Y++GG  + +++l+sv  Ydp t++W+   s++  R++ ++  +++ +ya+ g  d  s+++ vE +dpe+  We +++
+   gi|392921890|ref|NP_001256597.1| 300 EPLLIGVYDPKNRGWTPVGRMPNPKSNYAVACSKSQIYIVGGMNNGSWLNNVEMYDREKNLRRDCNKMKRGRTRTSAGIHNNKMYVAGGYDS-TYMNSVEVYDTDQGEWKDGPSLQRPRADAAVVPCNGEVYVLGGFNGKEYEEKIEKLSEPGQKFEIVGDMQGSRAGFGSCAFRGRIYIAGGWSNsSNTLRSVRSYDPLTKSWRDEPSLSKDRKYFTLHSTNEAIYAIRGcADNWSLINEVERFDPEKRAWEIISC 555
+                                        4446789***********************************************************************************97.699***************************************************************************************87615689**************************************6527889999*************98875 PP
+
+>> gi|17542058|ref|NP_501919.1|  Protein SPE-26 [Caenorhabditis elegans]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   40.6   4.2     6e-13   1.5e-10     108     225 ..     102     224 ..      97     233 .. 0.89
+   2 !  131.8   0.3   1.4e-40   3.4e-38     272     535 ..     238     510 ..     223     534 .. 0.85
+
+  Alignments for each domain:
+  == domain 1  score: 40.6 bits;  conditional E-value: 6e-13
+  Keap1_cow_vs_nr_bpsi_gi_e10_c_0.6 108 qlkevkeaCceFLekqLdpsNclGirafAethsCteLlkaaekyieqhFsevvkee.....EfllLsaeqllelissdelnvrseeevfeavlkWvkydveeRrekleklleavrlpllspkf 225
+                                        ++ e+k++ c+ + + L   Nc  +++   +  C++  +++ +yi  + + +v  +     Ef  L++e++ +l+ss+e+nv++e ++ e + +W+  d e+R +  + l+++vr+ +l ++ 
+       gi|17542058|ref|NP_501919.1| 102 KILEMKNTICDHILSTLSDVNCFLLHKKFREFDCQNHAHKTLEYILYNLARMVVVDkrvdvEFYRLPVEEVKHLLSSEEVNVEQETQIIEVINQWIAADFENRDKFRPMLMSTVRFLALDQQI 224
+                                        567889999****************999999****************998854332234559******************************************************9998875 PP
+
+  == domain 2  score: 131.8 bits;  conditional E-value: 1.4e-40
+  Keap1_cow_vs_nr_bpsi_gi_e10_c_0.6 272 aekvkevlyavgGya.kkslssveaydpktnewkkl.aslskrrsgvgvavlkgllYavGGrdgssdlntvevydpvtnqWssvapmsvrRsrvg..vavldgllYavGGsd......gvsslnsverYdpeedkWtlvasmstrRlgvgvavlngllYavGGfdgssrlnsverydpeeneWtavapmstrrsgaGvavlnnllYavGGydgtsqlssvErYdpetdtWeav.asmkirRsavgvavlkgklyavggydgssflksvEvydpet 535
+                                        a ++++vl ++gG+  +++++ +e +dp++n wk+  ++l +  ++ g a+++g lY  GG  g+ +       ++ t qW  +++m  +R+ ++    v dg +Y+ GG++       + + ++ e++dp+++kWt  as+s  R+  +  v++  +Y+ GGf+g  +l+sve y+p  n ++   ++    +g+      n l +vGG+dg +  + + +++ +t +W++   ++   Rs+ + + +kg+l+ v+gy   ++ ++ E+  pe 
+       gi|17542058|ref|NP_501919.1| 238 ARRTRDVLIIIGGWLhRQACDRIEWFDPENNCWKVSqQKLPTTLAYHGSAIVDGILYLFGGSTGQRTRCETWKLSTETWQWDRCNNMMEPRNYISnsSVVYDGRIYVFGGQNfreitrTAVRSRTGEVFDPKTNKWTETASLSDMRSDCAAEVFENQIYVSGGFNGDMILASVEVYNPIGNVFSRTVDLPYPITGHCLLNHGNQLLIVGGFDGAERQNKIWMWH-RTGEWQQRpEKLIYGRSTSAACSYKGWLFSVAGYTE-KVEATCEILLPEP 510
+                                        456899*********9*****************976268*************************9776666677788889999*********997224588*********98222211233445679*********************************************************************************************9997.567787762689999*******************65.4556666665554 PP
+
+>> gi|17558898|ref|NP_506607.1|  Protein C53A5.11 [Caenorhabditis elegans]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  146.2   0.0   6.3e-45   1.5e-42     294     539 ..     182     428 ..     162     430 .] 0.94
+
+  Alignments for each domain:
+  == domain 1  score: 146.2 bits;  conditional E-value: 6.3e-45
+  Keap1_cow_vs_nr_bpsi_gi_e10_c_0.6 294 eaydpktnewkklaslskrrsgvgvavlkgllYavGGrdgssdlntvevydpvtnqWssvapmsvrRsrvgvavldgllYavGGsdgvsslnsverYdpee.dkWtlvasmstrRlgvgvavlngllYavGGfdgssrlnsverydpeeneWtavapmstrrsgaGvavlnnllYavGGydg.tsqlssvErYdpetdtWeavasmkirRsavgvavlkgklyavggyd.gssflksvEvydpetdkWe 539
+                                          ++p+t +++ + +l +++s+ +v++ + +++++GG ++ ++ln ve++d+ +    +++ +   R+r ++ + ++ +YavGG+d+ ++++sve Yd ++   Wt+  s+++rR  ++v+ + g l+++GGf+g++  +++e+ + ++++++ + +m   r g G +v+ + +Y++GG +  +++l++   Ydp t+tW+   sm++ R++  + ++++ +ya+ g     +++k  E +dp+t +W 
+       gi|17558898|ref|NP_506607.1| 182 GYFKPDTMSFMPIGRLPNPKSHYAVVSSSTKVFIIGGMNNGTYLNRVEMFDKEKGIRVECTRLMHGRTRTSACIHEDAIYAVGGYDA-TYMSSVEIYDIKTgGDWTTGPSLNNRRADASVVSFYGQLFVLGGFNGKDYEETIEKLSDSKDKFEVCGNMV-GRAGFGACVFRGRIYVAGGWNTpCNTLKTFQSYDPLTNTWKDEPSMNTGRKYFKLHATNEAIYAIRGCShDWDLIKETERFDPQTLTWA 428
+                                        579999*******************************************************************************97.5899******998358*****************************************************96.799****************9872579***************************************8765156889*************7 PP
+
+>> gi|17541912|ref|NP_500645.1|  Protein EOR-1 [Caenorhabditis elegans]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  122.7   1.1   8.3e-38     2e-35      10     265 ..      25     280 ..      17     290 .. 0.90
+
+  Alignments for each domain:
+  == domain 1  score: 122.7 bits;  conditional E-value: 8.3e-38
+  Keap1_cow_vs_nr_bpsi_gi_e10_c_0.6  10 akealkvmnelrkskeLcDvvLkveakkikaHrvvLaacspyFkAmFtnelkEsrqeevklkdidpkalerLiefaYtaeieveeknvqelLpaavllqlkevkeaCceFLekqLdpsNclGirafAethsCteLlkaaekyieqhFse.vvkeeEfllLsaeqllelissde.lnvrseeevfeavlkWvkydveeRrekleklleavrlpllspkfLkeqvekeellkkdeeckdllaealkelllpkervllqsp 265
+                                         +  ++ ++  rk+++ cDv ++v++k++ aHr +Laa spyF A+F       ++e+++++  +p+++e +++++Y++++ ++ ++v elL  a+ + + ++k  C+ +L + Ld++Ncl ir++A++ +   L+k+a+ y +++ +  ++++ + +  + +ql++li   + +   + ++  + +++Wv  +v++R+e ++ lle   ++ +s + L+  ++ ++ll+k+++++ ll +++++  +  e+  +q +
+       gi|17541912|ref|NP_500645.1|  25 SHMLFQRLQYQRKTGRFCDVEIVVQNKSFAAHRNILAAHSPYFDAIFKY--CKITKEQLTINSKSPQVFELFLNYMYSGTVIIDRSSVSELLRFANNFLIVKLKVYCAAYLDRYLDAANCLSIRTLAQRYNLPGLVKSATDYFDSNLNRcLLESRDIIGYTYTQLTRLIGDPKyVDCITSDTYLKLIVRWVGEEVSKREEIFRLLLESCEFREVSADTLEFLLDYSPLLSKSQKSRFLLLHVMETNNMLMEKYSTQLS 280
+                                        5677999999*************************************76..7788999*****************************************************************************************98467999**************876524555566777999******************************************************99876555554434443 PP
+
+>> gi|17540304|ref|NP_502244.1|  Protein TAG-30 [Caenorhabditis elegans]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  114.0   0.0   3.6e-35   8.6e-33      15     240 ..     177     417 ..     169     457 .. 0.84
+
+  Alignments for each domain:
+  == domain 1  score: 114.0 bits;  conditional E-value: 3.6e-35
+  Keap1_cow_vs_nr_bpsi_gi_e10_c_0.6  15 kvmnelrkskeLcDvvLkvea....kkikaHrvvLaacspyFkAmFtnelkEsrqe...evklkdidpkalerLiefaYtaeieveeknvqelLpaavllqlkevkeaCceFLekqLdpsNclGirafAethsCteLlkaaekyieqhFsevvkeeEfllLsaeqllelissdelnvrseeevfeavlkWvkydve.........eRrekleklleavrlpllspkfLkeqvekeellkkde 240
+                                        + ++++  +++L+Dv ++v+     ++i+aH+ vL+  s +F AmF ++l+ +++e   e++l d++p+a+ +L++f Y+ e+++e ++v++ L +a  + +  +++ C +FL+++L p N+  + + A+     +L++++ + i+++  e ++ e f +++ + l+e++++d l++r e  +f+avl+W k++ e         +Rr  l++ +  +r+pl++ + ++ +ve +++l+++e
+       gi|17540304|ref|NP_502244.1| 177 ERIEHMYCNETLADVFFVVGIddsrQRIPAHKFVLSIGSVVFDAMFNGGLTPKNTEealEIELPDVEPSAFLALLKFLYSDEVKIEAESVMTTLYTAKKYAVPAMEKECVRFLKQRLVPDNAFMMLSQAKLFDEPDLMQKCLEVIDKNTLEALNGEGFTEIDLDTLCEVLTRDGLRIR-EIFLFQAVLRWAKFEAErrgmpangdSRRAVLSRSIPLIRFPLMKIDEFALHVEPSHILSDRE 417
+                                        5789999***********987777899***********************98766523379********************************************************************************************************************8.789**********99871111111114567777777788888888877777788888777665 PP
+
+>> gi|17557648|ref|NP_504839.1|  Protein HPO-9 [Caenorhabditis elegans]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  106.0   2.6   9.3e-33   2.2e-30       6     239 ..      43     278 ..      38     295 .. 0.92
+
+  Alignments for each domain:
+  == domain 1  score: 106.0 bits;  conditional E-value: 9.3e-33
+  Keap1_cow_vs_nr_bpsi_gi_e10_c_0.6   6 sekhakealkvmnelrkskeLcDvvLkvea.kkikaHrvvLaacspyFkAmFtnelkEsrqeevklkdidpkalerLiefaYtaeie...veeknvqelLpaavllqlkevkeaCceFLekqLdpsNclGirafAethsCteLlkaaekyieqhFsevvkeeEfllLsaeqllelissdelnvrseeevfeavlkWvkydveeRrekleklleavrlpllspkfLkeqvekeellkkd 239
+                                        + +h  e  ++++e+ +s    Dv+L+ ++ +++ aHr++La  s++F+Am  ++++Es+q+ v+l++ ++ a++++++++Yt++i    ve + ++e L+ a  + l ++  a +e+ ++ L+ +N   i + A   + t+L++ + +y ++h  +++++  f  Ls + l el+++d++    e ++f+av +W + + +  +e  + lle vrlpl++++ L + v+ + l++ d
+       gi|17557648|ref|NP_504839.1|  43 VVQHLDELSQSFDEIFTSTDHSDVTLVLDDgTEFAAHRLILAVRSSFFRAMLYTGFQESHQQLVTLQETNSVAFRAVLRYMYTSKIDfagVELDILLEYLSLAHRYDLIQLMTAISEYFKEILKNENLCSIFNAAYFFQFTDLIDYCMQYSDKHADQLLEDPSFNRLSGDSLKELLARDSFF-ALELKIFNAVRSWHQNNPTM-KEASKVLLELVRLPLITQTELLNCVRPTGLVSAD 278
+                                        5678899999999***************9989******************************************************8444666777888899******************************************************************************85.789**********8877666.556789*************999999888887765 PP
+
+>> gi|71990953|ref|NP_001022765.1|  Protein BATH-43, isoform b [Caenorhabditis elegans]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   89.6   1.3   8.4e-28     2e-25      16     166 ..     212     368 ..     206     380 .. 0.95
+
+  Alignments for each domain:
+  == domain 1  score: 89.6 bits;  conditional E-value: 8.4e-28
+  Keap1_cow_vs_nr_bpsi_gi_e10_c_0.6  16 vmnelrkskeLcDvvLkvea......kkikaHrvvLaacspyFkAmFtnelkEsrqeevklkdidpkalerLiefaYtaeieveeknvqelLpaavllqlkevkeaCceFLekqLdpsNclGirafAethsCteLlkaaekyieqhFsevvkeeEfl 166
+                                         m  l  +k+  D +L+ ++      ++++ H+ +Laa s +F AmF + ++Es+++  ++ di+p+++++L+ ++Yt++ +  e+  q+l+ aa  +ql+++k  C + L  qL   N+     +A+  s ++L  ++ ++i+ + +ev+++e + 
+    gi|71990953|ref|NP_001022765.1| 212 DMYGLFDNKQFSDFTLVCKSdlgsptQTFHIHKAILAARSRVFSAMFEHHMQESDTNMTTVDDIEPEVMRELLVYMYTGQTKYIEQMAQSLIAAADKYQLDRLKVMCEQALCYQLTTDNASLTLMLADMYSASQLRAHSINFINVNANEVMDTEGWE 368
+                                        58889999*********9999999999*********************************************************************************************9999****************************99765 PP
+
+>> gi|71990948|ref|NP_001022764.1|  Protein BATH-43, isoform a [Caenorhabditis elegans]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   89.3   1.3     1e-27   2.5e-25      16     166 ..     254     410 ..     248     422 .. 0.95
+
+  Alignments for each domain:
+  == domain 1  score: 89.3 bits;  conditional E-value: 1e-27
+  Keap1_cow_vs_nr_bpsi_gi_e10_c_0.6  16 vmnelrkskeLcDvvLkvea......kkikaHrvvLaacspyFkAmFtnelkEsrqeevklkdidpkalerLiefaYtaeieveeknvqelLpaavllqlkevkeaCceFLekqLdpsNclGirafAethsCteLlkaaekyieqhFsevvkeeEfl 166
+                                         m  l  +k+  D +L+ ++      ++++ H+ +Laa s +F AmF + ++Es+++  ++ di+p+++++L+ ++Yt++ +  e+  q+l+ aa  +ql+++k  C + L  qL   N+     +A+  s ++L  ++ ++i+ + +ev+++e + 
+    gi|71990948|ref|NP_001022764.1| 254 DMYGLFDNKQFSDFTLVCKSdlgsptQTFHIHKAILAARSRVFSAMFEHHMQESDTNMTTVDDIEPEVMRELLVYMYTGQTKYIEQMAQSLIAAADKYQLDRLKVMCEQALCYQLTTDNASLTLMLADMYSASQLRAHSINFINVNANEVMDTEGWE 410
+                                        57889999*********9999999999*********************************************************************************************9999****************************99765 PP
+
+>> gi|17531579|ref|NP_495550.1|  Protein BATH-44, isoform a [Caenorhabditis elegans]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   82.8   0.1     1e-25   2.4e-23      12     172 ..     188     348 ..     184     364 .. 0.94
+
+  Alignments for each domain:
+  == domain 1  score: 82.8 bits;  conditional E-value: 1e-25
+  Keap1_cow_vs_nr_bpsi_gi_e10_c_0.6  12 ealkvmnelrkskeLcDvvLkveakkikaHrvvLaacspyFkAmFtnelkEsrqeevklkdidpkalerLiefaYtaeieveeknvqelLpaavllqlkevkeaCceFLekqLdpsNclGirafAethsCteLlkaaekyieqhFsevvkeeEfllLsaeq 172
+                                        ++ k +++l +s++ +D +L+ve++++kaH+ +Laa sp+F+Am     +E+++++  l+did +++++++ ++Yt++ +    n + +L aa  + l  +k++    +++ L  + +    afAe  + ++ +k+a kyi ++ + v+++e fl Ls ++
+       gi|17531579|ref|NP_495550.1| 188 DVTKDLENLYRSGKHADFTLVVEERELKAHKAILAARSPVFAAMMEPHTAEAQNSRAILRDIDYEVVQAILYYIYTGTCTNMGGNALDILAAAERFALPGLKNIAEVAMRNGLATETVCKNLAFAEMYGLVDFKKEAIKYICMNANAVINSEGFLRLSRQN 348
+                                        56788999*****************************************************************************************************************************************************9876 PP
+
+>> gi|17531581|ref|NP_495549.1|  Protein BATH-44, isoform b [Caenorhabditis elegans]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   82.7   0.1     1e-25   2.5e-23      12     172 ..     195     355 ..     191     371 .. 0.94
+
+  Alignments for each domain:
+  == domain 1  score: 82.7 bits;  conditional E-value: 1e-25
+  Keap1_cow_vs_nr_bpsi_gi_e10_c_0.6  12 ealkvmnelrkskeLcDvvLkveakkikaHrvvLaacspyFkAmFtnelkEsrqeevklkdidpkalerLiefaYtaeieveeknvqelLpaavllqlkevkeaCceFLekqLdpsNclGirafAethsCteLlkaaekyieqhFsevvkeeEfllLsaeq 172
+                                        ++ k +++l +s++ +D +L+ve++++kaH+ +Laa sp+F+Am     +E+++++  l+did +++++++ ++Yt++ +    n + +L aa  + l  +k++    +++ L  + +    afAe  + ++ +k+a kyi ++ + v+++e fl Ls ++
+       gi|17531581|ref|NP_495549.1| 195 DVTKDLENLYRSGKHADFTLVVEERELKAHKAILAARSPVFAAMMEPHTAEAQNSRAILRDIDYEVVQAILYYIYTGTCTNMGGNALDILAAAERFALPGLKNIAEVAMRNGLATETVCKNLAFAEMYGLVDFKKEAIKYICMNANAVINSEGFLRLSRQN 355
+                                        56788999*****************************************************************************************************************************************************9876 PP
+
+>> gi|17552682|ref|NP_498784.1|  Protein BATH-42 [Caenorhabditis elegans]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   81.8   1.1     2e-25   4.8e-23      19     171 ..     211     366 ..     196     383 .. 0.92
+
+  Alignments for each domain:
+  == domain 1  score: 81.8 bits;  conditional E-value: 2e-25
+  Keap1_cow_vs_nr_bpsi_gi_e10_c_0.6  19 elrkskeLcDvvLkveakkikaHrvvLaacspyFkAmFtn.elkEsrqeevklkdidpkalerLiefaYtaeiev..eeknvqelLpaavllqlkevkeaCceFLekqLdpsNclGirafAethsCteLlkaaekyieqhFsevvkeeEfllLsae 171
+                                        ++ +++  +D v++v++k+ikaHr +L   sp+Fk+mF++ ++ E+++ e++++d + +++++++ef+Yt+  e   ++ n+ e+L  a  + +  +k+ C + + + ++ +N+  i+ f++t +   L++a  ++ ++h   v+k++++++L+++
+       gi|17552682|ref|NP_498784.1| 211 SMWEDELFTDCVIHVGNKHIKAHRCILGQNSPVFKSMFSSpNMIEAQKGEIHIEDAKYDSVRAMVEFMYTGATESleSQGNIDEILAIADKYEVLMLKDQCERLIAQTINLKNVTQIAMFSDTYTADYLKSAVIRFLTTHHRVVIKTQDWISLKKS 366
+                                        57788899******************************8758****************************9987522467************************************************************************9875 PP
+
+>> gi|71997007|ref|NP_495951.2|  Protein W07A12.4 [Caenorhabditis elegans]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   79.2   0.3   1.2e-24   2.9e-22      11     227 ..      29     260 ..      27     298 .. 0.84
+
+  Alignments for each domain:
+  == domain 1  score: 79.2 bits;  conditional E-value: 1.2e-24
+  Keap1_cow_vs_nr_bpsi_gi_e10_c_0.6  11 kealkvmnelrkskeLcDvvLkveakkikaHrvvLaacspyFkAmFtnelkEsrqe.evklkdidpkalerLiefaYtaeieveeknvqelLpaavllqlkevkeaCceFLekqLdp....sNclGi.rafAethsCteLlkaaekyieqhFsevvkee...EfllLsaeqllelissdelnvrseeevfeavlkWvky.dveeRrek.....leklleavrlpllspkfLk 227
+                                        +e+l  m ++ ++ +  Dv +kv++++++aHr++L+ +s++F  m +++ +  + + e+   ++++ka++ +++f+Y++++ ++++n + lL  a  + ++++k++C +F ++++ p    +    +  ++A +     L+k++ + i  +F+ +++ee   ++ +L+ +q++e++++++l+v se +++ea+ kW++  +++eRr +     l+ ll  +r+p+++ + L+
+       gi|71997007|ref|NP_495951.2|  29 RETLCDMAKFYNNAQFSDVNMKVGEESYPAHRLILSKSSDVFDRMMSQKWNGDKFDlELVEDELCQKAFAPFLRFMYSNHVVLHKDNCLPLLVLADKYNVTTLKKVCLDFAQSEILPvidlKELFSVwFSYATKAYHPSLIKSCMQAIALEFETLLTEEwekDWQELHRDQMIEILKCNNLKVASEFKLWEALQKWIQApNHSERRGNtagplLAFLLPLIRFPFMNGDELN 260
+                                        578899*******************************************99877652566678*************************************************9987621114555553589999999*****************99876555799********************************97466677755111214555666666666655554 PP
+
+>> gi|25150010|ref|NP_492449.2|  Protein MEL-26, isoform a [Caenorhabditis elegans]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   78.6   0.1   1.9e-24   4.5e-22       5     159 ..     179     335 ..     176     344 .. 0.91
+
+  Alignments for each domain:
+  == domain 1  score: 78.6 bits;  conditional E-value: 1.9e-24
+  Keap1_cow_vs_nr_bpsi_gi_e10_c_0.6   5 tsekhakealkvmnelrkskeLcDvvLkveakkikaHrvvLaacspyFkAmFtn.elkEsrqeevklkdidpkalerLiefaYtaeieveek.nvqelLpaavllqlkevkeaCceFLekqLdpsNclGirafAethsCteLlkaaekyieqhFsev 159
+                                        + ++  ++ ++  ++l +++ LcD  ++v+ k i+aH+ vLaa sp+F+Am t+ +  E++ + + ++d+d +++ +++ ++Y ++ + + +   + lL aa  ++l+e+k+ C ++L ++++ +N+  +    +  s  +L k+a +yi  + ++v
+       gi|25150010|ref|NP_492449.2| 179 EPTNSEQQLIEDYQRLFSQELLCDFAINVNGKIIRAHKAVLAARSPVFNAMLTHqDTDEAKSSMMYINDMDYDVIYEMVYYIYCGRCNKDITdMATALLIAADKYRLEELKSHCEKYLVENINIENACSLLIIGDLYSAPKLRKRAVTYILARPKNV 335
+                                        55667788999999***************************************6379999**************************9977551557899**************************************************98876666 PP
+
+>> gi|392891879|ref|NP_001254311.1|  Protein KEL-1, isoform b [Caenorhabditis elegans]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   76.1   0.0     1e-23   2.5e-21     450     556 ..       1     109 [.       1     112 [. 0.80
+
+  Alignments for each domain:
+  == domain 1  score: 76.1 bits;  conditional E-value: 1e-23
+  Keap1_cow_vs_nr_bpsi_gi_e10_c_0.6 450 mstrrsgaGvavlnnllYavGGydgtsqlssvErYdpetdtWeavasmkirRsavgvavlkgklyavggydgssflksvEvy...dpetdkWeevt.smttgrsgagvavl 556
+                                        m + rsgaGv+v+++ + avGG++g +  +s+E      ++W  +a+m i R++++ ++l+g lyavgg dgss+l+++E+    d +  +W+ v  +m+ grs+ag+a++
+   gi|392891879|ref|NP_001254311.1|   1 MLNVRSGAGVTVYDKKIIAVGGHKGAEIHRSAEILI--GEEWIELANMAIPRRNTAATALNGLLYAVGGDDGSSNLSTIECIqlsDRSDAQWKIVDaPMSQGRSYAGIALI 109
+                                        677899999999999999999999999999999864..5679999999999999999999999999999999999999998733245567899886689999999998875 PP
+
+>> gi|193210023|ref|NP_510443.4|  Protein TAG-53, isoform b [Caenorhabditis elegans]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   28.5   0.2   2.8e-09   6.8e-07     411     542 ..     295     447 ..     273     461 .. 0.66
+   2 !   46.7   0.9   8.5e-15     2e-12     273     383 ..     466     588 ..     453     594 .. 0.87
+
+  Alignments for each domain:
+  == domain 1  score: 28.5 bits;  conditional E-value: 2.8e-09
+  Keap1_cow_vs_nr_bpsi_gi_e10_c_0.6 411 gvavlngllYavGG..fdgssrlnsverydpeeneWtava...pmstrrsgaGvavlnnllYavGGydgts......qlssvE..rYdpetdtWeavasmkirRsav.......gvavlkgklyavggydgs.sflksvEvydpetdkWeevt 542
+                                        +   ++ +++ +GG  fdgss  n ++ y+ ++  W++v    +m + r  + v+ ++n lY  GG  +t+      q  + E   +d+ +++W +  + + +  a+       +  v++++++++ gy+    f++ v +y+ et++W++++
+      gi|193210023|ref|NP_510443.4| 295 ASIAIDDVVWSIGGefFDGSSDPNNIDVYNVTSRIWSKVEvsgDMPKPRFDHTVVKYKNKLYMFGGVTKTQvrhqttQAATNElwIFDMGSKKWAQQIHKNETIIAApfavaghSAHVIRSEMFVIFGYNPLfGFMHHVQIYNFETEEWTVAN 447
+                                        344567788888887778888888888888888888887533468888888888888888888888877765555544444442245666666755443333322224444444888888888888888864268888888888888888764 PP
+
+  == domain 2  score: 46.7 bits;  conditional E-value: 8.5e-15
+  Keap1_cow_vs_nr_bpsi_gi_e10_c_0.6 273 ekvkevlyavgGya..kkslssveaydpktnewkklaslskrrsgvgvavlkgllYavGGrdgs........sdlntvevydpvtnqWss..vapmsvrRsrvgvavldgllYavGGsdgvss 383
+                                        ++ ++ +++ gG +  +++++s+ ++d++t++w++l++  ++    ++a+l+gl+ +vGGr  +          +n+v++yd + +qWs+  +ap+  +R   +v v+++ lYa GG++g ++
+      gi|193210023|ref|NP_510443.4| 466 PTGATAILVYGGSMwnNTITDSLMQFDTSTKKWSNLPQSGVQLYLHAAAYLNGLMVVVGGRGSNvtagskseCFSNMVQSYDVACKQWSNmsTAPVDLKRFGHSVHVIGQKLYALGGFNGKMK 588
+                                        445567778888777788899****************************************988889988777799************98556899999999*****************9865 PP
+
+>> gi|193210021|ref|NP_001024625.2|  Protein TAG-53, isoform a [Caenorhabditis elegans]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   28.4   0.2   2.9e-09   7.1e-07     411     542 ..     295     447 ..     273     461 .. 0.66
+   2 !   46.7   0.9   8.8e-15   2.1e-12     273     383 ..     466     588 ..     453     594 .. 0.87
+
+  Alignments for each domain:
+  == domain 1  score: 28.4 bits;  conditional E-value: 2.9e-09
+  Keap1_cow_vs_nr_bpsi_gi_e10_c_0.6 411 gvavlngllYavGG..fdgssrlnsverydpeeneWtava...pmstrrsgaGvavlnnllYavGGydgts......qlssvE..rYdpetdtWeavasmkirRsav.......gvavlkgklyavggydgs.sflksvEvydpetdkWeevt 542
+                                        +   ++ +++ +GG  fdgss  n ++ y+ ++  W++v    +m + r  + v+ ++n lY  GG  +t+      q  + E   +d+ +++W +  + + +  a+       +  v++++++++ gy+    f++ v +y+ et++W++++
+   gi|193210021|ref|NP_001024625.2| 295 ASIAIDDVVWSIGGefFDGSSDPNNIDVYNVTSRIWSKVEvsgDMPKPRFDHTVVKYKNKLYMFGGVTKTQvrhqttQAATNElwIFDMGSKKWAQQIHKNETIIAApfavaghSAHVIRSEMFVIFGYNPLfGFMHHVQIYNFETEEWTVAN 447
+                                        344567788888887778888888888888888888887533468888888888888888888888877765555544444442245666666755443333322224444444888888888888888864268888888888888888764 PP
+
+  == domain 2  score: 46.7 bits;  conditional E-value: 8.8e-15
+  Keap1_cow_vs_nr_bpsi_gi_e10_c_0.6 273 ekvkevlyavgGya..kkslssveaydpktnewkklaslskrrsgvgvavlkgllYavGGrdgs........sdlntvevydpvtnqWss..vapmsvrRsrvgvavldgllYavGGsdgvss 383
+                                        ++ ++ +++ gG +  +++++s+ ++d++t++w++l++  ++    ++a+l+gl+ +vGGr  +          +n+v++yd + +qWs+  +ap+  +R   +v v+++ lYa GG++g ++
+   gi|193210021|ref|NP_001024625.2| 466 PTGATAILVYGGSMwnNTITDSLMQFDTSTKKWSNLPQSGVQLYLHAAAYLNGLMVVVGGRGSNvtagskseCFSNMVQSYDVACKQWSNmsTAPVDLKRFGHSVHVIGQKLYALGGFNGKMK 588
+                                        445567778888777788899****************************************988889988777799************98556899999999*****************9865 PP
+
+>> gi|453227843|ref|NP_001263463.1|  Protein MEL-26, isoform b [Caenorhabditis elegans]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   72.1   1.4   1.7e-22   4.2e-20       5     148 ..     179     324 ..     176     335 .. 0.89
+
+  Alignments for each domain:
+  == domain 1  score: 72.1 bits;  conditional E-value: 1.7e-22
+  Keap1_cow_vs_nr_bpsi_gi_e10_c_0.6   5 tsekhakealkvmnelrkskeLcDvvLkveakkikaHrvvLaacspyFkAmFtn.elkEsrqeevklkdidpkalerLiefaYtaeieveek.nvqelLpaavllqlkevkeaCceFLekqLdpsNclGirafAethsCteLlkaa 148
+                                        + ++  ++ ++  ++l +++ LcD  ++v+ k i+aH+ vLaa sp+F+Am t+ +  E++ + + ++d+d +++ +++ ++Y ++ + + +   + lL aa  ++l+e+k+ C ++L ++++ +N+  +    +  s  +L k+a
+   gi|453227843|ref|NP_001263463.1| 179 EPTNSEQQLIEDYQRLFSQELLCDFAINVNGKIIRAHKAVLAARSPVFNAMLTHqDTDEAKSSMMYINDMDYDVIYEMVYYIYCGRCNKDITdMATALLIAADKYRLEELKSHCEKYLVENINIENACSLLIIGDLYSAPKLRKRA 324
+                                        55667788999999***************************************6379999**************************9977551557899***************************99888888888887777776 PP
+
+>> gi|17533573|ref|NP_496788.1|  Protein BATH-45 [Caenorhabditis elegans]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   35.9   0.0   1.6e-11   3.8e-09      23     121 ..     144     241 ..     138     246 .. 0.95
+   2 !   34.6   0.1     4e-11   9.7e-09      14     121 ..     293     394 ..     285     420 .. 0.88
+
+  Alignments for each domain:
+  == domain 1  score: 35.9 bits;  conditional E-value: 1.6e-11
+  Keap1_cow_vs_nr_bpsi_gi_e10_c_0.6  23 skeLcDvvLkveakkikaHrvvLaacspyFkAmFtnelkEsrqeevklkdidpkalerLiefaYtaeieveeknvqelLpaavllqlkevkeaCceFLe 121
+                                        +ke  D +++v++++++  +  La   +y + +F +++kE+ + ev+lk i+++ ++ L+   Y  + +++++nv  +L  a+ lq+  v + C +FL 
+       gi|17533573|ref|NP_496788.1| 144 NKEFSDGIVVVKHQNFHILKKFLAFHCEYLEKLFFGDFKEAGKAEVTLKAISSTDFHYLLAVLYE-DYAIDDDNVGGILRLASYLQVPIVIRKCEQFLI 241
+                                        6789999*********************************************************6.579****************************96 PP
+
+  == domain 2  score: 34.6 bits;  conditional E-value: 4e-11
+  Keap1_cow_vs_nr_bpsi_gi_e10_c_0.6  14 lkvmnelrkskeLcDvvLkveakkikaHrvvLaacspyFkAmFtnelkEsrqeevklkdidpkalerLiefaYtaeieveeknvqelLpaavllqlkevkeaCceFLe 121
+                                        lk+++e  ++ke  Dv+++ve++k+++ + +La+ s+ Fk +F +++   +++e +l did++ +++L+e +Y  +  +++ +v+ +L+ a ++      + C eFL 
+       gi|17533573|ref|NP_496788.1| 293 LKKFDE--SNKEFSDVIFVVEHNKFYVLKQILASHSSHFKKIFVENV---DKREFTLADIDSNDFQNLVEVMYGVSF-IDDLTVEGVLHLAHMYDRPFPMQKCVEFLI 394
+                                        555544..57899******************************9876...578899*****************8875.9***************************96 PP
+
+>> gi|86562681|ref|NP_498694.2|  Protein BATH-15 [Caenorhabditis elegans]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   64.9   0.2   2.6e-20   6.3e-18      22     123 ..     142     242 ..     125     268 .. 0.89
+
+  Alignments for each domain:
+  == domain 1  score: 64.9 bits;  conditional E-value: 2.6e-20
+  Keap1_cow_vs_nr_bpsi_gi_e10_c_0.6  22 kskeLcDvvLkveakkikaHrvvLaacspyFkAmFtnelkEsrqeevklkdidpkalerLiefaYtaeieveeknvqelLpaavllqlkevkeaCceFLekq 123
+                                        ++k+  Dv+L+v+++k+++ ++ La+ s+yF+A+F +++kE++q+ev+l++idp+ +++L+e  Y  e ++++ ++  +L  a +l ++   + C eFL ++
+       gi|86562681|ref|NP_498694.2| 142 SEKRFSDVILVVGDEKFYVLKLFLASHSSYFNALFLGKFKEADQSEVTLQNIDPTDFQSLLEVLYG-EPAIDDGTIDGVLLLAHMLDVTLAIRKCEEFLIEK 242
+                                        567899***********************************************************6.568*****************************765 PP
+
+>> gi|392887530|ref|NP_001252085.1|  Protein F22G12.4, isoform a [Caenorhabditis elegans]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   61.7   0.0   2.4e-19   5.8e-17       7     177 ..      43     214 ..      38     224 .. 0.84
+
+  Alignments for each domain:
+  == domain 1  score: 61.7 bits;  conditional E-value: 2.4e-19
+  Keap1_cow_vs_nr_bpsi_gi_e10_c_0.6   7 ekhakealkvmnelrkskeLcDvvLkvea...kkikaHrvvLaacspyFkAmFtnelkEsrqeevkl.kdidpkalerLiefaYtaeie..veeknvqelLpaavllqlkevkeaCceFLekqLdpsNclGirafAethsCteLlkaaekyieqhFsevvkeeEfllLsaeqlleli 177
+                                        ++++++ l+  ++l ++ +  Dv++k +    k+++aH+ vLaa  +++k  F n+  E++  e+++  d+d +a++  i+++Yt ei   +e++ ++++ ++a+ ++l+++k++C + L  +L+  Nc+ i +fAe++s ++L ++a + i   + ++     f +++a  l +li
+   gi|392887530|ref|NP_001252085.1|  43 DSFPSRLLSLTSSLLEKPRFSDVTFKFAGnslKSVPAHKYVLAARTDFWK--FENGGDEKS--EIQIsDDVDFEAFHVAIRWIYTDEIDlkMEDEKLLKVCETATSFRLEQLKNVCVQQLGARLHVDNCIKIYEFAEKQSLRQLSTVAGSMIAGAWPKLG-PAHFAQMTAALLYRLI 214
+                                        678889999999**************988788999*************98..999988876..5666157****************9962267899***************************************************9998877766653.3456666666666665 PP
+
+>> gi|193208117|ref|NP_001122948.1|  Protein F53E4.1, isoform b [Caenorhabditis elegans]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    1.8   0.0      0.34        83     303     356 ..       4      62 ..       1      80 [. 0.61
+   2 !   32.1   0.9   2.3e-10   5.6e-08     449     541 ..      88     186 ..      65     192 .. 0.60
+   3 !   35.4   0.7   2.2e-11   5.4e-09     296     425 ..     176     327 ..     175     340 .. 0.77
+
+  Alignments for each domain:
+  == domain 1  score: 1.8 bits;  conditional E-value: 0.34
+  Keap1_cow_vs_nr_bpsi_gi_e10_c_0.6 303 wkklaslskrrsgvgvavlkgllYavGGrdgs.....sdlntvevydpvtnqWssvapm 356
+                                        w++  +   rr++ +  +++ ++Y  GG+        +d   v v ++ + +W +++p 
+   gi|193208117|ref|NP_001122948.1|   4 WTVHLEGGPRRVNHASIAVGSRIYSFGGYCSGevtdaKDPLDVHVLNTENYRWIKMNPG 62 
+                                        55555555667777777777777777777544354444455566666666667666665 PP
+
+  == domain 2  score: 32.1 bits;  conditional E-value: 2.3e-10
+  Keap1_cow_vs_nr_bpsi_gi_e10_c_0.6 449 pmstrrsgaGvavlnnllYavGGy.dgtsqlssvErYdpetdtWeavas...mkirRsavgvavlkgklyavggy..dgssflksvEvydpetdkWeev 541
+                                         +  +r g+ v+ +++  Y+ GG+ d+    +    Ydpe ++W++v     +  +R+ ++ +v +++++++ggy  d+++f +   v+d +t +W+e+
+   gi|193208117|ref|NP_001122948.1|  88 AVPYQRYGHTVVEYQGKAYVWGGRnDDYGACNLLHEYDPEYNVWKKVEIegfVPPSRDGHTAVVWNNQMFVFGGYeeDAQRFSQETYVFDFATSTWREM 186
+                                        444566666677777777777775234456666677777777777665322245567777777777777777776333444555555566666777665 PP
+
+  == domain 3  score: 35.4 bits;  conditional E-value: 2.2e-11
+  Keap1_cow_vs_nr_bpsi_gi_e10_c_0.6 296 ydpktnewkklaslskr...rsgvgvavlkgllYavGGrdgs.........sdlntvevydpvtnqWss.vapmsvr....RsrvgvavldgllYavGGsdgvs..slnsverYdpeedkWtlvasmst...rRlgvgvavlngllYavGGf 425
+                                        +d+ t++w+++++ + +   r   +++v++g++Y+ GGr ++         ++ +t+ + + +t  W+   +p ++     R++ +  v dg +Y  GG+ g+   ++n+  ++dp++  W++++   t   +R+    +v ng++Y  GG 
+   gi|193208117|ref|NP_001122948.1| 176 FDFATSTWREMHTKNDPprwRDFHTASVIDGMMYIFGGRSDEsgqfhtihdQYDDTLMALNLATGAWTRtKVPENTMkpggRRSHSTWVYDGKMYMFGGYLGTInvHYNELYCFDPKTSMWSVISVRGTypsARRRHCSVVSNGKVYLFGGT 327
+                                        888999998876555432225668999***********98888999999888889999999999***98544444322344899999*************99862256677788********99865332226777777799********96 PP
+
+>> gi|17561284|ref|NP_506895.1|  Protein F53E4.1, isoform a [Caenorhabditis elegans]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    1.8   0.0      0.35        85     303     356 ..       4      62 ..       1      80 [. 0.61
+   2 !   39.3   1.0   1.5e-12   3.6e-10     398     521 ..      84     216 ..      71     234 .. 0.83
+   3 !   32.7   0.5   1.5e-10   3.6e-08     296     425 ..     176     333 ..     175     347 .. 0.79
+
+  Alignments for each domain:
+  == domain 1  score: 1.8 bits;  conditional E-value: 0.35
+  Keap1_cow_vs_nr_bpsi_gi_e10_c_0.6 303 wkklaslskrrsgvgvavlkgllYavGGrdgs.....sdlntvevydpvtnqWssvapm 356
+                                        w++  +   rr++ +  +++ ++Y  GG+        +d   v v ++ + +W +++p 
+       gi|17561284|ref|NP_506895.1|   4 WTVHLEGGPRRVNHASIAVGSRIYSFGGYCSGevtdaKDPLDVHVLNTENYRWIKMNPG 62 
+                                        55555555667777777777777777777544354444455566666666667666665 PP
+
+  == domain 2  score: 39.3 bits;  conditional E-value: 1.5e-12
+  Keap1_cow_vs_nr_bpsi_gi_e10_c_0.6 398 tlvasmstrRlgvgvavlngllYavGGf.dgssrlnsverydpeeneWtavap...mstrrsgaGvavlnnllYavGGydgtsqlssvErY..dpetdtWeavasmkir...Rsavgvavlkgklyavggydg 521
+                                        ++  ++  +R g +v+  +g+ Y+ GG  d     n   +ydpe n W++v     +  +r g+  +v+nn +++ GGy++ +q+ s E Y  d  t tW+ + + +     R+ ++ +v++g +y++gg   
+       gi|17561284|ref|NP_506895.1|  84 KMFGAVPYQRYGHTVVEYQGKAYVWGGRnDDYGACNLLHEYDPEYNVWKKVEIegfVPPSRDGHTAVVWNNQMFVFGGYEEDAQRFSQETYvfDFATSTWREMHTKNDPprwRDFHTASVIDGMMYIFGGRSD 216
+                                        55667778999****************83556679999***********9985222567999*************************9987447889***9998877533349999*************9755 PP
+
+  == domain 3  score: 32.7 bits;  conditional E-value: 1.5e-10
+  Keap1_cow_vs_nr_bpsi_gi_e10_c_0.6 296 ydpktnewkklaslskr...rsgvgvavlkgllYavGGrdgs...............sdlntvevydpvtnqWss.vapmsvr....RsrvgvavldgllYavGGsdgvs..slnsverYdpeedkWtlvasmst...rRlgvgvavlngllYavGGf 425
+                                        +d+ t++w+++++ + +   r   +++v++g++Y+ GGr ++               ++ +t+ + + +t  W+   +p ++     R++ +  v dg +Y  GG+ g+   ++n+  ++dp++  W++++   t   +R+    +v ng++Y  GG 
+       gi|17561284|ref|NP_506895.1| 176 FDFATSTWREMHTKNDPprwRDFHTASVIDGMMYIFGGRSDEsgqvgdehlfhtihdQYDDTLMALNLATGAWTRtKVPENTMkpggRRSHSTWVYDGKMYMFGGYLGTInvHYNELYCFDPKTSMWSVISVRGTypsARRRHCSVVSNGKVYLFGGT 333
+                                        889999998876655432225668999************888899*******999998899999*********9854444432234499999****************872256777788*********9865432226777777799********96 PP
+
+>> gi|32565861|ref|NP_872066.1|  Protein BTB-18 [Caenorhabditis elegans]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   17.9   0.3   4.5e-06    0.0011      27     148 ..     140     260 ..     131     296 .. 0.82
+   2 !   42.5   0.1   1.6e-13   3.8e-11      28     122 ..     393     487 ..     389     517 .. 0.87
+
+  Alignments for each domain:
+  == domain 1  score: 17.9 bits;  conditional E-value: 4.5e-06
+  Keap1_cow_vs_nr_bpsi_gi_e10_c_0.6  27 cDvvLkveakkikaHrvvLaacspyFkAmFtnelkEsrqeevklkdidpkalerLiefaYtaeieveeknvqelLpaavllqlkevkeaCceFLekqLdpsNclGirafAethsCteLlkaa 148
+                                         D vL+++++k+++ +  L   s+ F+ +F ++lk     e++l+d+  + + +L++ +  + +  ++++v+++L  a  +++++  +   + L ++   +N   +  +A++ + ++Llk++
+       gi|32565861|ref|NP_872066.1| 140 NDAVLVIGERKLHVNKDFLCYHSDHFRELFFSNLKKDASVEIELRDVVYEDFGHLMSTIHPNPVFPNDRSVEKILVLADRFKVQSAIDHVEHHLLHNSRLANEC-MMWMADKYGMKKLLKIS 260
+                                        599********************************************************************************999888887776665555532.45567777777776665 PP
+
+  == domain 2  score: 42.5 bits;  conditional E-value: 1.6e-13
+  Keap1_cow_vs_nr_bpsi_gi_e10_c_0.6  28 DvvLkveakkikaHrvvLaacspyFkAmFtnelkEsrqeevklkdidpkalerLiefaYtaeieveeknvqelLpaavllqlkevkeaCceFLek 122
+                                        D vL+++++ki++ +  L+  s+yF+A+F++ +kE++q+e++lkd+    +e L++ +Y + +  ++++v++lL  a  + +++  +   + L +
+       gi|32565861|ref|NP_872066.1| 393 DAVLVIGKRKIHVNKAFLSYHSDYFRALFSSSFKENEQNEIELKDVVYGDFELLMSTIYPKPVFPTDRTVKKLLVMADRFMVHSAIDHVEHHLLH 487
+                                        899**************************************************************************999998877776666655 PP
+
+>> gi|17566270|ref|NP_506750.1|  Protein BATH-36 [Caenorhabditis elegans]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   60.0   1.5   8.1e-19   1.9e-16      23     148 ..     156     280 ..     140     314 .. 0.84
+
+  Alignments for each domain:
+  == domain 1  score: 60.0 bits;  conditional E-value: 8.1e-19
+  Keap1_cow_vs_nr_bpsi_gi_e10_c_0.6  23 skeLcDvvLkveakkikaHrvvLaacspyFkAmFtnelkEsrqeevklkdidpkalerLiefaYtaeieveeknvqelLpaavllqlkevkeaCceFLekqLdpsNclGirafAethsCteLlkaa 148
+                                        +++L+DvvL+ e k++++ + vLa++s++F+ mF ++++E++q e+k+ d++++ +  L++ +Y  ++ ++ +nv +lL+ +  + + +v e   +FL      +  +   +fAe    + L++a+
+       gi|17566270|ref|NP_506750.1| 156 KEHLTDVVLVLEGKHVHVGKQVLATSSQFFQKMFYSNFAEKTQAEIKIDDVTHSEFIDLLNVIYPTHMLINSSNVSHLLKLSDRFAVPRVLEKAETFLILDQ-KTHLIDKLKFAEVYRLSRLQNAC 280
+                                        678**********************************************************************************************97432.23455666777777777776665 PP
+
+>> gi|17531627|ref|NP_494007.1|  Protein BATH-33 [Caenorhabditis elegans]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   59.6   0.0   1.1e-18   2.6e-16      23     121 ..     145     243 ..     132     250 .. 0.95
+
+  Alignments for each domain:
+  == domain 1  score: 59.6 bits;  conditional E-value: 1.1e-18
+  Keap1_cow_vs_nr_bpsi_gi_e10_c_0.6  23 skeLcDvvLkveakkikaHrvvLaacspyFkAmFtnelkEsrqeevklkdidpkalerLiefaYtaeieveeknvqelLpaavllqlkevkeaCceFLe 121
+                                         ke  DvvL+v+++++++ ++ Laa s yFkA+  +++kE + +ev+l  idp+ +++++e  Y  + ++++++v+ +L  a ++  k v++ C +FL 
+       gi|17531627|ref|NP_494007.1| 145 MKEFSDVVLVVKETRFHVAKLFLAAQSGYFKALPIGNFKEGNSSEVTLSSIDPNDFQNFLEVLYGHQEAITDESVEGVLLIADMYNAKLVTQNCENFLF 243
+                                        57899********************************************************************************************96 PP
+
+>> gi|17534257|ref|NP_496172.1|  Protein BATH-38 [Caenorhabditis elegans]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   59.2   2.8   1.4e-18   3.3e-16      23     176 ..     224     378 ..     219     385 .. 0.87
+
+  Alignments for each domain:
+  == domain 1  score: 59.2 bits;  conditional E-value: 1.4e-18
+  Keap1_cow_vs_nr_bpsi_gi_e10_c_0.6  23 skeLcDvvLkveakkikaHrvvLaacspyFkAmFtnelkEsrqeevklkdidpkalerLiefaYtaeieveeknvqelLpaavllqlkevkeaCceFLekqLdpsNclGira..fAethsCteLlkaaekyieq..hFsevvkeeEfllLsaeqllel 176
+                                        + ++cD++L+++++k+ + +  La  sp+F AmF ++++E+++++v+l+d+  + +++L++ +Y  +  ++ +nv+ lL+    + ++ v + C +FL    d   +l i++  +A++   ++L++++ + i++  + + +  +eEf +Ls    ++l
+       gi|17534257|ref|NP_496172.1| 224 QTNICDMTLVINKQKLFVNKAYLALYSPVFYAMFFSNFQEREKTQVELEDVVLEEFRELLHVIYPCHKPITSDNVEYLLELGDKYEIQYVMDECERFLVGSED---ILQITKlmWADQYLLAKLQDSCLRNIKEvsDVKAIKLTEEFKNLSDATKAAL 378
+                                        6789**********************************************************************************************87644...5555542279999999999999888875225666778899999887665555 PP
+
+>> gi|17537309|ref|NP_494524.1|  Protein BATH-9 [Caenorhabditis elegans]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   58.9   0.1   1.8e-18   4.2e-16      24     127 ..     142     241 ..     127     269 .. 0.88
+
+  Alignments for each domain:
+  == domain 1  score: 58.9 bits;  conditional E-value: 1.8e-18
+  Keap1_cow_vs_nr_bpsi_gi_e10_c_0.6  24 keLcDvvLkveakkikaHrvvLaacspyFkAmFtnelkEsrqeevklkdidpkalerLiefaYtaeieveeknvqelLpaavllqlkevkeaCceFLekqLdps 127
+                                        +   DvvL v +kk+ + +  La+ s+yFk +F +++ E ++ e+ l di++  ++ L+e  Y  e ++e++nv+ +L+ a +++++ v e C eFL+++   s
+       gi|17537309|ref|NP_494524.1| 142 DVFSDVVLAVYDKKFFVLKKFLATHSSYFKTLFLGKFDEPEKAEIALTDINAADFQCLLEVLYG-EPAIEDENVEGILHLAHMYKMAVVIEKCVEFLSDK---S 241
+                                        4579***********************************************************6.568*****************************864...4 PP
+
+>> gi|17537313|ref|NP_494522.1|  Protein BATH-23 [Caenorhabditis elegans]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   56.6   0.1   8.5e-18     2e-15      24     130 ..     115     221 ..     101     229 .. 0.91
+
+  Alignments for each domain:
+  == domain 1  score: 56.6 bits;  conditional E-value: 8.5e-18
+  Keap1_cow_vs_nr_bpsi_gi_e10_c_0.6  24 keLcDvvLkveakkikaHrvvLaacspyFkAmFtnelkEsrqeevklkdidpkalerLiefaYtaeieveeknvqelLpaavllqlkevkeaCceFLekqLd.psNcl 130
+                                        +e  Dv+L ve++k+++ +  La+ s+yFk++F + ++E++++e++l +i++  ++ L+e  Y ++ +++++nv  +L+ a +  ++ v + C e L ++ d ps c+
+       gi|17537313|ref|NP_494522.1| 115 EEFSDVILAVEDEKFYVLKKFLASHSSYFKSLFFGSFAEAEKSEITLSEINSAGFQCLLEVLYGES-AIDDENVDGILHLAHMNEMAFVIRKCEECLLDKSDrPSRCI 221
+                                        6889***********************************************************766.89*************************99877765477775 PP
+
+>> gi|86562128|ref|NP_494157.2|  Protein BATH-3 [Caenorhabditis elegans]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   55.4   0.0     2e-17   4.9e-15      21     121 ..     144     243 ..     129     248 .. 0.93
+   2 ?   -1.4   0.0       3.1   7.4e+02      90     116 ..     243     269 ..     242     272 .. 0.89
+
+  Alignments for each domain:
+  == domain 1  score: 55.4 bits;  conditional E-value: 2e-17
+  Keap1_cow_vs_nr_bpsi_gi_e10_c_0.6  21 rkskeLcDvvLkveakkikaHrvvLaacspyFkAmFtnelkEsrqeevklkdidpkalerLiefaYtaeieveeknvqelLpaavllqlkevkeaCceFLe 121
+                                        ++++e  DvvL ve++k+++ +  La+ s yF+A+  +++kE++ +ev lkdid++ +++L+e  Y  e +++e++++ +L+ a ++ +   ++ C eFL 
+       gi|86562128|ref|NP_494157.2| 144 KSEEEFSDVVLAVEDEKFHVLKKFLASHSTYFNALLLGNFKEAEISEVALKDIDSTDFQNLLEVLYG-EPAIDEDTIEGILHLAHMYDMPFPTRKCEEFLI 243
+                                        457899************************************************************6.568****************************96 PP
+
+  == domain 2  score: -1.4 bits;  conditional E-value: 3.1
+  Keap1_cow_vs_nr_bpsi_gi_e10_c_0.6  90 ieveeknvqelLpaavllqlkevkeaC 116
+                                        i  +ek ++e L+ a  +ql+++k+ C
+       gi|86562128|ref|NP_494157.2| 243 IDFSEKPIKEKLKVAKKYQLENLKKSC 269
+                                        56789999999**************99 PP
+
+>> gi|17543884|ref|NP_502585.1|  Protein GCL-1 [Caenorhabditis elegans]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   56.0   0.2   1.3e-17   3.1e-15      17     199 ..      60     247 ..      46     252 .. 0.90
+
+  Alignments for each domain:
+  == domain 1  score: 56.0 bits;  conditional E-value: 1.3e-17
+  Keap1_cow_vs_nr_bpsi_gi_e10_c_0.6  17 mnelrkskeLcDvvLkveakkikaHrvvLaacspyFkAmFtnelkEsrqeevklk....didpkalerLiefaYtaeieveeknvqelLpaavllqlkevkeaCceFLekqLdpsNclGirafAethsCteLlkaaekyieqhFsevvkeeEfllLsaeql.lelissdel.nvrseeevfeavlkWvk 199
+                                         ++l  ++e  D+vL +  ++ ++H++ L    ++F++mF +  +Es+  +v+++    +id++ l++++   Y +eie++ + ++  + aa+ + l++v++ C+e + + L  +N++   + + + + ++  +++ +   ++F +++++ E l+    ql ++l++s +l  ++ e ++++ v +W+ 
+       gi|17543884|ref|NP_502585.1|  60 YQKLFLQGENSDIVLAACGREWRVHKLYLKQ-TKFFESMFDGLWTESNSGRVQMEitdpNIDADGLNSVLGSLYHNEIEIDLDKIEGTVAAASYIVLDSVTDRCSEMMIEALSTKNAVRFYDVSTKYGLEKVREKSMEVLLHQFWKIMTDREKLNEVDRQLfVTLLNSPNLlIIEGEFDLYKVVKSWIY 247
+                                        56788889999******************86.68***************9999985544688999***********************************************************************************999988866666637899987761678899*********96 PP
+
+>> gi|17531219|ref|NP_494163.1|  Protein BATH-24 [Caenorhabditis elegans]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   54.8   0.9   3.1e-17   7.4e-15      12     123 ..      62     170 ..      53     197 .. 0.89
+
+  Alignments for each domain:
+  == domain 1  score: 54.8 bits;  conditional E-value: 3.1e-17
+  Keap1_cow_vs_nr_bpsi_gi_e10_c_0.6  12 ealkvmnelrkskeLcDvvLkveakkikaHrvvLaacspyFkAmFtnelkEsrqeevklkdidpkalerLiefaYtaeieveeknvqelLpaavllqlkevkeaCceFLekq 123
+                                        ++lk+++e  +++e  Dvv+ v+++k+++ +v La+ s yFk +F +++ E++++ev+l+didp+ ++ L+e +  +e +++++++  +L+ a ++ ++   +   eFL ++
+       gi|17531219|ref|NP_494163.1|  62 KVLKSFDE--SNEEFSDVVVAVGNEKFYVLKVYLASHSTYFKTLFLGKFVEADKSEVTLQDIDPTDFQCLMEVIH-GESAIDDSTIDGVLQLAQMFDVSLAIRKSEEFLVEK 170
+                                        55555554..57899*********************************************************887.5668*******************9999999999876 PP
+
+>> gi|17533825|ref|NP_494287.1|  Protein BATH-13 [Caenorhabditis elegans]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   54.7   0.0   3.2e-17   7.8e-15      21     123 ..     146     247 ..     132     270 .. 0.92
+
+  Alignments for each domain:
+  == domain 1  score: 54.7 bits;  conditional E-value: 3.2e-17
+  Keap1_cow_vs_nr_bpsi_gi_e10_c_0.6  21 rkskeLcDvvLkveakkikaHrvvLaacspyFkAmFtnelkEsrqeevklkdidpkalerLiefaYtaeieveeknvqelLpaavllqlkevkeaCceFLekq 123
+                                        ++++e  DvvL v++k++ + +  La  s+yFk++  ++++Es+q+ev+l+didp+ +++L+e  Y  e +++++++  +L+ a ++ ++   + C eFL ++
+       gi|17533825|ref|NP_494287.1| 146 KSNEEFSDVVLAVGDKEFFVLKQFLAYHSSYFKSLLLGKFAESDQKEVTLQDIDPTDFQNLLEVLYG-EPAIDDETIDGILHLAHMYDMSVPLRKCEEFLINE 247
+                                        467899************************************************************6.568*****************************875 PP
+
+>> gi|17534241|ref|NP_494122.1|  Protein BATH-4 [Caenorhabditis elegans]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   55.4   0.2     2e-17   4.8e-15      21     121 ..     144     243 ..     127     269 .. 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 55.4 bits;  conditional E-value: 2e-17
+  Keap1_cow_vs_nr_bpsi_gi_e10_c_0.6  21 rkskeLcDvvLkveakkikaHrvvLaacspyFkAmFtnelkEsrqeevklkdidpkalerLiefaYtaeieveeknvqelLpaavllqlkevkeaCceFLe 121
+                                        +++++  Dv+L ve++++++ +  La+ s yF+A+  +++kE++ +ev lkdid++ +++L+e  Y ++ +++e++++ +L+ a ++ +   ++ C eFL 
+       gi|17534241|ref|NP_494122.1| 144 KSEEQFSDVILAVEDETFHVLKKFLASHSTYFNALLLGKFKEAEISEVALKDIDSTDFQNLLEVLYGES-AIDEDTIEGILHLAHMYDMPFPTRKCEEFLI 243
+                                        45789*************************************************************766.8****************************96 PP
+
+>> gi|17510815|ref|NP_493543.1|  Protein BATH-40 [Caenorhabditis elegans]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   55.1   1.2   2.5e-17     6e-15      21     161 ..     216     364 ..     201     389 .. 0.88
+
+  Alignments for each domain:
+  == domain 1  score: 55.1 bits;  conditional E-value: 2.5e-17
+  Keap1_cow_vs_nr_bpsi_gi_e10_c_0.6  21 rkskeLcDvvLkvea.....kkikaHrvvLaacspyFkAmFt.nelkEsrqeevklkdidpkalerLiefaYtaeie..veeknvqelLpaavllqlkevkeaCceFLekqLdpsNclGirafAethsCteLlkaaekyieqhFsevvk 161
+                                          s+  +D++++++      +++++H   L a s++F+ m + +e++E++++++++ d +p+++++++ef+Y++ i+  ++      +++ a  +q+  +k +C + L ++L+ +N+l   + Ae+ +   L++a+  ++ ++ + v+ 
+       gi|17510815|ref|NP_493543.1| 216 LASGDGTDMTIVAGPldgerEQFRVHAYKLRAHSDVFQMMLShTEMRENQEKRIEILDFSPTSVRAMVEFIYAGVIKsdIDVYQAVDVMQIAEKYQILALKMTCEQHLLDRLNVNNVLECITHAERYNTDVLYDACVDFAIHNRQHVMA 364
+                                        555566777777765666669*******************97359*****************************99733666777789*****************************************************99999986 PP
+
+>> gi|71989953|ref|NP_494125.2|  Protein BATH-2 [Caenorhabditis elegans]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   54.2   0.0   4.5e-17   1.1e-14      21     122 ..     142     242 ..     127     267 .. 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 54.2 bits;  conditional E-value: 4.5e-17
+  Keap1_cow_vs_nr_bpsi_gi_e10_c_0.6  21 rkskeLcDvvLkveakkikaHrvvLaacspyFkAmFtnelkEsrqeevklkdidpkalerLiefaYtaeieveeknvqelLpaavllqlkevkeaCceFLek 122
+                                        r+++e  Dv+L v++kk+ + r  La+ s yF+ +  ++++E++++evkl+di+++ +++L+e  Y +e +++e++v  +L+ a l+ +    + C eFL +
+       gi|71989953|ref|NP_494125.2| 142 RSNEEFSDVILAVGDKKFFVLRKFLASHSTYFETLLLGNFAEADKSEVKLQDINSTDFQNLMEVRY-GEYAIDEETVDGILHLAHLYDMPFPIKRCEEFLVD 242
+                                        78899*************************************************************.5789*****************************86 PP
+
+>> gi|17533141|ref|NP_494635.1|  Protein BATH-31 [Caenorhabditis elegans]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   53.7   0.0   6.5e-17   1.6e-14      23     123 ..     147     246 ..     142     252 .. 0.95
+
+  Alignments for each domain:
+  == domain 1  score: 53.7 bits;  conditional E-value: 6.5e-17
+  Keap1_cow_vs_nr_bpsi_gi_e10_c_0.6  23 skeLcDvvLkveakkikaHrvvLaacspyFkAmFtnelkEsrqeevklkdidpkalerLiefaYtaeieveeknvqelLpaavllqlkevkeaCceFLekq 123
+                                         +eL DvvL+v+++++++ r  La   +yFk++F + + Es+++ev+l +idp+a+++++e  Y ++ ++++++v+ +L+ a ++  + v   C +FL k+
+       gi|17533141|ref|NP_494635.1| 147 MGELSDVVLVVDEQRFHVLRKHLALQCSYFKSLFFGSFGESKKSEVTLSGIDPEAFQAFLEVLYLED-SIDDNTVEGILQLADMYDSRAVIGKCEKFLYKE 246
+                                        579*************************************************************987.89****************************875 PP
+
+>> gi|17534245|ref|NP_494124.1|  Protein BATH-7 [Caenorhabditis elegans]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   52.2   0.1   1.9e-16   4.5e-14      21     122 ..     139     239 ..     122     265 .. 0.91
+
+  Alignments for each domain:
+  == domain 1  score: 52.2 bits;  conditional E-value: 1.9e-16
+  Keap1_cow_vs_nr_bpsi_gi_e10_c_0.6  21 rkskeLcDvvLkveakkikaHrvvLaacspyFkAmFtnelkEsrqeevklkdidpkalerLiefaYtaeieveeknvqelLpaavllqlkevkeaCceFLek 122
+                                        +++k+  Dv+L +e++k+++ +  La+ s yFk +  ++++E++ +evkl+did++ +++L+e  Y ++ ++++ +++ +L+ a ++ +    + C eFL +
+       gi|17534245|ref|NP_494124.1| 139 KSNKKFSDVILAIEDEKFYVLKKFLASHSTYFKTLLLGKFEEAERQEVKLQDIDSTDFQNLMEVLYGES-AIDDGTIKGILELADMYDMPFPIRKCEEFLID 239
+                                        467899************************************************************766.89***************************975 PP
+
+>> gi|17534067|ref|NP_494049.1|  Protein SDZ-18 [Caenorhabditis elegans]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   51.0   0.0   4.1e-16     1e-13      23     122 ..     148     246 ..     139     252 .. 0.95
+
+  Alignments for each domain:
+  == domain 1  score: 51.0 bits;  conditional E-value: 4.1e-16
+  Keap1_cow_vs_nr_bpsi_gi_e10_c_0.6  23 skeLcDvvLkveakkikaHrvvLaacspyFkAmFtnelkEsrqeevklkdidpkalerLiefaYtaeieveeknvqelLpaavllqlkevkeaCceFLek 122
+                                         +e  DvvL v++kk+++ r  Laa s+yFkA+  + ++E + +ev+l  idp+ ++ ++e  Y  + ++++ +v+ +L+ a ++    v++ C eFL k
+       gi|17534067|ref|NP_494049.1| 148 MEEFSDVVLLVGEKKFYVLRKYLAAQSKYFKALLLGSFEEGKSSEVTLTSIDPNDFQFFLEVLYGDS-AINDLTVEGILHIADMYDTPMVVRKCEEFLIK 246
+                                        56889***********************************************************876.89****************************76 PP
+
+>> gi|17534629|ref|NP_494155.1|  Protein BATH-21 [Caenorhabditis elegans]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   50.2   0.0   7.5e-16   1.8e-13      22     122 ..     144     243 ..     129     249 .. 0.94
+
+  Alignments for each domain:
+  == domain 1  score: 50.2 bits;  conditional E-value: 7.5e-16
+  Keap1_cow_vs_nr_bpsi_gi_e10_c_0.6  22 kskeLcDvvLkveakkikaHrvvLaacspyFkAmFtnelkEsrqeevklkdidpkalerLiefaYtaeieveeknvqelLpaavllqlkevkeaCceFLek 122
+                                        ++++  Dv+L v+++k+ + r  La+ s +F++ F +++ E++++ev+l+did+  +++L+e  Y  e ++++++v  +L+ a ++ +    + C eFL +
+       gi|17534629|ref|NP_494155.1| 144 SKEKFSDVILAVGDQKFFVLRKFLASHSTFFESRFLGNFDEADKSEVTLRDIDSADFQNLLEVLYG-EPAIDDDTVDGILHLAHMYDIPLPIRKCEEFLIE 243
+                                        57899************************************************************6.568****************************975 PP
+
+>> gi|392889155|ref|NP_494006.2|  Protein BATH-47 [Caenorhabditis elegans]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   33.1   0.3   1.1e-10   2.6e-08      23     121 ..      12     106 ..       4     114 .. 0.91
+   2 !   15.2   0.0   3.1e-05    0.0074      13     121 ..     562     670 ..     555     693 .. 0.92
+
+  Alignments for each domain:
+  == domain 1  score: 33.1 bits;  conditional E-value: 1.1e-10
+  Keap1_cow_vs_nr_bpsi_gi_e10_c_0.6  23 skeLcDvvLkveakkikaHrvvLaacspyFkAmFtnelkEsrqeevklkdidpkalerLiefaYtaeieveeknvqelLpaavllqlkevkeaCceFLe 121
+                                         ++ +DvvL+v+++++++ r +L+    yF+++F ++   s+ +e  + d++p+ +++++e +  +e ++ e +vq++Lp a  +  k+v + C +FL 
+      gi|392889155|ref|NP_494006.2|  12 MEKYTDVVLVVKQERFYVSRAILSEHCTYFQSLFCGD---SNYQEHIISDVEPQDFQKFLEVVH-GEPAIFEATVQKILPLAQKFGSKTVLQKCERFLI 106
+                                        57889******************************96...55666679*************887.667899**************************96 PP
+
+  == domain 2  score: 15.2 bits;  conditional E-value: 3.1e-05
+  Keap1_cow_vs_nr_bpsi_gi_e10_c_0.6  13 alkvmnelrkskeLcDvvLkveakkikaHrvvLaacspyFkAmFtn.elkEsrqeevklkdidpkalerLiefaYtaeieveeknvqelLpaavllqlkevkeaCceFLe 121
+                                         +k+++++  +++  Dv+L v+ +++ + + +L + s  Fk + ++ +++ +  +e+kl d +++ +++++e +Y    ++++++v  +L+ a  +  + +++ C e+  
+      gi|392889155|ref|NP_494006.2| 562 KFKKLRNFDATGNSWDVMLIVAGQRFFVLKEILISNSARFKNIISKiNFTAAPSTEIKLPDSSADHFQNFLEACYGD-PSINDDTVHGILKIAQSYEAAGIVKRCEEYVI 670
+                                        578888888889999***************************99765999*************************65.69*************************99875 PP
+
+>> gi|17509289|ref|NP_492837.1|  Protein BATH-25 [Caenorhabditis elegans]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   49.4   0.3   1.3e-15   3.2e-13      23     122 ..     141     239 ..     125     244 .. 0.94
+
+  Alignments for each domain:
+  == domain 1  score: 49.4 bits;  conditional E-value: 1.3e-15
+  Keap1_cow_vs_nr_bpsi_gi_e10_c_0.6  23 skeLcDvvLkveakkikaHrvvLaacspyFkAmFtnelkEsrqeevklkdidpkalerLiefaYtaeieveeknvqelLpaavllqlkevkeaCceFLek 122
+                                         ke  Dv+L++e++k+++ ++ L+  s+yF+A+  +++ Es+ +e++lkd++++ ++ ++e    +e +++ +nv+++L+ a ++  ++  + C eFL++
+       gi|17509289|ref|NP_492837.1| 141 AKEFSDVILVAEKQKFYVSKLFLSFQSSYFHALLLGNFIESTSSEIELKDVNSTYFQYFLELLH-GESSITAENVEHILHLADMFDARTAIRRCEEFLNS 239
+                                        67899********************************************************987.5669*****************************86 PP
+
+>> gi|17537311|ref|NP_494523.1|  Protein BATH-10 [Caenorhabditis elegans]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   47.9   0.0   3.7e-15   8.9e-13      22     123 ..     144     247 ..     128     251 .. 0.88
+
+  Alignments for each domain:
+  == domain 1  score: 47.9 bits;  conditional E-value: 3.7e-15
+  Keap1_cow_vs_nr_bpsi_gi_e10_c_0.6  22 kskeLcDvvLkveakkikaHrvvLaacspyFkAmFtnelkE...srqeevklkdidpkalerLiefaYtaeieveeknvqelLpaavllqlkevkeaCceFLekq 123
+                                        +s+e  D+++ v+++k+++ + +La+ s  F+++   +++E   + ++e++l di+p+ ++ L+e  Y +  +++++nv+ +L++a ++++++v + C eFL+++
+       gi|17537311|ref|NP_494523.1| 144 SSEEYSDMIIAVGDRKFYVLKQLLASNSTHFQSLIPLDFEEmdcEGKSEITLPDINPSDFQCLLEVLYGE-PAMDDENVEGILHSAHMYKMTKVIRNCEEFLSNK 247
+                                        567899****************************99888872224689********************65.689****************************876 PP
+
+>> gi|71983455|ref|NP_509027.2|  Protein C15H9.2 [Caenorhabditis elegans]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   45.6   0.1   1.8e-14   4.4e-12      28     117 ..     126     219 ..     118     226 .. 0.90
+
+  Alignments for each domain:
+  == domain 1  score: 45.6 bits;  conditional E-value: 1.8e-14
+  Keap1_cow_vs_nr_bpsi_gi_e10_c_0.6  28 DvvLkveakkikaHrvvLaacspyFkAmFtnelkEsr..qeevklkdidpkalerLie..faYtaeieveeknvqelLpaavllqlkevkeaCc 117
+                                         vvLkve++++++H  vL+ +s+yFk +F + + Es+  ++ ++lk+i++ ++++L++  + Y +  +++  n+ elL+ + ++  k+v+  C 
+       gi|71983455|ref|NP_509027.2| 126 NVVLKVEDEEFHVHTFVLSMASQYFKVLFNGSFIESSdlTKPIELKGISSCSFRNLLNciYGYPSVFRITRGNIVELLELSHFFDCKNVTMFCE 219
+                                        79*********************************9833578***************9445567999**********************99985 PP
+
+>> gi|17534631|ref|NP_494156.1|  Protein BATH-1 [Caenorhabditis elegans]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   45.1   0.2   2.5e-14   6.1e-12      21     123 ..     140     241 ..     123     267 .. 0.92
+
+  Alignments for each domain:
+  == domain 1  score: 45.1 bits;  conditional E-value: 2.5e-14
+  Keap1_cow_vs_nr_bpsi_gi_e10_c_0.6  21 rkskeLcDvvLkveakkikaHrvvLaacspyFkAmFtnelkEsrqeevklkdidpkalerLiefaYtaeieveeknvqelLpaavllqlkevkeaCceFLekq 123
+                                        +++++  DvvL ve+kk+ + r  La+ s+yFk++  + ++E++++e+k + i++  +++++e  Y + + ++++ v+ +L+ a ++ +    + C eFL ++
+       gi|17534631|ref|NP_494156.1| 140 KSEEQFSDVVLAVEDKKFFVLRKFLASHSSYFKSLLLGTFAEADKSEIKHEAINSIDFQNFLEVLYGEPV-IDDDDVEGILHLAHMYDVPVAIRKCEEFLIEK 241
+                                        467899************************************************************8876.9****************************876 PP
+
+>> gi|32564720|ref|NP_871995.1|  Protein BTB-2 [Caenorhabditis elegans]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   44.7   0.1   3.5e-14   8.5e-12      17     115 ..     120     218 ..     107     237 .. 0.91
+
+  Alignments for each domain:
+  == domain 1  score: 44.7 bits;  conditional E-value: 3.5e-14
+  Keap1_cow_vs_nr_bpsi_gi_e10_c_0.6  17 mnelrkskeLcDvvLkveakkikaHrvvLaacspyFkAmFtnelkEsrqeevklkdidpkalerLiefaYtaeieveeknvqelLpaavllqlkevkea 115
+                                        ++el k +e  D vL+++ +k+++ + +L+  s+yF+A+F++++kE + +e+ + +++ + ++r++   Y +e  ++++n++++L+ a  +q+ +v+  
+       gi|32564720|ref|NP_871995.1| 120 LEELFKPSERNDAVLVIGGTKMHVNKALLSFHSEYFRALFSSNFKEGKLTEIPMYEVSYEDFSRMLAVLYGNEALLKDDNLEKMLELADQFQVPRVTAH 218
+                                        67888899999**********************************************************************************988654 PP
+
+>> gi|133901840|ref|NP_001076695.1|  Protein K08E4.7 [Caenorhabditis elegans]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   43.0   0.6   1.2e-13   2.8e-11      22     165 ..     158     302 ..     141     316 .. 0.85
+
+  Alignments for each domain:
+  == domain 1  score: 43.0 bits;  conditional E-value: 1.2e-13
+  Keap1_cow_vs_nr_bpsi_gi_e10_c_0.6  22 kskeLcDvvLkveakkikaHrvvLaacspyFkAmFtnelkEsrqeevklkdidpkalerLiefaYtaeieveeknvqelLpaavllqlkevkeaCceFLekqLdpsNclGirafAethsCteLlkaa.ekyie.qhFsevvkeeEf 165
+                                        ++    D vL ve+kki++ +  La+ s yF  +F +++kE++qe v++ +++ + + ++++f+   + +++ +++++++  a l+ ++ +   Cce +  + d+ N      +Ae+ + +eL++++ + + + q+F+e  k+e +
+   gi|133901840|ref|NP_001076695.1| 158 NHPDYFDGVLLVENKKIYVQKRYLATKSTYFWNIFFGDFKEKEQEAVEIPGVKYDDVIQFLNFIHHTDSQINIETIENMMVLADLFLIDCL-MCCCEKILIKADSVNLAKKLIWAERFALNELMDHClDGFKKmQDFVEFRKNEFY 302
+                                        555667889****************************************************************************988765.678888888899999999999999999999998873556542578887666544 PP
+
+>> gi|17558552|ref|NP_503398.1|  Protein C39F7.5 [Caenorhabditis elegans]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   41.9   0.7   2.4e-13   5.8e-11      98     232 ..     332     465 ..     325     495 .. 0.90
+
+  Alignments for each domain:
+  == domain 1  score: 41.9 bits;  conditional E-value: 2.4e-13
+  Keap1_cow_vs_nr_bpsi_gi_e10_c_0.6  98 qelLpaavllqlkevkeaCceFLekqLdpsNclGirafAethsCteLlkaaekyieqhFsevvkeeEfllLsaeqllelissdelnvrseeevfeavlkWvkydveeRrekleklleavrlpllspkfLkeqvek 232
+                                        ++l++ a ++ ++++++aC +   k+L   N++Gi ++  +++ + + ++a ++ie++F +++ +  f++L+ ++++e+ +s+ l+ ++e ++ +a+ +W ++   ++ e+ e  l a  ++++s++ Lk++ ++
+       gi|17558552|ref|NP_503398.1| 332 LQLIEIARFFEVEQLVQACEDVVVKNLSCDNVVGILQWGRANNSKYISTHAFRFIERDFLKIAASSCFFELTSNEMTEITQSQFLQ-TTELDLLDACCRWGEHALLKKMEDREPNLVADTCHSISRRGLKKSEKS 465
+                                        689999************************************************************************99999998.5799************99999998888888888999998888876555 PP
+
+>> gi|32564764|ref|NP_494512.2|  Protein BATH-30 [Caenorhabditis elegans]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   41.5   0.0   3.3e-13   7.9e-11      16     122 ..     146     251 ..     140     256 .. 0.95
+
+  Alignments for each domain:
+  == domain 1  score: 41.5 bits;  conditional E-value: 3.3e-13
+  Keap1_cow_vs_nr_bpsi_gi_e10_c_0.6  16 vmnelrkskeLcDvvLkveakkikaHrvvLaacspyFkAmFtnelkEsrqeevklkdidpkalerLiefaYtaeieveeknvqelLpaavllqlkevkeaCceFLek 122
+                                         mn   k+ke  D+v+ v+ ++++  +  La  s +F+++F +++ E++ +ev l did + +++++e  Y   + +++++v+ +L  a ++q   v e C +FL +
+       gi|32564764|ref|NP_494512.2| 146 LMNFDEKKKEYSDIVVLVDGQRFYLLKKFLAFHSTFFESLFLGGFYEAKLTEVPLYDIDVDDFQKFLEVLYGFPV-INDNTVEGILLLADMYQTPLVSELCEDFLIQ 251
+                                        677778999**************************************************************9886.89***************************86 PP
+
+>> gi|32564768|ref|NP_494499.2|  Protein BTB-16 [Caenorhabditis elegans]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   40.0   0.1   9.2e-13   2.2e-10      20     115 ..     139     234 ..     132     267 .. 0.88
+
+  Alignments for each domain:
+  == domain 1  score: 40.0 bits;  conditional E-value: 9.2e-13
+  Keap1_cow_vs_nr_bpsi_gi_e10_c_0.6  20 lrkskeLcDvvLkveakkikaHrvvLaacspyFkAmFtnelkEsrqeevklkdidpkalerLiefaYtaeieveeknvqelLpaavllqlkevkea 115
+                                        +   +e  D  L+++++k+++ +  L+  s+yF+A+F++++kE +q+e++lkd+  + +  L++ +Y +++   +++v+++L  a  + +++  + 
+       gi|32564768|ref|NP_494499.2| 139 MFLPSEKNDAFLVIGERKLHVNKAFLSYHSDYFQALFSSNFKEDKQDEIELKDVVYEDFGLLMSTIYPKTVFPCDRTVEKILAMADRFIVQSAIDH 234
+                                        55556667999**************************************************************************99888776655 PP
+
+>> gi|17561098|ref|NP_504062.1|  Protein BTB-21 [Caenorhabditis elegans]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   40.2   0.0     8e-13   1.9e-10      27     111 ..       8      92 ..       3     161 .. 0.85
+
+  Alignments for each domain:
+  == domain 1  score: 40.2 bits;  conditional E-value: 8e-13
+  Keap1_cow_vs_nr_bpsi_gi_e10_c_0.6  27 cDvvLkveakkikaHrvvLaacspyFkAmFtnelkEsrqeevklkdidpkalerLiefaYtaeieveeknvqelLpaavllqlke 111
+                                        +D +L++++k +++ +  L+  s yF A+F+++ kE +++e++lkd++ + ++ L+  +Y ++i  ++k+v ++L  a  + l +
+       gi|17561098|ref|NP_504062.1|   8 TDAILVIGDKMLNVNKAFLSFHSTYFSALFSSNYKEGQMSEIELKDVSYENFALLLGTIYPNTIFPNDKTVYKILDMADRFILPS 92 
+                                        799*************************************************************************998887765 PP
+
+>> gi|115532530|ref|NP_001040780.1|  Protein MATH-29, isoform a [Caenorhabditis elegans]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   39.5   0.1   1.3e-12     3e-10      22      90 ..      71     139 ..      52     146 .. 0.89
+
+  Alignments for each domain:
+  == domain 1  score: 39.5 bits;  conditional E-value: 1.3e-12
+  Keap1_cow_vs_nr_bpsi_gi_e10_c_0.6  22 kskeLcDvvLkveakkikaHrvvLaacspyFkAmFtnelkEsrqeevklkdidpkalerLiefaYtaei 90 
+                                        + ke  DvvL+v++ k+++ +  Laa s+yFkA+  ++++E +  ev+l+ idp+ +++++e  Y  + 
+   gi|115532530|ref|NP_001040780.1|  71 SMKEFSDVVLVVKDVKFYVLKTYLAAQSNYFKALLLGDFEEGKSLEVTLNSIDPNDFQNFLEVLYGHHQ 139
+                                        45789*********************************************************9998764 PP
+
+>> gi|17563018|ref|NP_503363.1|  Protein R09A1.2 [Caenorhabditis elegans]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   38.3   0.1     3e-12   7.2e-10      20     121 ..      75     173 ..      58     190 .. 0.84
+
+  Alignments for each domain:
+  == domain 1  score: 38.3 bits;  conditional E-value: 3e-12
+  Keap1_cow_vs_nr_bpsi_gi_e10_c_0.6  20 lrkskeLcDvvLkveakkikaHrvvLaacspyFkAmFtnelkEsrqeevklkdidpkalerLiefaYtaeieveeknvqelLpaavllqlkevkeaCceFLe 121
+                                        +   +eLcDv+L+ ++++i+aH v+Laa sp F+  F +    ++   ++++ +d+++++r+++++Y ++++ +  ++ e L+a + + + +++e   + L 
+       gi|17563018|ref|NP_503363.1|  75 YSGARELCDVTLRFDDESIPAHWVMLAAYSPAFAEKFRK---PNKCFVLEMQPLDKTSVKRVLDYIYFGKVTFRLATLHEDLKAISYFEIVTLQEDVEKRLV 173
+                                        556799***************************999986...5777889***********************************999999988887666665 PP
+
+>> gi|71986470|ref|NP_001022085.1|  Protein BATH-29, isoform a [Caenorhabditis elegans]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   37.6   0.0   4.9e-12   1.2e-09      22     122 ..     152     251 ..     142     256 .. 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 37.6 bits;  conditional E-value: 4.9e-12
+  Keap1_cow_vs_nr_bpsi_gi_e10_c_0.6  22 kskeLcDvvLkveakkikaHrvvLaacspyFkAmFtnelkEsrqeevklkdidpkalerLiefaYtaeieveeknvqelLpaavllqlkevkeaCceFLek 122
+                                        k  e  D+v+ v+ ++++  +  La  s +F+++F +++ E++  ev l did + +++++e  Y   + +++++v+ +L  a ++q   v e C +FL +
+    gi|71986470|ref|NP_001022085.1| 152 KMMEYSDIVVLVNGQRFYLLKKFLAFHSTFFESLFLGGFYEAKLAEVPLYDIDVDDFQKFLEVLYGFPV-INDNTVEGILLLADMYQTPLVSELCEDFLIQ 251
+                                        556789***********************************************************9886.89***************************86 PP
+
+>> gi|32564770|ref|NP_872000.1|  Protein BTB-17 [Caenorhabditis elegans]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   37.5   0.1   5.2e-12   1.3e-09      17     114 ..     153     250 ..     145     296 .. 0.87
+
+  Alignments for each domain:
+  == domain 1  score: 37.5 bits;  conditional E-value: 5.2e-12
+  Keap1_cow_vs_nr_bpsi_gi_e10_c_0.6  17 mnelrkskeLcDvvLkveakkikaHrvvLaacspyFkAmFtnelkEsrqeevklkdidpkalerLiefaYtaeieveeknvqelLpaavllqlkevke 114
+                                        ++e+  s++  D vL+++++k+++ +  L+  s+yF+A+F++++kE +q+e++lkd+  + +  L++ +Y ++   ++++ +++L+ a  + +++  +
+       gi|32564770|ref|NP_872000.1| 153 FDEMFLSSKKNDAVLVIGERKLHVNKAFLSYHSDYFRALFSSNFKEDKQDEIELKDVVYEDFGLLMTTIYPKTEFPSDRTAEKILEMADRFMVQSAID 250
+                                        56788888889***********************************************************9998888999999999988887777665 PP
+
+>> gi|17540026|ref|NP_501703.1|  Protein F27C8.5 [Caenorhabditis elegans]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   37.3   0.3   6.2e-12   1.5e-09       8     206 ..      14     211 ..       8     250 .. 0.75
+
+  Alignments for each domain:
+  == domain 1  score: 37.3 bits;  conditional E-value: 6.2e-12
+  Keap1_cow_vs_nr_bpsi_gi_e10_c_0.6   8 khakealkvmnelrkskeL..cDvvLkveakkikaHrvvLaacspyFkAmFtnelkEsrqeevklkdidpkalerLiefaYtaeieveeknvqelLpaavllqlkevkeaC.ceFLekqLdpsNclGiraf.AethsCteLlkaaekyieqhFsevvkeeEfllLsaeqllelissdelnvrseeevfeavlkWvkydveeRr 206
+                                        +h +++ k+++  r+ +    cDv ++ ++   ++H vv+ a s++F   F n  + +  +  ++ d dp++++r+ +++Y++ei + e+++  +L  a+ l+++ +++    + L+++  p  +l i++  A +++ + + +  + ++e+     +  +E  +L+a+ ++++++   l +++   + +  ++W+  ++ eR+
+       gi|17540026|ref|NP_501703.1|  14 QHFERIAKILQAKRRAGDFstCDVKIQLKTGFDMVHSVVICAHSDVFSETFDN--QRAPYQPFNMTDFDPDSVRRVFDWMYSGEIDIPETTIADVLAVASYLRVTMLQRQIeQKILNHNGSPIMALNIASArAFSVMDHTMNDLVHGFTEKM--TGLGIDEVAKLTANSMIAVMA-AVLPMKKKVPLVNMFISWIVCKQPERE 211
+                                        788888889988888876444*********999******************99..56778899******************************************99876525678888888888777642122222233333344444432..223457777777777777654.467777777777777777777777665 PP
+
+>> gi|17534069|ref|NP_494053.1|  Protein BTB-7 [Caenorhabditis elegans]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   37.2   0.1   6.5e-12   1.6e-09      19     116 ..     127     224 ..     120     257 .. 0.91
+
+  Alignments for each domain:
+  == domain 1  score: 37.2 bits;  conditional E-value: 6.5e-12
+  Keap1_cow_vs_nr_bpsi_gi_e10_c_0.6  19 elrkskeLcDvvLkveakkikaHrvvLaacspyFkAmFtnelkEsrqeevklkdidpkalerLiefaYtaeieveeknvqelLpaavllqlkevkeaC 116
+                                        e+   ++ +D +L ++ +k+++ +  L+  s++F+ +F+   +Es+  e+ ++d++++ +  L++ +Y   +  ++k+  +lL+ a+ +q++ v+   
+       gi|17534069|ref|NP_494053.1| 127 EMFMPSQKTDAILMIGGEKLHVNKAFLSFHSDFFHELFSASSTESEIPEIPIRDVSAEDMGLLLSTIYPDLVFPTDKTAAKLLTLANRFQMRAVTAQV 224
+                                        566667889************************************************************************************98765 PP
+
+>> gi|17534461|ref|NP_497016.1|  Protein BTB-20 [Caenorhabditis elegans]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   37.0   0.0   7.6e-12   1.8e-09      27     115 ..     142     230 ..     119     243 .. 0.92
+
+  Alignments for each domain:
+  == domain 1  score: 37.0 bits;  conditional E-value: 7.6e-12
+  Keap1_cow_vs_nr_bpsi_gi_e10_c_0.6  27 cDvvLkveakkikaHrvvLaacspyFkAmFtnelkEsrqeevklkdidpkalerLiefaYtaeieveeknvqelLpaavllqlkevkea 115
+                                         D +L++++kk+++ +  L+  s++F+A+F++ +kE +++e+ +kd++ k ++ +++ +Y   +  ++++v++lL+    + +++v + 
+       gi|17534461|ref|NP_497016.1| 142 NDAILVIGNKKLHVCKAFLSYHSSFFRAIFSSAFKEGQMSEIPIKDVTYKDFALMLSTIYPDAVFPNDRTVEKLLEMGDRFIIQSVINH 230
+                                        699*************************************************************************9999999999875 PP
+
+>> gi|71999362|ref|NP_001023539.1|  Protein Y59E9AL.8 [Caenorhabditis elegans]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   35.5   1.5   2.2e-11   5.2e-09      21     123 ..     144     246 ..     129     287 .. 0.84
+
+  Alignments for each domain:
+  == domain 1  score: 35.5 bits;  conditional E-value: 2.2e-11
+  Keap1_cow_vs_nr_bpsi_gi_e10_c_0.6  21 rkskeLcDvvLkveakkikaHrvvLaacspyFkAmFtnelkEsrqeevklkdidpkalerLiefaYtaeieveeknvqelLpaavllqlkevkeaCceFLekq 123
+                                          +++  D +L ve+kki++ + +++ +s +F+ +F  ++kE++++ v++ +++ + +  +++f+     ++e   +++++  a l+  + v + C eFL k 
+    gi|71999362|ref|NP_001023539.1| 144 TDHHRYFDGILLVENKKIHVNKKIMSMSSTFFENIFFCNFKEKEAKFVEIPGVSYDEFMIFLDFIHPTGRQIESGFLENMMVLADLFMTDCVMNSCEEFLIKT 246
+                                        5677778999******************************************************************************************863 PP
+
+>> gi|17535623|ref|NP_494192.1|  Protein SDZ-28 [Caenorhabditis elegans]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   34.4   0.0   4.5e-11   1.1e-08      22     123 ..     144     241 ..     128     246 .. 0.90
+
+  Alignments for each domain:
+  == domain 1  score: 34.4 bits;  conditional E-value: 4.5e-11
+  Keap1_cow_vs_nr_bpsi_gi_e10_c_0.6  22 kskeLcDvvLkveakkikaHrvvLaacspyFkAmFtnelkEsrqeevklkdidpkalerLiefaYtaeieveeknvqelLpaavllqlkevkeaCceFLekq 123
+                                        + +e  DvvL+v+ kk+++ +  La+ s yF+A+  +     +++ev+++d ++  +++L+e  Y  e +++e+++  +L+ a  + +    + C eFL ++
+       gi|17535623|ref|NP_494192.1| 144 SAEEFSDVVLEVGGKKFYVLKKFLASHSTYFNALLLG---KPEMSEVTIQDTSSVDFQNLLEVLYG-EPAIDEDTIDGILTLAHKFTMPLPIQKCEEFLIEK 241
+                                        56789*****************************966...6899*********************6.568*****************************876 PP
+
+>> gi|17534053|ref|NP_494059.1|  Protein BTB-9 [Caenorhabditis elegans]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   34.1   0.1   5.6e-11   1.4e-08      27     177 ..     133     283 ..     117     288 .. 0.87
+
+  Alignments for each domain:
+  == domain 1  score: 34.1 bits;  conditional E-value: 5.6e-11
+  Keap1_cow_vs_nr_bpsi_gi_e10_c_0.6  27 cDvvLkveakkikaHrvvLaacspyFkAmFtnelkEsrqeevklkdidpkalerLiefaYtae.ieveeknvqelLpaavllqlkevkeaCceFLekqLdpsNclGiraf...AethsCteLlkaaekyi..eqhFsevvkeeEfllLsaeqlleli 177
+                                         D vL+ve+kk+++ +  L+  s++F  +F+    E++ + + +++++   +  Li+ +   + +  ++++v +lL+ a  + ++ v +   + L   L++s  +Gir+    A++ + +eL++++ + i  +++ ++++++ Ef +Lsae  ++l+
+       gi|17534053|ref|NP_494059.1| 133 HDGVLVVEKKKLNVSKAFLSYHSDFFSDLFSR---EAHSKDIPIEGVTYFEFGLLISCIHPDHtVFPNDETVSKLLSLADRFSMRAVYRMVEHHL---LHSSSNMGIREViktADQYGMKELMEKSISRItsTEKVMDLIQSAEFPELSAETKAKLM 283
+                                        6889**************************96...999*********************98761556899*******************998877...899999***9754449*********9876655126799*************99888876 PP
+
+>> gi|17534463|ref|NP_497015.1|  Protein BTB-19 [Caenorhabditis elegans]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   34.1   0.0   5.5e-11   1.3e-08      24     115 ..     138     229 ..     115     258 .. 0.90
+
+  Alignments for each domain:
+  == domain 1  score: 34.1 bits;  conditional E-value: 5.5e-11
+  Keap1_cow_vs_nr_bpsi_gi_e10_c_0.6  24 keLcDvvLkveakkikaHrvvLaacspyFkAmFtnelkEsrqeevklkdidpkalerLiefaYtaeieveeknvqelLpaavllqlkevkea 115
+                                        ++  D +L++++kk+++ +  L+  s++F+A+F++ +kE +++e+ +kd++ k ++ +++ +Y   +  ++++ ++lL+    + +++v + 
+       gi|17534463|ref|NP_497015.1| 138 SHENDAILVIGKKKLHVCKAFLSYHSSFFRAIFSSTFKEGQMSEIPIKDVTYKDFALMLSTIYPDAVFPNDRTAEKLLEMGDRFIIQSVINH 229
+                                        555799*************************************************************************9999999999875 PP
+
+>> gi|17556180|ref|NP_497580.1|  Protein Y54F10AM.11 [Caenorhabditis elegans]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   34.1   0.1   5.6e-11   1.3e-08      23     121 ..      10     104 ..       1     132 [. 0.91
+
+  Alignments for each domain:
+  == domain 1  score: 34.1 bits;  conditional E-value: 5.6e-11
+  Keap1_cow_vs_nr_bpsi_gi_e10_c_0.6  23 skeLcDvvLkveakkikaHrvvLaacspyFkAmFtnelkEsrqeevklkdidpkalerLiefaYtaeieveeknvqelLpaavllqlkevkeaCceFLe 121
+                                        ++   D +++ve++k+++ +  La+ s +F+++F++        e++++d++++ + +++ef+Y ++ +++ +nv++lL+ +  + ++ v   C ++L+
+       gi|17556180|ref|NP_497580.1|  10 KELVFDAIVVVEERKFHVGKQYLATHSRVFQSLFAT----PGDPEITIQDVSSEDFLKFLEFMYHNTDQITAQNVESLLTVSARFGVDFVMARCENWLS 104
+                                        4566799***************************98....7899**************************************************99985 PP
+
+>> gi|86561685|ref|NP_001033321.1|  Protein BATH-20, isoform a [Caenorhabditis elegans]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   33.7   0.2   7.4e-11   1.8e-08      22     123 ..     149     245 ..     131     267 .. 0.91
+
+  Alignments for each domain:
+  == domain 1  score: 33.7 bits;  conditional E-value: 7.4e-11
+  Keap1_cow_vs_nr_bpsi_gi_e10_c_0.6  22 kskeLcDvvLkveakkikaHrvvLaacspyFkAmFtnelkEsrqeevklkdidpkalerLiefaYtaeieveeknvqelLpaavllqlkevkeaCceFLekq 123
+                                        + k+  Dvv+ v+ +k+++ r +La  s yF  +      +s++++v++ di+++ +++L+e  Y ++ +++++nv  lL+ a    +    + C eFL+++
+    gi|86561685|ref|NP_001033321.1| 149 SMKQFSDVVIDVKGTKFYVLRKLLAFHSTYFYTLL----GDSTESKVTISDINADDFQTLLEVLYGES-AINDSNVDGLLQFALKHEILLAIQKCIEFLSEK 245
+                                        56899**************************9885....568999********************766.89****************************876 PP
+
+>> gi|17534635|ref|NP_494158.1|  Protein BATH-5 [Caenorhabditis elegans]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   32.5   0.0   1.7e-10   4.2e-08      22     121 ..     143     242 ..     128     246 .. 0.89
+   2 ?   -1.4   0.0       3.1   7.5e+02      90     117 ..     242     269 ..     242     274 .. 0.89
+
+  Alignments for each domain:
+  == domain 1  score: 32.5 bits;  conditional E-value: 1.7e-10
+  Keap1_cow_vs_nr_bpsi_gi_e10_c_0.6  22 kskeLcDvvLkveakkikaHrvvLaacspyFkAmFtnelkE.srqeevklkdidpkalerLiefaYtaeieveeknvqelLpaavllqlkevkeaCceFLe 121
+                                        +++e  Dv+L+ve++k+++ +  La+ s+ Fk +F  + +E ++++e +l+di++  +++L+e    +e +++e++vq +   a  + +   ++ C eFL 
+       gi|17534635|ref|NP_494158.1| 143 SNEEFSDVILTVEDEKFYVLKQFLASHSSHFKTLFLRKCEEeAEKSEYTLQDINSIDFQNLLEVL-HGEPAIDEETVQGIRDLADKYDMPFPTRKCEEFLI 242
+                                        57899********************************9986157899****************76.57789******************999999999995 PP
+
+  == domain 2  score: -1.4 bits;  conditional E-value: 3.1
+  Keap1_cow_vs_nr_bpsi_gi_e10_c_0.6  90 ieveeknvqelLpaavllqlkevkeaCc 117
+                                        i ++ek+++e L+ a  +ql+++k  C 
+       gi|17534635|ref|NP_494158.1| 242 IDLSEKSIKEKLKIAKQFQLEKLKMHCL 269
+                                        678999*****************99995 PP
+
+>> gi|86561687|ref|NP_001033322.1|  Protein BATH-20, isoform b [Caenorhabditis elegans]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   33.2   0.6   1.1e-10   2.6e-08      22     123 ..     149     245 ..     131     300 .. 0.91
+
+  Alignments for each domain:
+  == domain 1  score: 33.2 bits;  conditional E-value: 1.1e-10
+  Keap1_cow_vs_nr_bpsi_gi_e10_c_0.6  22 kskeLcDvvLkveakkikaHrvvLaacspyFkAmFtnelkEsrqeevklkdidpkalerLiefaYtaeieveeknvqelLpaavllqlkevkeaCceFLekq 123
+                                        + k+  Dvv+ v+ +k+++ r +La  s yF  +      +s++++v++ di+++ +++L+e  Y ++ +++++nv  lL+ a    +    + C eFL+++
+    gi|86561687|ref|NP_001033322.1| 149 SMKQFSDVVIDVKGTKFYVLRKLLAFHSTYFYTLL----GDSTESKVTISDINADDFQTLLEVLYGES-AINDSNVDGLLQFALKHEILLAIQKCIEFLSEK 245
+                                        56899**************************9885....568999********************766.89****************************976 PP
+
+>> gi|32565311|ref|NP_493418.2|  Protein W09G3.1, isoform a [Caenorhabditis elegans]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    3.0   0.0      0.14        35     452     540 ..      51     146 ..       2     154 .. 0.58
+   2 !   30.4   0.0   7.4e-10   1.8e-07     375     533 ..     122     290 ..     120     294 .. 0.75
+
+  Alignments for each domain:
+  == domain 1  score: 3.0 bits;  conditional E-value: 0.14
+  Keap1_cow_vs_nr_bpsi_gi_e10_c_0.6 452 trrsgaGvavlnnllYavGGydgts.qlssvErYdpet......dtWeavasmkirRsavgvavlkgklyavggydgssflksvEvydpetdkWee 540
+                                        +rrs a   + n+ + ++GG  + + + +s+E+ ++++         +   ++  + s  +  +++++  ++gg++++s l+ v v + +   W+ 
+       gi|32565311|ref|NP_493418.2|  51 ARRSPACFLAGNQRILVAGGCSAPNeHTDSMEMLEISEigeirsIFLDEKLEIGASCSGFDWDTHSSEKPIFGGFEAHSCLDDVQVLNNSGTMWKC 146
+                                        466777777778888888888776535567776665432100002333344555556666667777777778888888888888888888877764 PP
+
+  == domain 2  score: 30.4 bits;  conditional E-value: 7.4e-10
+  Keap1_cow_vs_nr_bpsi_gi_e10_c_0.6 375 vGGsdgvsslnsverYdpeedkWtl..vasmstr.RlgvgvavlngllYavGGfdgssr.lnsverydpeen..eWt..avapmstrrsgaGvavlnnllYavGGydgtsqlssvErYdpetdtWeav.asmkirRsavgvavlkg.klyavggydgssflksvEvydp 533
+                                         GG+++ s+l+ v++ + +   W+   +a+ s + + +  + v ng     GG++ ++r  +++ r + +e+   ++      +s    g+ +  +++ ++ +GG+dg+  l+s+ +Yd +t + e++ ++++ +R+++  +vl + +l + gg ++++ l+ vEv++ 
+       gi|32565311|ref|NP_493418.2| 122 FGGFEAHSCLDDVQVLNNSGTMWKCrkLAKKSPKiKNSTILEVKNGEFLMFGGWEDEQRtSKAIRRITFNEDftDYScdFAGFLSYPVEGHTCIQIDSSVFLIGGFDGCFVLDSIIKYDLKTGKSEVLdTKLRGKRENHVACVLGDtWLVVAGGWNSRQALDDVEVFEI 290
+                                        59999999999999999999999751144444331455566788999999999987777245555544433311332113445778889999******************************9998874689999999999888542788899*************986 PP
+
+>> gi|193204679|ref|NP_494160.4|  Protein BATH-19 [Caenorhabditis elegans]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    6.8   0.0     0.011       2.6      29     123 ..     154     243 ..     127     250 .. 0.82
+   2 !   14.1   0.3   6.4e-05     0.016      65     121 ..     275     330 ..     267     331 .. 0.93
+   3 !   11.6   0.3   0.00037     0.089      90     124 ..     330     364 ..     329     369 .. 0.90
+
+  Alignments for each domain:
+  == domain 1  score: 6.8 bits;  conditional E-value: 0.011
+  Keap1_cow_vs_nr_bpsi_gi_e10_c_0.6  29 vvLkveakkikaHrvvLaacspyFkAmFtnelkEsrqeevklkdidpkalerLiefaYtaeieveeknvqelLpaavllqlkevkeaCceFLekq 123
+                                        v ++   +++++ r vL++ s yF       lk+   ++vkl + d + +++L+e    +  +++e++v  +L+ a+ +++    + C eFL+++
+      gi|193204679|ref|NP_494160.4| 154 VLIETYWAEYYVMREVLTTQSAYFMD----LLKDPGISKVKLDGDDLTEFQNLLEVLH-GMPAIDENTVVGILHLATDYKMPLPIQKCEEFLTNK 243
+                                        45555556777778888888888765....58999********************765.6779*****************************876 PP
+
+  == domain 2  score: 14.1 bits;  conditional E-value: 6.4e-05
+  Keap1_cow_vs_nr_bpsi_gi_e10_c_0.6  65 qeevklkdidpkalerLiefaYtaeieveeknvqelLpaavllqlkevkeaCceFLe 121
+                                         ++v+l++i++  +++L+e +Y +   ve+++   +L  a  l +k +++ C +FL 
+      gi|193204679|ref|NP_494160.4| 275 DRHVTLQNISAADFQNLLEVIYGE-SDVEDHTAHAILYLAHKLEMKLIVQKCVDFLL 330
+                                        679*******************76.59****************************96 PP
+
+  == domain 3  score: 11.6 bits;  conditional E-value: 0.00037
+  Keap1_cow_vs_nr_bpsi_gi_e10_c_0.6  90 ieveeknvqelLpaavllqlkevkeaCceFLekqL 124
+                                        ++++e+++  +++ a+ lq++++++ C++FL+++ 
+      gi|193204679|ref|NP_494160.4| 330 LQISESTIHAVIHLACRLQIHRLHQKCANFLSEKS 364
+                                        5799***************************9875 PP
+
+>> gi|17553298|ref|NP_498473.1|  Protein BATH-41 [Caenorhabditis elegans]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   32.0   0.5   2.5e-10   5.9e-08      13     161 ..     218     373 ..     210     384 .. 0.84
+
+  Alignments for each domain:
+  == domain 1  score: 32.0 bits;  conditional E-value: 2.5e-10
+  Keap1_cow_vs_nr_bpsi_gi_e10_c_0.6  13 alkvmnelrkskeLcDvvLkvea.kkikaHrvvLaacspyFkAmFtn.elkEsrqeevklkdidpkalerLiefaYtae....ieveeknvqe.lLpaavllqlkevkeaCceFLekqLdpsNclGirafAethsCteLlkaaekyieqhFsevvk 161
+                                        a ++++e+ +++e  D +++++  +++++H  +Laa s+yFk +  n   kE   ++++  di++++l+ L++++Y++     +++ee+ ++e l++a   l ++++++  ++ + +++   N+l   ++A +    + +++   + ++h +e +k
+       gi|17553298|ref|NP_498473.1| 218 AHDAFTEFLSTGEFSDFIIVASCgREFPTHMCILAARSEYFKVLLRNhSTKEFMSKRLQFDDISARTLDVLLRHMYASAagrvVKLEEDQLTEdLISAMDRLMINSLRDEVARLIGSKVTVDNVLTRISMAAELRLDDTYDVLLDFFSNHKHECMK 373
+                                        556778888999999*999888669******************997625789999*********************9854444899999886527777779************************9999998888888888888888777777665 PP
+
+>> gi|17531625|ref|NP_494011.1|  Protein BTB-15 [Caenorhabditis elegans]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   31.2   0.0   4.3e-10     1e-07      28     115 ..      77     165 ..      69     178 .. 0.91
+
+  Alignments for each domain:
+  == domain 1  score: 31.2 bits;  conditional E-value: 4.3e-10
+  Keap1_cow_vs_nr_bpsi_gi_e10_c_0.6  28 DvvLkveakkikaHrvvLaacspyFkAmFtnelkEsrqeevklkdidpkalerLiefaYtaei.eveeknvqelLpaavllqlkevkea 115
+                                        D +L ve++++++ +  L+  s+yF A+F++++k+ + +e+ lkd++ + +  +++ +  +++  v++k+v++lL+ a  + +  v + 
+       gi|17531625|ref|NP_494011.1|  77 DAILLVEEQQLHVNKAFLSFHSDYFSALFSSNFKDGELDEIPLKDVTIEEFGLVLSTIHPETVlPVNDKTVEKLLELADRFIIPAVLRL 165
+                                        899*******************************************************9988736*************99988888765 PP
+
+>> gi|17553342|ref|NP_497172.1|  Protein BTB-1 [Caenorhabditis elegans]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   27.8   0.5   4.5e-09   1.1e-06      21     177 ..      62     219 ..      48     226 .. 0.88
+
+  Alignments for each domain:
+  == domain 1  score: 27.8 bits;  conditional E-value: 4.5e-09
+  Keap1_cow_vs_nr_bpsi_gi_e10_c_0.6  21 rkskeLcDvvLkveakkikaHrvvLaacspyFkAmFtnelkEsrqeevklkdidpkalerLiefaYtaeieveeknvqelLpaavllqlkevkeaCceFLekqLdpsNclGirafAethsCteLlkaaekyie..qhFsevvkeeEfllLsaeqlleli 177
+                                         +++e  D +L ve++k+++ +  L+  s++F+ +F  e +E++++e k+ d++++ +++++  +  ++   +++n ++lL+ a  + +  v++   + L k  +   +  i  +A++ + ++L+++a + ie  ++  +v +++ f ++s+e   +l+
+       gi|17553342|ref|NP_497172.1|  62 LTKSENSDAILLVEDTKLHVNKAFLSYHSEFFRGLFEFESEEKQKNEFKISDVSADDMKAFLAIIHPGNDFPTDSNAKKLLELADRFMVPFVTSSVENHLLKSTEIDHVTKIW-LADKFQLEKLMNHAISTIEttEKARQVRTSDLFTEMSTEVTQKLL 219
+                                        5566778***************************************************************************************9999999998888877774.899999999999998877522567788888888888877666665 PP
+
+>> gi|17554532|ref|NP_497854.1|  Protein R10E4.1 [Caenorhabditis elegans]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   27.0   0.1   7.7e-09   1.9e-06      30     124 ..     153     245 ..     150     250 .. 0.85
+
+  Alignments for each domain:
+  == domain 1  score: 27.0 bits;  conditional E-value: 7.7e-09
+  Keap1_cow_vs_nr_bpsi_gi_e10_c_0.6  30 vLkveakkikaHrvvLaacspyFkAmFtnelkEsrqeevklkdidpkalerLiefaYtaeieveeknvqelLpaavllqlkevkeaCceFLekqL 124
+                                         Lkve++ i++ +  L+ +sp+FkA+F +el E ++   ++k+   + + ++++ +Y  +  v++k++  lL+ a  +q + +++aC  F+  + 
+       gi|17554532|ref|NP_497854.1| 153 LLKVEDRLIRVNKRYLSMMSPFFKALFYGELGEDKE-IYEMKEKF-REIITFLRCIYPHRQPVTKKSLDYLLQLADRYQCQPIVDACEMFMCAHY 245
+                                        699*****************************9864.33454433.3344556779********************************9997765 PP
+
+>> gi|392889152|ref|NP_494004.2|  Protein BATH-46 [Caenorhabditis elegans]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   27.0   0.3   7.9e-09   1.9e-06      26     122 ..      17     112 ..       7     146 .. 0.85
+
+  Alignments for each domain:
+  == domain 1  score: 27.0 bits;  conditional E-value: 7.9e-09
+  Keap1_cow_vs_nr_bpsi_gi_e10_c_0.6  26 LcDvvLkveakkikaHrvvLaacspyFkAmFtnelkEsrqeevklkdidpkalerLiefaYtaeieveeknvqelLpaavllqlkevkeaCceFLek 122
+                                          DvvL+++++ +++ + +L   spyF+ + +n  +  ++    lk+++p  +++++e    +e ++ e ++ ++L  av +q  +v + C +FL +
+      gi|392889152|ref|NP_494004.2|  17 YSDVVLVASQEWFHVSKAILCDHSPYFRCLLSNFPRIDEKPVHLLKGVNPADFQKFLEVLH-GEPAIFECTIYQILLLAVKFQTYTVIKKCEKFLIH 112
+                                        68****************************999666666666668*************765.677999***************************76 PP
+
+>> gi|17539228|ref|NP_501279.1|  Protein HCF-1 [Caenorhabditis elegans]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   20.3   0.0   8.5e-07    0.0002     270     351 ..      47     130 ..      19     149 .. 0.74
+   2 ?    3.7   0.0     0.091        22     290     382 ..     307     359 ..     220     374 .. 0.62
+
+  Alignments for each domain:
+  == domain 1  score: 20.3 bits;  conditional E-value: 8.5e-07
+  Keap1_cow_vs_nr_bpsi_gi_e10_c_0.6 270 rraekvkevlyavgGyakkslssveaydpktnewkk...laslskrrsgvgvavlkgllYavGGrdgs.sdlntvevydpvtnqWs 351
+                                        +ra  +ke++ + gG ++  ++++ ay+++++ew+    + ++ ++ + +g+ +l++++Y  GG  +  ++ n  + y+ ++ +W+
+       gi|17539228|ref|NP_501279.1|  47 HRAVVLKELIVIFGGGNEGMIDELHAYNTQKREWTApqcCGDVPTPAAAFGAISLGNKIYRFGGMTEYgKYTN--DLYELQSTRWE 130
+                                        3455678999999999999999999999999999753336799999999999999999999999987644444..55555555554 PP
+
+  == domain 2  score: 3.7 bits;  conditional E-value: 0.091
+  Keap1_cow_vs_nr_bpsi_gi_e10_c_0.6 290 lssveaydpktnewkkla.......slskrrsgvgvavlkgllYavGGrdgssdlntvevydpvtnqWssvapmsvrRsrvgvavldgllYavGGsdgvs 382
+                                        +ss+ ++++++++w  l+       ++ + r+g  +a++++++Y+  Grdg                                                +
+       gi|17539228|ref|NP_501279.1| 307 TSSLGCWNITEDRWVPLHlycsdedTIPRGRAGHCAAAVGDRMYIWSGRDGY-----------------------------------------------R 359
+                                        3444444444455444321111111344445555555555555555555554...............................................3 PP
+
+>> gi|71980545|ref|NP_494162.2|  Protein BTB-3 [Caenorhabditis elegans]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   24.1   0.0   6.2e-08   1.5e-05      50     120 ..      12      82 ..       7     134 .. 0.87
+
+  Alignments for each domain:
+  == domain 1  score: 24.1 bits;  conditional E-value: 6.2e-08
+  Keap1_cow_vs_nr_bpsi_gi_e10_c_0.6  50 pyFkAmFtnelkEsrqeevklkdidpkalerLiefaYtaeieveeknvqelLpaavllqlkevkeaCceFL 120
+                                         +F+ +Ft+++kEs+++e+ +kd++ + +  +++ +Y  +i  ++++ ++lL+ a  + +  v+++  + L
+       gi|71980545|ref|NP_494162.2|  12 FFFRKLFTSKFKESKMTEIPIKDVSYEDFGLVMSTIYPDTIFPNDETAEKLLEMADRFLMPVVTNIVEHHL 82 
+                                        589****************************************************9999988887766655 PP
+
+>> gi|17535141|ref|NP_493890.1|  Protein BTB-11 [Caenorhabditis elegans]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   23.4   0.0     1e-07   2.4e-05      25     114 ..     138     225 ..     124     232 .. 0.91
+
+  Alignments for each domain:
+  == domain 1  score: 23.4 bits;  conditional E-value: 1e-07
+  Keap1_cow_vs_nr_bpsi_gi_e10_c_0.6  25 eLcDvvLkveakkikaHrvvLaacspyFkAmFtnelkEsrqeevklkdidpkalerLiefaYtaeieveeknvqelLpaavllqlkevke 114
+                                        +  D vL +++kk+++ +  L+  s+yF  +F++++ E+  + + +++++ + +  L++ +Y + +  +++n + lL+  + +++  v +
+       gi|17535141|ref|NP_493890.1| 138 RKHDAVLLIGEKKLHVNKAFLSYHSDYFSDLFAEKVDEK--NGIPIENVTYENFGLLMSVIYPEAVFSNHQNAEVLLELGNRFKIPAVMR 225
+                                        55699*******************************996..68***********************************999999988875 PP
+
+>> gi|392922220|ref|NP_001256679.1|  Protein F53E4.1, isoform c [Caenorhabditis elegans]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   22.8   0.1   1.5e-07   3.6e-05     313     381 ..      25      98 ..       2     110 .. 0.57
+
+  Alignments for each domain:
+  == domain 1  score: 22.8 bits;  conditional E-value: 1.5e-07
+  Keap1_cow_vs_nr_bpsi_gi_e10_c_0.6 313 rsgvgvavlkgllYavGGrdgs..sdlntvevydpvtnqWssvapms...vrRsrvgvavldgllYavGGsdgv 381
+                                        r   ++ v +g++Y+ GG+ g+   + n + ++dp+t  Ws ++      + R+r    v +g +Y  GG+   
+   gi|392922220|ref|NP_001256679.1|  25 RRSHSTWVYDGKMYMFGGYLGTinVHYNELYCFDPKTSMWSVISVRGtypSARRRHCSVVSNGKVYLFGGTMPL 98 
+                                        34444555666666666666664455556666666666666643322111445555555666666666666555 PP
+
+>> gi|32566588|ref|NP_872264.1|  Protein Y108F1.5 [Caenorhabditis elegans]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -2.6   0.0       7.5   1.8e+03     465     479 ..       7      21 ..       5      22 .. 0.43
+   2 !   21.3   0.0   4.1e-07    0.0001      45     122 ..     191     267 ..     189     272 .. 0.95
+
+  Alignments for each domain:
+  == domain 1  score: -2.6 bits;  conditional E-value: 7.5
+  Keap1_cow_vs_nr_bpsi_gi_e10_c_0.6 465 llYavGGydgtsqls 479
+                                        llYa+G  d+tsql+
+       gi|32566588|ref|NP_872264.1|   7 LLYALGAIDETSQLT 21 
+                                        344444444444443 PP
+
+  == domain 2  score: 21.3 bits;  conditional E-value: 4.1e-07
+  Keap1_cow_vs_nr_bpsi_gi_e10_c_0.6  45 LaacspyFkAmFtnelkEsrqeevklkdidpkalerLiefaYtaeieveeknvqelLpaavllqlkevkeaCceFLek 122
+                                        La  s +F+++  +++ E++  ev l did + +++++e  Y   + +++++v+ +L  a ++q   v e C +FL +
+       gi|32566588|ref|NP_872264.1| 191 LAFHSTFFESLSLGGFYEAKLAEVPLYDIDVDDFQKFLEVLYGFPV-INDNTVEGILLLADMYQTPLVSELCEDFLIE 267
+                                        78899*************************************9886.89**************************975 PP
+
+>> gi|17534863|ref|NP_493902.1|  Protein BTB-10 [Caenorhabditis elegans]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   21.8   0.0   3.1e-07   7.4e-05      20     114 ..     134     226 ..     121     235 .. 0.90
+
+  Alignments for each domain:
+  == domain 1  score: 21.8 bits;  conditional E-value: 3.1e-07
+  Keap1_cow_vs_nr_bpsi_gi_e10_c_0.6  20 lrkskeLcDvvLkveakkikaHrvvLaacspyFkAmFtnelkEsrqeevklkdidpkalerLiefaYtaeieveeknvqelLpaavllqlkevke 114
+                                        + + ++  D vL +++kk+++ +  L+  s+yF+ +F++++ E+  + + +++++ + +  L++ +Y +    +++n + lL+  + +++  v +
+       gi|17534863|ref|NP_493902.1| 134 MFEPSRKHDAVLLIGEKKLHVNKAFLSYHSDYFCDLFAEKFDEK--NGIPIENVTYENFGLLMSIIYPEAAFSNHQNAEVLLELGNRFKIPAVMR 226
+                                        5555556799*******************************997..68**********************************9999999988865 PP
+
+>> gi|17534057|ref|NP_494057.1|  Protein BTB-8 [Caenorhabditis elegans]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   21.9   0.1   2.9e-07   6.9e-05       4     114 ..     114     221 ..     111     273 .. 0.90
+
+  Alignments for each domain:
+  == domain 1  score: 21.9 bits;  conditional E-value: 2.9e-07
+  Keap1_cow_vs_nr_bpsi_gi_e10_c_0.6   4 ytsekhakealkvm.nelrkskeLcDvvLkveakkikaHrvvLaacspyFkAmFtnelkEsrqeevklkdidpkalerLiefaYtaeieveeknvqelLpaavllqlkevke 114
+                                        y+++ h ++ l+ + +++ + +e  D vL v++kk+++ +  L++ s yF+++F++    +  + + +++++ + +  L++ +Y + +  ++k+ + lL     +++  v +
+       gi|17534057|ref|NP_494057.1| 114 YSLTIHRSHCLHRLyEKMFSPSEQSDAVLLVGDKKLHVNKAFLSCHSTYFRSLFAK----QADTGILIEGVTYDEFGLLMSTIYPEMVLSTDKTAELLLRLGDRFKMPAVMH 221
+                                        66777888887766267999999*******************************98....78899***************************99999999888888887765 PP
+
+>> gi|17555490|ref|NP_497133.1|  Protein BTB-5 [Caenorhabditis elegans]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   21.4   0.0   3.9e-07   9.4e-05      45     115 ..     137     207 ..     134     219 .. 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 21.4 bits;  conditional E-value: 3.9e-07
+  Keap1_cow_vs_nr_bpsi_gi_e10_c_0.6  45 LaacspyFkAmFtnelkEsrqeevklkdidpkalerLiefaYtaeieveeknvqelLpaavllqlkevkea 115
+                                        L+  s+yF+ +F++++kE++ +e+ ++d++ + +  L++ +Y + i  ++++  +lL+ a  + +  v++ 
+       gi|17555490|ref|NP_497133.1| 137 LSFHSSYFRKLFSSNFKEAQLTEIPIRDVSYEDFCLLLSTIYPNMIFPNDETADKLLELADRFLMPAVTNM 207
+                                        67789*******************************************************99999888765 PP
+
+>> gi|71986461|ref|NP_001022084.1|  Protein F14D2.15 [Caenorhabditis elegans]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   20.6   0.1   6.9e-07   0.00017      24     123 ..     143     238 ..     140     265 .. 0.91
+
+  Alignments for each domain:
+  == domain 1  score: 20.6 bits;  conditional E-value: 6.9e-07
+  Keap1_cow_vs_nr_bpsi_gi_e10_c_0.6  24 keLcDvvLkveakkikaHrvvLaacspyFkAmFtnelkEsr.qeevklkdidpkalerLiefaYtaeieveeknvqelLpaavllqlkevkeaCceFLekq 123
+                                        ++ +D vL v+ +++++ +  La  spyFk +    lkE++  +e++l d+d++ +++ +e  Y  + +++++ v+ +L    ++  +++  aC +FL ++
+    gi|71986461|ref|NP_001022084.1| 143 RRFADTVLIVRGQRFYVLKQHLALHSPYFKNL----LKECTlDSEIQLPDVDTDDFQKYLEILYGFS-TIHDNFVEGILLLGKFFETERIITACENFLIDK 238
+                                        5679************************9966....788872579*******************876.799***************************765 PP
+
+>> gi|17533183|ref|NP_494518.1|  Protein BATH-27 [Caenorhabditis elegans]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   20.6   0.1   6.9e-07   0.00017      24     123 ..     143     238 ..     140     265 .. 0.91
+
+  Alignments for each domain:
+  == domain 1  score: 20.6 bits;  conditional E-value: 6.9e-07
+  Keap1_cow_vs_nr_bpsi_gi_e10_c_0.6  24 keLcDvvLkveakkikaHrvvLaacspyFkAmFtnelkEsr.qeevklkdidpkalerLiefaYtaeieveeknvqelLpaavllqlkevkeaCceFLekq 123
+                                        ++ +D vL v+ +++++ +  La  spyFk +    lkE++  +e++l d+d++ +++ +e  Y  + +++++ v+ +L    ++  +++  aC +FL ++
+       gi|17533183|ref|NP_494518.1| 143 RRFADTVLIVRGQRFYVLKQHLALHSPYFKNL----LKECTlDSEIQLPDVDTDDFQKYLEILYGFS-TIHDNFVEGILLLGKFFETERIITACENFLIDK 238
+                                        5679************************9966....788872579*******************876.799***************************765 PP
+
+>> gi|71986475|ref|NP_001022086.1|  Protein BATH-29, isoform b [Caenorhabditis elegans]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   20.0   0.1   1.1e-06   0.00026      22      90 ..     152     220 ..     142     250 .. 0.81
+
+  Alignments for each domain:
+  == domain 1  score: 20.0 bits;  conditional E-value: 1.1e-06
+  Keap1_cow_vs_nr_bpsi_gi_e10_c_0.6  22 kskeLcDvvLkveakkikaHrvvLaacspyFkAmFtnelkEsrqeevklkdidpkalerLiefaYtaei 90 
+                                        k  e  D+v+ v+ ++++  +  La  s +F+++F +++ E++  ev l did + +++++e  Y   +
+    gi|71986475|ref|NP_001022086.1| 152 KMMEYSDIVVLVNGQRFYLLKKFLAFHSTFFESLFLGGFYEAKLAEVPLYDIDVDDFQKFLEVLYGFPV 220
+                                        556789*******************************************************99997554 PP
+
+>> gi|17534059|ref|NP_494054.1|  Protein BTB-6 [Caenorhabditis elegans]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   19.3   0.0   1.7e-06   0.00041      27     128 ..     163     260 ..     141     290 .. 0.85
+
+  Alignments for each domain:
+  == domain 1  score: 19.3 bits;  conditional E-value: 1.7e-06
+  Keap1_cow_vs_nr_bpsi_gi_e10_c_0.6  27 cDvvLkveakkikaHrvvLaacspyFkAmFtnelkEsrqeevklkdidpkalerLiefaYtaeieveeknvqelLpaavllqlkevkeaCceFLekqLdpsN 128
+                                         D vL +++kk+++ +  L+  s+yF  +F+++++E    e++l+d++ + +  L++ +  ++  v+++n ++lL+  + ++++ v +   +  ++  + sN
+       gi|17534059|ref|NP_494054.1| 163 HDAVLLIGEKKLHVSKAFLSYHSDYFSDLFADKINE----EIRLEDVSYEDFGLLMSIIHPETGFVNDQNAEKLLHLGNRFKISCVIHQVEHHFTRGTNFSN 260
+                                        699***************************998876....7******************************************9998877666666655555 PP
+
+>> gi|115534793|ref|NP_507803.2|  Protein Y43F8C.3 [Caenorhabditis elegans]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   17.7   0.0   5.4e-06    0.0013      25     114 ..     433     522 ..     418     539 .. 0.90
+
+  Alignments for each domain:
+  == domain 1  score: 17.7 bits;  conditional E-value: 5.4e-06
+  Keap1_cow_vs_nr_bpsi_gi_e10_c_0.6  25 eLcDvvLkveakkikaHrvvLaacspyFkAmFtnelkEsrqeevklkdidpkalerLiefaYtaeieveeknvqelLpaavllqlkevke 114
+                                         L+   L+ e + i++ r  La +s+yF  +F+++++E  +++v+l   +  +l+  ++  Y+ ++ +++  +  +L  a  +  k+v e
+      gi|115534793|ref|NP_507803.2| 433 GLTNCFLRCEGQLIEVNREFLAHSSQYFSGLFSKNFREGYERTVNLTYEHLPTLKLGLQVLYNRRLPLNDVEISRVLDFADRICAKSVME 522
+                                        58899999*********************************************************************9998777777765 PP
+
+>> gi|17538816|ref|NP_502427.1|  Protein C27D8.2 [Caenorhabditis elegans]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   18.1   3.7   3.8e-06   0.00093      64     223 ..      78     241 ..      62     283 .. 0.85
+   2 ?   -2.4   0.0       6.2   1.5e+03     171     197 ..     334     360 ..     316     436 .. 0.73
+
+  Alignments for each domain:
+  == domain 1  score: 18.1 bits;  conditional E-value: 3.8e-06
+  Keap1_cow_vs_nr_bpsi_gi_e10_c_0.6  64 rqeevklkdidpkalerLiefaYtaeie..veeknvqelLpaavllqlkevkeaCceFLekqLdpsNc..lGirafAe.thsCteLlkaaekyieqhFsevvkeeEfllLsaeqllelissdelnvrseeevfeavlkWvkydveeRrekleklleavrlpllsp 223
+                                         +++v+l+  +++++ ++++++ ++ei+  ++  +++el++ a  +q+ke+k    + + +  ++s +  l      + +h   +  k+ ++++ +  +++v   +f +++ +ql +++ss el v++e  v + +l W++ +  + +   ++ll+++r ++lsp
+       gi|17538816|ref|NP_502427.1|  78 PMSTVDLHRFSDQSIMAFVNYVQNQEIKsdLTYYAITELVTLAHTFQMKELKMYLEDSIVEAAKSSEAdlLQTMIVCDvAHVNPDTEKSLQNFAIESIEKLVALPDFHKVPFHQLYQILSSCELVVTHEMFVADVILLWLNGQN-HVNAFAPSLLSCIRTKFLSP 241
+                                        5889***********************74478899*****************99999999888888763255445556235556888999**************************************************9765.567889************98 PP
+
+  == domain 2  score: -2.4 bits;  conditional E-value: 6.2
+  Keap1_cow_vs_nr_bpsi_gi_e10_c_0.6 171 eqllelissdelnvrseeevfeavlkW 197
+                                        + +++li++d  +v++e++v +   k 
+       gi|17538816|ref|NP_502427.1| 334 QRVIDLINTDPKTVKTERSVEKNKFKK 360
+                                        566777777777777776665444433 PP
+
+>> gi|71989474|ref|NP_493882.2|  Protein F45D11.5 [Caenorhabditis elegans]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   16.7   0.2   1.1e-05    0.0026      63     146 ..      33     114 ..      26     122 .. 0.84
+
+  Alignments for each domain:
+  == domain 1  score: 16.7 bits;  conditional E-value: 1.1e-05
+  Keap1_cow_vs_nr_bpsi_gi_e10_c_0.6  63 srqeevklkdidpkalerLiefaYtaeieveeknvqelLpaavllqlkevkeaCceFL..ekqLdpsNclGirafAethsCteLlk 146
+                                        s+  ev+l ++++  +++++e  Y +  +++e++v  + + a ++ ++ v++ C +FL  ++qL  +  l   +fA +h  ++L++
+       gi|71989474|ref|NP_493882.2|  33 SQSPEVTLPGVNAADFQNFLEVLYLEP-AIDENTVIGIHHLADMYDVEPVVRKCEKFLieKSQLTVNEKL---HFAMQHRMENLKE 114
+                                        56679*******************875.89****************************444677777666...6777777777765 PP
+
+>> gi|71998546|ref|NP_494028.2|  Protein BTB-12 [Caenorhabditis elegans]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   16.1   0.1   1.6e-05    0.0039      14     111 ..      97     187 ..      92     248 .. 0.90
+
+  Alignments for each domain:
+  == domain 1  score: 16.1 bits;  conditional E-value: 1.6e-05
+  Keap1_cow_vs_nr_bpsi_gi_e10_c_0.6  14 lkvmnelrkskeLcDvvLkveakkikaHrvvLaacspyFkAmFtnelkEsrqeevklkdidpkalerLiefaYtaeieveeknvqelLpaavllqlke 111
+                                        l+  +++ +++e +D vL+ve+k++++ +  L+  s yF+ +F        ++e++++d++ + +  L++ +Y + i  ++ + +++L+ av +++  
+       gi|71998546|ref|NP_494028.2|  97 LAEYEKMFSESEDTDAVLVVEDKRLHVNKEFLSLHSTYFAELFK-------KSEITIEDLSYEDFGLLMSNIYPKVIFPNDFTAEKILELAVRFKVPA 187
+                                        5667889999999*****************************96.......589**********************************9999998864 PP
+
+>> gi|392896482|ref|NP_499312.2|  Protein D2045.8 [Caenorhabditis elegans]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   12.6   0.0   0.00018     0.044      29     127 ..       7     108 ..       5     112 .. 0.83
+
+  Alignments for each domain:
+  == domain 1  score: 12.6 bits;  conditional E-value: 0.00018
+  Keap1_cow_vs_nr_bpsi_gi_e10_c_0.6  29 vvLkveakkikaHrvvLaacspyFkAmFtnelkEsrqee.vklkdidpkalerLiefaYtaeiev..eeknvqelLpaavllqlkevkeaCceFLekqLdps 127
+                                        v L v+ k +k+    L    ++ k mF +++  +++ee     d d+k ++ +++f   ++i++  +++ v e+L  a+ + l+ + e C e Le+ L+p 
+      gi|392896482|ref|NP_499312.2|   7 VKLDVGGKIFKTTIFTLCKHDSMLKTMFCTDVPVTKNEEgSVFIDRDSKHFRLILNFLRDGQIALpdSDREVREVLAEASYFLLDPLIELCGERLEQSLNPY 108
+                                        5677777777777778888889999***99997766655133457899****************9444679****************************995 PP
+
+>> gi|17568237|ref|NP_508258.1|  Protein F56C3.9 [Caenorhabditis elegans]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   12.4   0.2   0.00021      0.05      15      88 ..       4      77 ..       1     117 [. 0.78
+
+  Alignments for each domain:
+  == domain 1  score: 12.4 bits;  conditional E-value: 0.00021
+  Keap1_cow_vs_nr_bpsi_gi_e10_c_0.6 15 kvmnelrkskeLcDvvLkveakkikaHrvvLaacspyFkAmFtnelkEsrqeevklkdidpkalerLiefaYta 88
+                                       ++m+++ ++  L    ++ ++ +i++    La  s+yF+ + t+  +E ++e+v+l+d+ ++ l  +++++   
+       gi|17568237|ref|NP_508258.1|  4 QKMHMFSTETALRKFQINTQSDTIYVNLNYLAELSEYFHILRTGFYSEMTAEKVNLNDVFAEDLVVFLSYVCPD 77
+                                       67888889999999999999999999999*********************************999999998544 PP
+
+>> gi|17558482|ref|NP_505023.1|  Protein C37C3.9 [Caenorhabditis elegans]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   12.1   0.0   0.00026     0.063      30     122 ..      57     155 ..      45     160 .. 0.87
+
+  Alignments for each domain:
+  == domain 1  score: 12.1 bits;  conditional E-value: 0.00026
+  Keap1_cow_vs_nr_bpsi_gi_e10_c_0.6  30 vLkveakkikaHrvvLaacspyFkAmFtne.lkEsrqeevklkdidpkalerLiefaYtaei.....eveeknvqelLpaavllqlkevkeaCceFLek 122
+                                         + v+++k+ +   + a  s+yF+ +  n+ + E   +++++ d +p+ + +Li+ +  +++      ++e+nv+++L     + ++++k+ C ++L++
+       gi|17558482|ref|NP_505023.1|  57 PIIVGNQKYFVDPAIFARNSDYFRILMENKfFLEGAIKQLNILDESPEDILKLITVISPNSLglypdVIDEQNVCTVLRLCDKYLMTNLKQNCVDYLKD 155
+                                        567888999999999*********988887257999*********************9999855555589***************************85 PP
+
+>> gi|17563068|ref|NP_506463.1|  Protein R10D12.8 [Caenorhabditis elegans]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   11.9   0.2   0.00029     0.069      28     102 ..     436     512 ..     429     535 .. 0.80
+
+  Alignments for each domain:
+  == domain 1  score: 11.9 bits;  conditional E-value: 0.00029
+  Keap1_cow_vs_nr_bpsi_gi_e10_c_0.6  28 DvvLkvea.kkikaHrvvLaacspyFkAmFtn.elkEsrqeevklkdidpkalerLiefaYtaeieveeknvqelLp 102
+                                         v+Lk ++   i++ +  La  +p+F A+F n +++E++q+e+++   + + + ++++  Y ++   + +   ++L 
+       gi|17563068|ref|NP_506463.1| 436 NVILKFDEnCAIRVNKYFLAHFAPFFVALFFNeNFEEHKQNEIRIISASFNEMLSFLDVLYHKTKLFNVSEYYHVLR 512
+                                        57777766468999**************98651699************99999999999998766555555555555 PP
+
+>> gi|17567845|ref|NP_509824.1|  Protein F47B10.9 [Caenorhabditis elegans]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   11.8   0.0   0.00031     0.075      39      88 ..      38      87 ..       9     126 .. 0.78
+
+  Alignments for each domain:
+  == domain 1  score: 11.8 bits;  conditional E-value: 0.00031
+  Keap1_cow_vs_nr_bpsi_gi_e10_c_0.6 39 kaHrvvLaacspyFkAmFtnelkEsrqeevklkdidpkalerLiefaYta 88
+                                       ++    La  s+yF+ + t+  +E++ e+v+l d+ ++ l  +++++  +
+       gi|17567845|ref|NP_509824.1| 38 YVNLSYLAELSEYFHILRTGSYTEKTSEKVTLDDVYTDELVVFLSYVCPE 87
+                                       555556999*****************************999999998554 PP
+
+>> gi|212642159|ref|NP_491298.3|  Protein H31G24.3 [Caenorhabditis elegans]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   11.4   0.0   0.00043       0.1      26      86 ..     149     206 ..     131     254 .. 0.77
+
+  Alignments for each domain:
+  == domain 1  score: 11.4 bits;  conditional E-value: 0.00043
+  Keap1_cow_vs_nr_bpsi_gi_e10_c_0.6  26 LcDvvLkveakkikaHrvvLaacspyFkAmFtnelkEsrqeevklkdidpkalerLiefaY 86 
+                                          D ++ v+  k+++ r++L+ +sp F   F +++ E++ +     +i++  ++r+++ +Y
+      gi|212642159|ref|NP_491298.3| 149 FSDTIVLVDGVKFHVNRMILSMASPIFLEAFVTNFDERSLKL---CNISAPDFRRILNIIY 206
+                                        6799999****************************9987654...4444555555555554 PP
+
+>> gi|392900659|ref|NP_001255525.1|  Protein Y43E12A.3, isoform a [Caenorhabditis elegans]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   11.0   0.0   0.00056      0.13      27      83 ..     152     205 ..     138     257 .. 0.78
+
+  Alignments for each domain:
+  == domain 1  score: 11.0 bits;  conditional E-value: 0.00056
+  Keap1_cow_vs_nr_bpsi_gi_e10_c_0.6  27 cDvvLkveakkikaHrvvLaacspyFkAmFtnelkEsrqeevklkdidpkalerLie 83 
+                                         D ++ v+  k+++ r++L+ +sp F   F +++ E++ e  ++   ++  ++r+++
+   gi|392900659|ref|NP_001255525.1| 152 SDTIVLVDGVKFHVNRMILSMASPIFLEAFVTNFDERSLELCNI---SAPDFRRILN 205
+                                        689999*****************************987665554...4444444444 PP
+
+>> gi|17537635|ref|NP_496626.1|  Protein BTB-14 [Caenorhabditis elegans]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   10.7   0.0    0.0007      0.17      28     112 ..     159     244 ..     132     257 .. 0.87
+
+  Alignments for each domain:
+  == domain 1  score: 10.7 bits;  conditional E-value: 0.0007
+  Keap1_cow_vs_nr_bpsi_gi_e10_c_0.6  28 DvvLkveakkikaHrvvLaacspyFkAmFtnelkEsr.qeevklkdidpkalerLiefaYtaeieveeknvqelLpaavllqlkev 112
+                                        D vL ve kk+++    L+  s yF+ +F  + + s  + e+ +++++ + l  L++ + +     ++ n ++lL+ a+ +q   v
+       gi|17537635|ref|NP_496626.1| 159 DAVLIVEGKKLHVSSCFLSFHSTYFHDLFEYDNSTSLlNIEIPVEGVSYEDLGLLLSVVHSTATFPNDGNSKKLLELASQFQTPYV 244
+                                        899**************************998887761569**************************************9997665 PP
+
+>> gi|17538694|ref|NP_501042.1|  Protein C17H12.12 [Caenorhabditis elegans]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   10.5   0.0    0.0008      0.19      17      91 ..      56     128 ..      41     138 .. 0.85
+
+  Alignments for each domain:
+  == domain 1  score: 10.5 bits;  conditional E-value: 0.0008
+  Keap1_cow_vs_nr_bpsi_gi_e10_c_0.6  17 mnelrkskeLcDvvLkvea.kkikaHrvvLaacspyFkAmFtnelkEsrqeevklkdidpkalerLiefaYtaeie 91 
+                                        ++++r + + c ++Lk ++ ++ik+H ++L + s+ F+ +  + +    +++v+++  d+ +++ +i ++Yt+++ 
+       gi|17538694|ref|NP_501042.1|  56 IQRIRGDFSQCNITLKFSSgAEIKVHSLILQTFSKKFHDLRDGII---ITRTVNMEPFDEGVVRDVIYWMYTGKLF 128
+                                        6778888889******99889****************99877644...4678********************9975 PP
+
+>> gi|17533041|ref|NP_495709.1|  Protein F10B5.3 [Caenorhabditis elegans]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    9.9   0.1    0.0012       0.3      34     112 ..      35     127 ..      29     133 .. 0.68
+
+  Alignments for each domain:
+  == domain 1  score: 9.9 bits;  conditional E-value: 0.0012
+  Keap1_cow_vs_nr_bpsi_gi_e10_c_0.6  34 eakkikaHrvvLaacspyFkAmFtn........elkEsrqeevklk.did..p...kalerLiefaYtaeieveeknvqelLpaavllqlkev 112
+                                        e++++ aHr+vL++ sp F+ +  +          + s+ + +++  d++  p    a++ ++e  Yt++i+++  +  e+L  +   q++++
+       gi|17533041|ref|NP_495709.1|  35 EEESVFAHRLVLSTFSPLFQQLLQDatssststTSSTSSDDVISISlDLTafPnalAAFKVILEALYTGDIKMKSVAANEVLAVSRHCQISSL 127
+                                        568999**************9986622233222222233334444323322231223556789999999999999999999999999988875 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                              1  (559 nodes)
+Target sequences:                        26034  (11538066 residues searched)
+Passed MSV filter:                       910  (0.0349543); expected 520.7 (0.02)
+Passed bias filter:                      575  (0.0220865); expected 520.7 (0.02)
+Passed Vit filter:                       145  (0.00556964); expected 26.0 (0.001)
+Passed Fwd filter:                       108  (0.00414842); expected 0.3 (1e-05)
+Initial search space (Z):              26034  [actual number of targets]
+Domain search space  (domZ):             108  [number of targets reported over threshold]
+# CPU time: 1.65u 0.04s 00:00:01.69 Elapsed: 00:00:00.82
+# Mc/sec: 7865.58
+//
+[ok]
